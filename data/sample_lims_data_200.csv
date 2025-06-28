@@ -1,0 +1,201 @@
+Sample_ID,Batch_ID,Product_Name,Sample_Type,Test_Name,Test_Specification_Min,Test_Specification_Max,Test_Result_Value,Test_Result_UOM,Test_Status,Test_Date,Analyst_ID,Linked_OOS_ID
+LIMS_S001,B072,Product D,In-Process,Dissolution,,,,,,2024-07-31,AN003,OOS001
+LIMS_S002,B067,Product D,Raw Material,Identification,,,Negative,,,2025-01-11,AN004,OOS002
+LIMS_S003,B038,Product D,In-Process,Purity,99.0,,99.4,%,,2024-12-18,AN001,
+LIMS_S004,B122,ProductC,In-Process,Viscosity,100.0,150.0,119.0,cP,,2024-10-30,AN004,
+LIMS_S005,B098,ProductC,Raw Material,Identification,,,Positive,,,2024-06-21,AN002,
+LIMS_S006,B094,ProductA,Finished Product,Color Check,,,Slightly Yellow,,,2025-05-11,AN005,OOS003
+LIMS_S007,B069,ProductC,In-Process,Color Check,,,Slightly Yellow,,Fail,2025-02-18,AN004,OOS004
+LIMS_S008,B071,ProductB,Finished Product,Identification,,,Negative,,Fail,2025-01-07,AN005,OOS005
+LIMS_S009,B124,ProductB,In-Process,Dissolution,,,,,OOS Investigating,2024-07-21,AN003,
+LIMS_S010,B010,ProductA,In-Process,Purity,99.0,,99.8,%,Pass,2024-09-26,AN002,
+LIMS_S011,B094,ProductA,Finished Product,Assay,98.0,102.0,99.7,%,Pass,2025-05-11,AN002,
+LIMS_S012,B077,ProductB,In-Process,Dissolution,,,,,OOS Investigating,2025-05-24,AN002,
+LIMS_S013,B031,Product D,In-Process,Purity,99.0,,98.0,%,Fail,2024-10-08,AN003,OOS006
+LIMS_S014,B014,Product D,Finished Product,Assay,98.0,102.0,100.8,%,Pass,2025-03-04,AN001,
+LIMS_S015,B071,ProductB,Finished Product,Assay,98.0,102.0,98.7,%,Pass,2025-01-09,AN002,
+LIMS_S016,B067,Product D,In-Process,Dissolution,,,,,OOS Investigating,2025-01-12,AN003,
+LIMS_S017,B120,ProductC,Raw Material,Identification,,,Negative,,Fail,2025-06-03,AN002,OOS007
+LIMS_S018,B024,ProductC,Raw Material,Identification,,,Positive,,Pass,2024-08-27,AN005,
+LIMS_S019,B073,ProductA,Stability,Identification,,,Conforms,,Pass,2024-12-15,AN004,
+LIMS_S020,B140,ProductC,Finished Product,Assay,98.0,102.0,98.8,%,Pass,2024-12-13,AN002,
+LIMS_S021,B141,Product D,Stability,Identification,,,Conforms,,Pass,2024-12-15,AN005,
+LIMS_S022,B003,ProductA,Stability,Purity,99.0,100.1,98.6,%,Fail,2024-08-24,AN005,OOS008
+LIMS_S023,B094,ProductA,Raw Material,Identification,,,Negative,,Fail,2025-05-10,AN002,
+LIMS_S024,B130,Product D,In-Process,Purity,99.0,100.1,99.1,%,Pass,2025-03-06,AN002,
+LIMS_S025,B074,Product D,Stability,Assay,98.0,102.0,102.3,%,Fail,2024-09-02,AN004,OOS009
+LIMS_S026,B124,ProductB,Finished Product,Assay,98.0,102.0,102.3,%,Fail,2024-07-20,AN001,OOS010
+LIMS_S027,B145,Product D,Stability,Dissolution,,,,,Fail,2024-12-14,AN004,OOS011
+LIMS_S028,B146,ProductA,Finished Product,Dissolution,,,,,Pass,2024-10-21,AN002,
+LIMS_S029,B010,ProductA,Finished Product,Purity,99.0,100.1,99.3,%,Pass,2024-09-29,AN002,
+LIMS_S030,B145,ProductA,Raw Material,Identification,,,Conforms,,Pass,2024-12-18,AN001,
+LIMS_S031,B055,ProductB,Stability,Viscosity,100.0,150.0,151.0,cP,Fail,2025-04-07,AN001,OOS012
+LIMS_S032,B069,ProductC,Raw Material,Identification,,,Conforms,,Pass,2025-02-17,AN001,
+LIMS_S033,B145,ProductB,Stability,Dissolution,,,,,Pass,2024-12-16,AN002,
+LIMS_S034,B094,ProductA,Raw Material,Identification,,,Conforms,,Pass,2025-05-09,AN005,
+LIMS_S035,B050,ProductC,In-Process,Assay,98.0,102.0,99.7,%,Pass,2024-08-04,AN004,
+LIMS_S036,B035,ProductB,In-Process,Dissolution,,,,,OOS Investigating,2024-10-19,AN003,
+LIMS_S037,B034,ProductA,Stability,pH,6.5,7.5,7.4,,Pass,2024-11-29,AN004,
+LIMS_S038,B008,ProductC,Finished Product,Appearance,,,Particulates Observed,,Fail,2024-12-19,AN004,OOS013
+LIMS_S039,B089,ProductA,Raw Material,Identification,,,Positive,,Pass,2024-12-13,AN003,
+LIMS_S040,B105,ProductC,In-Process,pH,6.5,7.5,7.3,,Pass,2024-12-15,AN002,
+LIMS_S041,B064,ProductA,Raw Material,Identification,,,Conforms,,Pass,2024-08-04,AN002,
+LIMS_S042,B083,ProductB,Finished Product,Purity,99.0,100.1,99.7,%,Pass,2025-01-19,AN004,
+LIMS_S043,B076,ProductB,Finished Product,Purity,99.0,100.1,98.8,%,Fail,2025-06-12,AN002,OOS014
+LIMS_S044,B141,ProductA,Raw Material,Identification,,,Positive,,Pass,2024-12-14,AN004,
+LIMS_S045,B094,ProductA,Raw Material,Identification,,,Negative,,Fail,2025-05-12,AN001,OOS015
+LIMS_S046,B095,Product D,Stability,Purity,99.0,100.1,98.8,%,Fail,2025-04-19,AN005,OOS016
+LIMS_S047,B034,ProductA,Finished Product,Assay,98.0,102.0,99.9,%,Pass,2024-12-01,AN002,
+LIMS_S048,B120,ProductC,Stability,Appearance,,,Clear Solution,,Pass,2025-06-04,AN002,
+LIMS_S049,B131,ProductB,Raw Material,Identification,,,Negative,,Fail,2025-06-01,AN003,OOS017
+LIMS_S050,B038,ProductB,Raw Material,Identification,,,Negative,,Fail,2024-12-17,AN005,OOS018
+LIMS_S051,B138,ProductA,In-Process,Assay,98.0,102.0,100.0,%,Pass,2024-11-10,AN003,
+LIMS_S052,B107,ProductC,In-Process,Identification,,,Conforms,,Pass,2024-10-02,AN005,
+LIMS_S053,B071,ProductB,Finished Product,Dissolution,,,,,Pass,2025-01-10,AN003,
+LIMS_S054,B085,Product D,In-Process,Assay,98.0,102.0,98.0,%,Pass,2025-02-22,AN005,
+LIMS_S055,B081,ProductA,Raw Material,Identification,,,Negative,,Fail,2025-04-22,AN003,OOS019
+LIMS_S056,B095,Product D,Stability,Purity,99.0,100.1,98.9,%,Fail,2025-04-16,AN001,OOS020
+LIMS_S057,B066,ProductA,Stability,Dissolution,,,,,OOS Investigating,2025-06-09,AN004,
+LIMS_S058,B108,Product D,Raw Material,Identification,,,Conforms,,Pass,2025-04-26,AN003,
+LIMS_S059,B057,Product D,Finished Product,pH,6.5,7.5,7.5,,Pass,2024-12-18,AN004,
+LIMS_S060,B095,Product D,Stability,Purity,99.0,100.1,98.3,%,Fail,2025-04-18,AN005,OOS021
+LIMS_S061,B092,ProductB,Raw Material,Identification,,,Conforms,,Pass,2024-11-20,AN004,
+LIMS_S062,B037,Product D,Finished Product,Dissolution,,,,,Pass,2025-02-12,AN002,
+LIMS_S063,B066,ProductA,Finished Product,Appearance,,,Clear Solution,,Pass,2025-06-04,AN001,
+LIMS_S064,B055,ProductB,Stability,Purity,99.0,100.1,99.6,%,Pass,2025-04-08,AN001,
+LIMS_S065,B103,ProductC,Finished Product,Assay,98.0,102.0,98.4,%,Pass,2024-12-17,AN003,
+LIMS_S066,B031,Product D,Stability,Identification,,,Positive,,Pass,2024-10-04,AN005,
+LIMS_S067,B124,ProductB,Stability,Color Check,,,Off-color,,Fail,2024-07-20,AN005,OOS022
+LIMS_S068,B008,ProductC,In-Process,Dissolution,,,,,Pass,2024-12-21,AN003,
+LIMS_S069,B072,Product D,Finished Product,Dissolution,,,,,OOS Investigating,2024-07-31,AN001,
+LIMS_S070,B110,Product D,Raw Material,Identification,,,Positive,,Pass,2024-10-26,AN005,
+LIMS_S071,B024,ProductC,In-Process,Appearance,,,Slightly Hazy,,Fail,2024-08-30,AN001,OOS023
+LIMS_S072,B026,Product D,Stability,pH,6.5,7.5,7.7,,Fail,2024-10-20,AN005,OOS024
+LIMS_S073,B008,ProductC,In-Process,Dissolution,,,,,Pass,2024-12-21,AN005,
+LIMS_S074,B030,ProductA,Raw Material,Identification,,,Conforms,,Pass,2025-02-24,AN003,
+LIMS_S075,B050,ProductC,Finished Product,Assay,98.0,102.0,101.8,%,Pass,2024-08-04,AN004,
+LIMS_S076,B091,ProductB,Stability,Purity,99.0,100.1,99.2,%,Pass,2025-04-21,AN002,
+LIMS_S077,B129,Product D,Raw Material,Identification,,,Conforms,,Pass,2024-09-14,AN005,
+LIMS_S078,B076,ProductB,Stability,Dissolution,,,,,OOS Investigating,2025-06-13,AN002,
+LIMS_S079,B071,ProductB,Finished Product,Color Check,,,Colorless,,Pass,2025-01-09,AN003,
+LIMS_S080,B146,ProductA,Finished Product,Assay,98.0,102.0,99.9,%,Pass,2024-10-22,AN005,
+LIMS_S081,B130,Product D,Stability,Assay,98.0,102.0,101.2,%,Pass,2025-03-01,AN004,
+LIMS_S082,B076,ProductB,Finished Product,Color Check,,,Off-color,,Fail,2025-06-15,AN001,OOS025
+LIMS_S083,B007,ProductA,Finished Product,Assay,98.0,102.0,99.9,%,Pass,2024-09-01,AN002,
+LIMS_S084,B069,ProductC,Raw Material,Identification,,,Negative,,Fail,2025-02-17,AN005,OOS026
+LIMS_S085,B055,ProductB,In-Process,Viscosity,100.0,150.0,130.0,cP,Pass,2025-04-08,AN003,
+LIMS_S086,B074,Product D,Stability,pH,6.5,7.5,6.4,,Fail,2024-09-04,AN002,OOS027
+LIMS_S087,B137,ProductC,Finished Product,Assay,98.0,102.0,98.8,%,Pass,2024-12-14,AN004,
+LIMS_S088,B066,ProductA,Stability,Appearance,,,Particulates Observed,,Fail,2025-06-04,AN003,OOS028
+LIMS_S089,B040,ProductB,Stability,Assay,98.0,102.0,97.7,%,Fail,2024-12-26,AN003,OOS029
+LIMS_S090,B085,Product D,Finished Product,pH,6.5,7.5,7.8,,Fail,2025-02-23,AN002,OOS030
+LIMS_S091,B126,ProductA,In-Process,Dissolution,,,,,Fail,2024-09-29,AN001,OOS031
+LIMS_S092,B038,ProductC,Raw Material,Identification,,,Conforms,,Pass,2024-12-18,AN003,
+LIMS_S093,B018,ProductC,Stability,Dissolution,,,,,Fail,2024-12-16,AN005,
+LIMS_S094,B117,ProductC,In-Process,Identification,,,Conforms,,Pass,2025-02-21,AN005,
+LIMS_S095,B018,ProductB,Finished Product,Viscosity,100.0,150.0,137.0,cP,Pass,2024-12-19,AN004,
+LIMS_S096,B057,ProductB,Stability,Dissolution,,,,,Pass,2024-12-15,AN001,
+LIMS_S097,B076,ProductB,Stability,Dissolution,,,,,Pass,2025-06-15,AN005,
+LIMS_S098,B034,ProductA,Finished Product,Viscosity,100.0,150.0,150.0,cP,Pass,2024-11-27,AN001,
+LIMS_S099,B034,ProductA,Stability,Assay,98.0,102.0,99.0,%,Pass,2024-11-30,AN001,
+LIMS_S100,B138,ProductA,In-Process,Purity,99.0,100.1,98.4,%,Fail,2024-11-10,AN003,OOS032
+LIMS_S101,B143,ProductB,Raw Material,Identification,,,Positive,,Pass,2025-05-01,AN002,
+LIMS_S102,B110,Product D,In-Process,Identification,,,Negative,,Fail,2024-10-29,AN004,OOS033
+LIMS_S103,B143,ProductB,In-Process,Purity,99.0,100.1,98.3,%,Fail,2025-05-03,AN002,OOS034
+LIMS_S104,B122,ProductC,Raw Material,Identification,,,Conforms,,Pass,2024-10-30,AN004,
+LIMS_S105,B057,ProductA,Finished Product,Assay,98.0,102.0,99.3,%,Pass,2024-12-17,AN002,
+LIMS_S106,B094,ProductA,Stability,Viscosity,100.0,150.0,131.0,cP,Pass,2025-05-09,AN004,
+LIMS_S107,B097,ProductC,Stability,Color Check,,,Slightly Yellow,,Fail,2025-06-08,AN002,OOS035
+LIMS_S108,B149,ProductB,Stability,Dissolution,,,,,Pass,2024-07-25,AN002,
+LIMS_S109,B020,ProductA,Finished Product,Assay,98.0,102.0,99.7,%,Pass,2025-01-03,AN003,
+LIMS_S110,B091,ProductB,Raw Material,Identification,,,Positive,,Pass,2025-04-21,AN003,
+LIMS_S111,B149,ProductB,Raw Material,Identification,,,Conforms,,Pass,2024-07-22,AN002,
+LIMS_S112,B067,Product D,In-Process,Dissolution,,,,,Fail,2025-01-11,AN002,OOS036
+LIMS_S113,B066,ProductA,Raw Material,Identification,,,Conforms,,Pass,2025-06-08,AN005,
+LIMS_S114,B015,ProductA,Stability,Purity,99.0,100.1,98.1,%,Fail,2025-04-17,AN004,OOS037
+LIMS_S115,B105,ProductC,Finished Product,Appearance,,,Particulates Observed,,Fail,2024-12-18,AN002,OOS038
+LIMS_S116,B094,ProductA,Finished Product,pH,6.5,7.5,7.7,,Fail,2025-05-09,AN004,OOS039
+LIMS_S117,B015,ProductA,Finished Product,Assay,98.0,102.0,99.5,%,Pass,2025-04-19,AN005,
+LIMS_S118,B076,ProductB,Finished Product,Purity,99.0,100.1,98.7,%,Fail,2025-06-11,AN004,OOS040
+LIMS_S119,B028,Product D,Raw Material,Identification,,,Negative,,Fail,2024-08-02,AN001,OOS041
+LIMS_S120,B067,Product D,Raw Material,Identification,,,Negative,,Fail,2025-01-09,AN004,OOS042
+LIMS_S121,B085,Product D,Finished Product,Identification,,,Negative,,Fail,2025-02-23,AN004,OOS043
+LIMS_S122,B089,ProductA,In-Process,Assay,98.0,102.0,99.0,%,Pass,2024-12-12,AN005,
+LIMS_S123,B055,ProductB,Stability,Assay,98.0,102.0,98.2,%,Pass,2025-04-07,AN003,
+LIMS_S124,B018,ProductA,In-Process,Dissolution,,,,,OOS Investigating,2024-12-17,AN001,
+LIMS_S125,B020,ProductA,In-Process,Identification,,,Negative,,Fail,2025-01-03,AN004,OOS044
+LIMS_S126,B103,ProductA,Raw Material,Identification,,,Conforms,,Pass,2024-12-16,AN002,
+LIMS_S127,B030,ProductA,In-Process,Dissolution,,,,,Fail,2025-02-21,AN004,OOS045
+LIMS_S128,B055,ProductB,In-Process,Assay,98.0,102.0,98.8,%,Pass,2025-04-11,AN004,
+LIMS_S129,B146,ProductA,Stability,Viscosity,100.0,150.0,118.0,cP,Pass,2024-10-20,AN005,
+LIMS_S130,B073,Product D,Raw Material,Identification,,,Conforms,,Pass,2024-12-19,AN002,
+LIMS_S131,B090,Product D,Raw Material,Identification,,,Positive,,Pass,2025-02-06,AN002,
+LIMS_S132,B146,ProductA,In-Process,Purity,99.0,100.1,99.5,%,Pass,2024-10-20,AN001,
+LIMS_S133,B064,ProductA,Finished Product,Assay,98.0,102.0,99.4,%,Pass,2024-08-04,AN001,
+LIMS_S134,B149,ProductB,Finished Product,Viscosity,100.0,150.0,161.0,cP,Fail,2024-07-25,AN005,OOS046
+LIMS_S135,B069,ProductC,Stability,Color Check,,,Off-color,,Fail,2025-02-16,AN004,
+LIMS_S136,B145,ProductC,Stability,Identification,,,Positive,,Pass,2024-12-16,AN004,
+LIMS_S137,B034,ProductA,In-Process,pH,6.5,7.5,7.7,,Fail,2024-11-27,AN001,
+LIMS_S138,B018,ProductB,Finished Product,Assay,98.0,102.0,98.0,%,Pass,2024-12-14,AN002,
+LIMS_S139,B050,ProductC,Raw Material,Identification,,,Conforms,,Pass,2024-08-05,AN005,
+LIMS_S140,B145,Product D,Stability,Viscosity,100.0,150.0,115.0,cP,Pass,2024-12-14,AN004,
+LIMS_S141,B097,ProductC,Raw Material,Identification,,,Negative,,Fail,2025-06-13,AN003,OOS047
+LIMS_S142,B107,ProductC,Finished Product,pH,6.5,7.5,7.5,,Pass,2024-10-04,AN005,
+LIMS_S143,B139,ProductB,Raw Material,Identification,,,Negative,,Fail,2024-10-06,AN001,
+LIMS_S144,B090,Product D,Finished Product,Assay,98.0,102.0,97.4,%,Fail,2025-02-06,AN001,OOS048
+LIMS_S145,B030,ProductA,Finished Product,Assay,98.0,102.0,99.1,%,Pass,2025-02-20,AN001,
+LIMS_S146,B120,ProductC,Raw Material,Identification,,,Negative,,Fail,2025-06-04,AN001,OOS049
+LIMS_S147,B138,ProductA,Raw Material,Identification,,,Conforms,,Pass,2024-11-11,AN001,
+LIMS_S148,B020,ProductA,Stability,Assay,98.0,102.0,98.6,%,Pass,2025-01-01,AN002,
+LIMS_S149,B069,ProductC,Stability,Assay,98.0,102.0,101.3,%,Pass,2025-02-18,AN003,
+LIMS_S150,B040,ProductB,Finished Product,Purity,99.0,100.1,98.7,%,Fail,2024-12-24,AN003,OOS050
+LIMS_S151,B013,ProductB,Raw Material,Identification,,,Positive,,Pass,2025-02-27,AN004,
+LIMS_S152,B138,ProductA,In-Process,Dissolution,,,,,OOS Investigating,2024-11-08,AN003,
+LIMS_S153,B005,ProductB,In-Process,Assay,98.0,102.0,99.5,%,Pass,2024-11-11,AN002,
+LIMS_S154,B087,Product D,Stability,Dissolution,,,,,Fail,2024-10-18,AN001,OOS051
+LIMS_S155,B072,Product D,In-Process,Appearance,,,Clear Solution,,Pass,2024-08-03,AN004,
+LIMS_S156,B083,ProductB,Finished Product,Dissolution,,,,,Pass,2025-01-16,AN004,
+LIMS_S157,B035,ProductB,Finished Product,Purity,99.0,100.1,99.8,%,Pass,2024-10-20,AN001,
+LIMS_S158,B095,Product D,Finished Product,Dissolution,,,,,OOS Investigating,2025-04-17,AN002,
+LIMS_S159,B122,ProductC,Finished Product,Assay,98.0,102.0,99.8,%,Pass,2024-10-30,AN001,
+LIMS_S160,B020,ProductA,Finished Product,Assay,98.0,102.0,98.2,%,Pass,2024-12-31,AN004,
+LIMS_S161,B025,Product D,Stability,pH,6.5,7.5,6.7,,Pass,2025-04-07,AN004,
+LIMS_S162,B034,ProductA,In-Process,Dissolution,,,,,Fail,2024-11-28,AN002,
+LIMS_S163,B077,ProductB,Raw Material,Identification,,,Conforms,,Pass,2025-05-21,AN002,
+LIMS_S164,B081,ProductA,Finished Product,Purity,99.0,100.1,99.5,%,Pass,2025-04-22,AN004,
+LIMS_S165,B002,ProductB,Finished Product,Color Check,,,Off-color,,Fail,2025-01-20,AN002,OOS052
+LIMS_S166,B130,Product D,Raw Material,Identification,,,Negative,,Fail,2025-03-04,AN005,OOS053
+LIMS_S167,B071,ProductB,In-Process,Assay,98.0,102.0,100.9,%,Pass,2025-01-07,AN005,
+LIMS_S168,B122,ProductC,Finished Product,Appearance,,,Clear Solution,,Pass,2024-10-30,AN001,
+LIMS_S169,B040,ProductB,Finished Product,Purity,99.0,100.1,99.2,%,Pass,2024-12-23,AN001,
+LIMS_S170,B024,ProductC,Finished Product,Appearance,,,Clear Solution,,Pass,2024-08-29,AN004,
+LIMS_S171,B015,ProductA,Raw Material,Identification,,,Positive,,Pass,2025-04-19,AN002,
+LIMS_S172,B074,Product D,In-Process,Identification,,,Positive,,Pass,2024-09-04,AN002,
+LIMS_S173,B130,Product D,Finished Product,Dissolution,,,,,OOS Investigating,2025-03-02,AN004,
+LIMS_S174,B130,Product D,Finished Product,Identification,,,Positive,,Pass,2025-03-05,AN001,
+LIMS_S175,B144,ProductC,In-Process,Purity,99.0,100.1,99.7,%,Pass,2024-12-05,AN004,
+LIMS_S176,B028,Product D,Stability,Viscosity,100.0,150.0,94.0,cP,Fail,2024-08-01,AN005,OOS054
+LIMS_S177,B098,ProductC,Finished Product,Viscosity,100.0,150.0,101.0,cP,Pass,2024-06-18,AN001,
+LIMS_S178,B126,ProductA,In-Process,Purity,99.0,100.1,98.7,%,Fail,2024-09-28,AN004,OOS055
+LIMS_S179,B034,ProductA,Raw Material,Identification,,,Negative,,Fail,2024-12-01,AN002,OOS056
+LIMS_S180,B143,ProductB,Raw Material,Identification,,,Positive,,Pass,2025-05-05,AN003,
+LIMS_S181,B018,ProductB,Stability,Dissolution,,,,,Pass,2024-12-14,AN005,
+LIMS_S182,B091,ProductB,Raw Material,Identification,,,Conforms,,Pass,2025-04-22,AN003,
+LIMS_S183,B032,ProductB,Finished Product,Assay,98.0,102.0,97.8,%,Fail,2024-11-18,AN002,OOS057
+LIMS_S184,B094,ProductA,Finished Product,Assay,98.0,102.0,95.9,%,Fail,2025-05-11,AN005,OOS058
+LIMS_S185,B002,ProductB,Finished Product,Purity,99.0,100.1,99.9,%,Pass,2025-01-24,AN004,
+LIMS_S186,B024,ProductC,Finished Product,Purity,99.0,100.1,98.5,%,Fail,2024-08-30,AN002,OOS059
+LIMS_S187,B004,Product D,Stability,Assay,98.0,102.0,93.2,%,Fail,2024-06-15,AN005,OOS002
+LIMS_S188,B038,Product D,Raw Material,Identification,,,Negative,,Fail,2024-12-18,AN001,OOS060
+LIMS_S189,B032,ProductB,In-Process,Color Check,,,Slightly Yellow,,Fail,2024-11-21,AN002,OOS061
+LIMS_S190,B038,Product D,Stability,Dissolution,,,,,Fail,2024-12-15,AN001,
+LIMS_S191,B030,ProductA,Raw Material,Identification,,,Positive,,Pass,2025-02-21,AN004,
+LIMS_S192,B037,Product D,In-Process,Purity,99.0,100.1,99.7,%,Pass,2025-02-12,AN003,
+LIMS_S193,B145,ProductC,Stability,Dissolution,,,,,Pass,2024-12-17,AN001,
+LIMS_S194,B126,ProductA,In-Process,Purity,99.0,100.1,98.6,%,Fail,2024-09-30,AN002,OOS062
+LIMS_S195,B066,ProductA,In-Process,Appearance,,,Particulates Observed,,Fail,2025-06-08,AN002,OOS063
+LIMS_S196,B095,Product D,Finished Product,Assay,98.0,102.0,99.9,%,Pass,2025-04-17,AN001,
+LIMS_S197,B120,ProductC,In-Process,Purity,99.0,100.1,99.3,%,Pass,2025-06-01,AN003,
+LIMS_S198,B008,ProductC,Raw Material,Identification,,,Positive,,Pass,2024-12-17,AN002,
+LIMS_S199,B145,Product D,In-Process,Purity,99.0,100.1,98.9,%,Fail,2024-12-18,AN004,OOS064
+LIMS_S200,B013,ProductB,Raw Material,Identification,,,Conforms,,Pass,2025-02-27,AN003,

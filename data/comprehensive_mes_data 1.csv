@@ -1,0 +1,942 @@
+Work_Order_ID,Batch_ID,Product_Code,Master_Recipe_ID,Batch_Phase,Phase_Step,Parameter_Name,Parameter_Value,Performed_By,Verified_By,Execution_Timestamp,Execution_Status,Equipment_ID
+WO-2025001,B2025001,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,96.46,OP-dsmith,OP-cody37,2025-02-25 02:45:23,,N/A
+WO-2025001,B2025001,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,98.37,OP-istanton,,2025-02-25 02:37:23,,N/A
+WO-2025001,B2025001,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,63.14,OP-veronicascott,OP-kyle12,2025-02-25 02:39:23,,N/A
+WO-2025001,B2025001,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,75.4,OP-dsmith,OP-dsmith,2025-02-25 04:18:23,Within Spec,EQP005
+WO-2025001,B2025001,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,7.99,OP-dsmith,OP-thomas69,2025-02-25 06:18:23,Out of Spec,EQP005
+WO-2025003,B2025003,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,93.0,OP-hoffmanalvin,OP-cramos,2024-07-04 03:27:14,,N/A
+WO-2025003,B2025003,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,85.3,OP-efigueroa,OP-cody37,2024-07-04 03:23:14,,N/A
+WO-2025003,B2025003,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,82.5,OP-garzaeric,OP-thomas69,2024-07-04 03:21:14,,N/A
+WO-2025003,B2025003,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,83.7,OP-john51,OP-john51,2024-07-04 05:04:14,Out of Spec,EQP006
+WO-2025003,B2025003,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,6.74,OP-john51,OP-hoffmanalvin,2024-07-04 07:04:14,Within Spec,EQP006
+WO-2025023,B2025023,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,83.37,OP-istanton,OP-rachaelclark,2024-12-27 22:59:25,,N/A
+WO-2025023,B2025023,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,74.53,OP-dsmith,OP-garzaeric,2024-12-27 22:54:25,,N/A
+WO-2025023,B2025023,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,98.91,OP-rachaelclark,OP-kyle12,2024-12-27 22:50:25,,N/A
+WO-2025023,B2025023,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,74.5,OP-kyle12,OP-thomas69,2024-12-28 00:36:25,Within Spec,EQP004
+WO-2025023,B2025023,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,6.61,OP-kyle12,OP-cody37,2024-12-28 02:36:25,Within Spec,EQP004
+WO-2025219,B2025219,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,95.04,OP-efigueroa,OP-rachaelclark,2025-06-17 03:30:37,,N/A
+WO-2025219,B2025219,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,62.53,OP-cody37,OP-wagnerjason,2025-06-17 03:25:37,,N/A
+WO-2025219,B2025219,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,76.5,OP-efigueroa,OP-wagnerjason,2025-06-17 05:08:37,Within Spec,EQP005
+WO-2025219,B2025219,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.88,OP-efigueroa,OP-kyle12,2025-06-17 07:08:37,Out of Spec,EQP005
+WO-2025016,B2025016,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,68.98,OP-dana45,OP-dsmith,2024-07-05 14:09:41,,N/A
+WO-2025016,B2025016,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,83.4,OP-thomas69,OP-veronicascott,2024-07-05 14:12:41,,N/A
+WO-2025016,B2025016,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,72.5,OP-cody37,OP-wagnerjason,2024-07-05 15:57:41,Within Spec,EQP006
+WO-2025016,B2025016,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,7.92,OP-cody37,OP-dana45,2024-07-05 17:57:41,Out of Spec,EQP006
+WO-2025171,B2025171,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,86.49,OP-hoffmanalvin,OP-efigueroa,2024-11-19 20:48:43,,N/A
+WO-2025171,B2025171,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,69.43,OP-cody37,OP-efigueroa,2024-11-19 20:55:43,,N/A
+WO-2025171,B2025171,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,74.1,OP-kyle12,OP-dana45,2024-11-19 22:37:43,Within Spec,EQP002
+WO-2025171,B2025171,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.54,OP-kyle12,OP-rachaelclark,2024-11-20 00:37:43,Within Spec,EQP002
+WO-2025171,B2025171,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-kyle12,OP-kyle12,2024-11-20 04:37:43,Completed,PKG-LINE-01
+WO-2025206,B2025206,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,81.28,OP-wagnerjason,OP-hoffmanalvin,2025-05-25 13:10:16,,N/A
+WO-2025206,B2025206,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,62.73,OP-wagnerjason,OP-istanton,2025-05-25 13:20:16,,N/A
+WO-2025206,B2025206,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,90.47,OP-cramos,OP-hoffmanalvin,2025-05-25 13:20:16,,N/A
+WO-2025206,B2025206,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,74.8,OP-dana45,OP-wagnerjason,2025-05-25 14:51:16,Within Spec,EQP001
+WO-2025206,B2025206,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.75,OP-dana45,OP-cramos,2025-05-25 16:51:16,Within Spec,EQP001
+WO-2025129,B2025129,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,96.4,OP-thomas69,OP-hoffmanalvin,2024-08-26 07:30:04,,N/A
+WO-2025129,B2025129,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,88.45,OP-thomas69,OP-dsmith,2024-08-26 07:15:04,,N/A
+WO-2025129,B2025129,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,59.4,OP-istanton,,2024-08-26 07:18:04,,N/A
+WO-2025129,B2025129,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,83.8,OP-cramos,OP-john51,2024-08-26 09:02:04,Out of Spec,EQP003
+WO-2025129,B2025129,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,6.76,OP-cramos,OP-cody37,2024-08-26 11:02:04,Within Spec,EQP003
+WO-2025044,B2025044,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,62.28,OP-wagnerjason,OP-hoffmanalvin,2025-02-17 22:54:38,,N/A
+WO-2025044,B2025044,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,85.99,OP-john51,OP-wagnerjason,2025-02-17 22:59:38,,N/A
+WO-2025044,B2025044,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,80.2,OP-kyle12,OP-hoffmanalvin,2025-02-18 00:46:38,Out of Spec,EQP002
+WO-2025044,B2025044,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.36,OP-kyle12,OP-cramos,2025-02-18 02:46:38,Out of Spec,EQP002
+WO-2025018,B2025018,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,90.95,OP-kyle12,OP-wagnerjason,2024-10-25 19:28:24,,N/A
+WO-2025018,B2025018,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,98.11,OP-thomas69,OP-dsmith,2024-10-25 19:16:24,,N/A
+WO-2025018,B2025018,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,76.7,OP-john51,OP-rachaelclark,2024-10-25 20:58:24,Within Spec,EQP004
+WO-2025018,B2025018,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.13,OP-john51,OP-wagnerjason,2024-10-25 22:58:24,Out of Spec,EQP004
+WO-2025018,B2025018,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-john51,OP-cramos,2024-10-26 02:58:24,Completed,PKG-LINE-01
+WO-2025114,B2025114,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,92.64,OP-istanton,OP-john51,2024-12-28 05:32:33,,N/A
+WO-2025114,B2025114,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,71.81,OP-istanton,OP-efigueroa,2024-12-28 05:41:33,,N/A
+WO-2025114,B2025114,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,72.31,OP-efigueroa,,2024-12-28 05:40:33,,N/A
+WO-2025114,B2025114,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,79.3,OP-wagnerjason,OP-cramos,2024-12-28 07:20:33,Within Spec,EQP004
+WO-2025114,B2025114,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.54,OP-wagnerjason,OP-cody37,2024-12-28 09:20:33,Within Spec,EQP004
+WO-2025172,B2025172,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,59.8,OP-thomas69,OP-kyle12,2024-08-13 08:32:54,,N/A
+WO-2025172,B2025172,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,85.38,OP-wagnerjason,OP-garzaeric,2024-08-13 08:22:54,,N/A
+WO-2025172,B2025172,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,94.21,OP-garzaeric,,2024-08-13 08:31:54,,N/A
+WO-2025172,B2025172,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,78.0,OP-kyle12,OP-thomas69,2024-08-13 10:04:54,Within Spec,EQP005
+WO-2025172,B2025172,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,7.43,OP-kyle12,OP-cramos,2024-08-13 12:04:54,Within Spec,EQP005
+WO-2025172,B2025172,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-kyle12,OP-thomas69,2024-08-13 16:04:54,Completed,PKG-LINE-01
+WO-2025128,B2025128,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,56.96,OP-efigueroa,OP-wagnerjason,2024-12-30 01:08:45,,N/A
+WO-2025128,B2025128,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,93.53,OP-cody37,OP-istanton,2024-12-30 01:32:45,,N/A
+WO-2025128,B2025128,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,71.2,OP-dana45,OP-rachaelclark,2024-12-30 03:03:45,Within Spec,EQP006
+WO-2025128,B2025128,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,7.36,OP-dana45,OP-cody37,2024-12-30 05:03:45,Within Spec,EQP006
+WO-2025207,B2025207,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,80.53,OP-john51,OP-istanton,2024-12-02 05:41:22,,N/A
+WO-2025207,B2025207,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,55.83,OP-kyle12,OP-cramos,2024-12-02 05:41:22,,N/A
+WO-2025207,B2025207,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,56.1,OP-cody37,OP-wagnerjason,2024-12-02 05:48:22,,N/A
+WO-2025207,B2025207,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,82.5,OP-garzaeric,OP-garzaeric,2024-12-02 07:20:22,Out of Spec,EQP006
+WO-2025207,B2025207,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,6.78,OP-garzaeric,OP-wagnerjason,2024-12-02 09:20:22,Within Spec,EQP006
+WO-2025207,B2025207,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-garzaeric,OP-istanton,2024-12-02 13:20:22,Completed,PKG-LINE-01
+WO-2025116,B2025116,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,54.46,OP-istanton,OP-hoffmanalvin,2025-01-02 20:30:57,,N/A
+WO-2025116,B2025116,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,55.16,OP-wagnerjason,OP-hoffmanalvin,2025-01-02 20:19:57,,N/A
+WO-2025116,B2025116,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,74.1,OP-istanton,OP-rachaelclark,2025-01-02 22:03:57,Within Spec,EQP003
+WO-2025116,B2025116,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.8,OP-istanton,OP-thomas69,2025-01-03 00:03:57,Within Spec,EQP003
+WO-2025019,B2025019,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,85.99,OP-john51,OP-dsmith,2025-02-25 18:08:45,,N/A
+WO-2025019,B2025019,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,97.84,OP-dsmith,OP-cramos,2025-02-25 18:00:45,,N/A
+WO-2025019,B2025019,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,92.04,OP-rachaelclark,OP-john51,2025-02-25 18:01:45,,N/A
+WO-2025019,B2025019,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,80.8,OP-wagnerjason,OP-veronicascott,2025-02-25 19:41:45,Out of Spec,EQP007
+WO-2025019,B2025019,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,7.79,OP-wagnerjason,OP-rachaelclark,2025-02-25 21:41:45,Out of Spec,EQP007
+WO-2025083,B2025083,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,80.45,OP-hoffmanalvin,OP-efigueroa,2025-04-11 05:17:12,,N/A
+WO-2025083,B2025083,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,96.45,OP-cody37,OP-istanton,2025-04-11 05:07:12,,N/A
+WO-2025083,B2025083,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,81.4,OP-kyle12,OP-hoffmanalvin,2025-04-11 06:52:12,Out of Spec,EQP006
+WO-2025083,B2025083,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.59,OP-kyle12,OP-cramos,2025-04-11 08:52:12,Within Spec,EQP006
+WO-2025191,B2025191,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,87.38,OP-rachaelclark,OP-john51,2024-07-08 03:55:33,,N/A
+WO-2025191,B2025191,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,52.18,OP-dana45,OP-dsmith,2024-07-08 03:43:33,,N/A
+WO-2025191,B2025191,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,77.87,OP-istanton,OP-veronicascott,2024-07-08 03:42:33,,N/A
+WO-2025191,B2025191,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,84.3,OP-dsmith,OP-thomas69,2024-07-08 05:37:33,Out of Spec,EQP005
+WO-2025191,B2025191,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,7.72,OP-dsmith,OP-garzaeric,2024-07-08 07:37:33,Out of Spec,EQP005
+WO-2025191,B2025191,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-dsmith,OP-rachaelclark,2024-07-08 11:37:33,Completed,PKG-LINE-01
+WO-2025046,B2025046,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,97.64,OP-kyle12,OP-john51,2024-06-20 08:41:27,,N/A
+WO-2025046,B2025046,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,83.59,OP-istanton,OP-hoffmanalvin,2024-06-20 08:58:27,,N/A
+WO-2025046,B2025046,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,74.1,OP-cody37,OP-kyle12,2024-06-20 10:29:27,Within Spec,EQP002
+WO-2025046,B2025046,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,7.68,OP-cody37,OP-cody37,2024-06-20 12:29:27,Out of Spec,EQP002
+WO-2025014,B2025014,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,68.28,OP-cramos,OP-dsmith,2024-09-12 08:17:24,,N/A
+WO-2025014,B2025014,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,50.69,OP-efigueroa,OP-garzaeric,2024-09-12 08:23:24,,N/A
+WO-2025014,B2025014,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,81.6,OP-hoffmanalvin,OP-efigueroa,2024-09-12 10:05:24,Out of Spec,EQP007
+WO-2025014,B2025014,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.87,OP-hoffmanalvin,OP-kyle12,2024-09-12 12:05:24,Within Spec,EQP007
+WO-2025014,B2025014,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-hoffmanalvin,OP-garzaeric,2024-09-12 16:05:24,Completed,PKG-LINE-01
+WO-2025068,B2025068,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,82.83,OP-wagnerjason,OP-cody37,2024-08-28 01:59:11,,N/A
+WO-2025068,B2025068,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,54.36,OP-thomas69,OP-rachaelclark,2024-08-28 01:50:11,,N/A
+WO-2025068,B2025068,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,98.5,OP-veronicascott,OP-hoffmanalvin,2024-08-28 01:44:11,,N/A
+WO-2025068,B2025068,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,83.2,OP-rachaelclark,OP-istanton,2024-08-28 03:37:11,Out of Spec,EQP006
+WO-2025068,B2025068,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,7.34,OP-rachaelclark,OP-dsmith,2024-08-28 05:37:11,Within Spec,EQP006
+WO-2025068,B2025068,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-rachaelclark,OP-veronicascott,2024-08-28 09:37:11,Completed,PKG-LINE-01
+WO-2025063,B2025063,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,75.6,OP-john51,OP-garzaeric,2024-06-21 00:53:20,,N/A
+WO-2025063,B2025063,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,85.07,OP-wagnerjason,OP-garzaeric,2024-06-21 01:01:20,,N/A
+WO-2025063,B2025063,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,71.3,OP-dana45,OP-efigueroa,2024-06-21 02:45:20,Within Spec,EQP003
+WO-2025063,B2025063,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,6.84,OP-dana45,OP-hoffmanalvin,2024-06-21 04:45:20,Within Spec,EQP003
+WO-2025099,B2025099,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,88.44,OP-kyle12,OP-rachaelclark,2025-04-13 13:07:25,,N/A
+WO-2025099,B2025099,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,66.24,OP-rachaelclark,OP-cramos,2025-04-13 12:58:25,,N/A
+WO-2025099,B2025099,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,77.07,OP-istanton,,2025-04-13 13:05:25,,N/A
+WO-2025099,B2025099,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,83.6,OP-dana45,OP-efigueroa,2025-04-13 14:41:25,Out of Spec,EQP006
+WO-2025099,B2025099,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.06,OP-dana45,OP-cody37,2025-04-13 16:41:25,Within Spec,EQP006
+WO-2025072,B2025072,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,51.14,OP-veronicascott,OP-istanton,2024-10-07 00:58:02,,N/A
+WO-2025072,B2025072,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,64.98,OP-veronicascott,OP-hoffmanalvin,2024-10-07 01:06:02,,N/A
+WO-2025072,B2025072,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,83.3,OP-wagnerjason,OP-garzaeric,2024-10-07 02:49:02,Out of Spec,EQP003
+WO-2025072,B2025072,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,7.91,OP-wagnerjason,OP-efigueroa,2024-10-07 04:49:02,Out of Spec,EQP003
+WO-2025072,B2025072,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-wagnerjason,OP-efigueroa,2024-10-07 08:49:02,Completed,PKG-LINE-01
+WO-2025082,B2025082,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,74.58,OP-veronicascott,OP-wagnerjason,2025-05-21 17:27:46,,N/A
+WO-2025082,B2025082,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,57.7,OP-efigueroa,OP-thomas69,2025-05-21 17:31:46,,N/A
+WO-2025082,B2025082,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,84.92,OP-rachaelclark,OP-cramos,2025-05-21 17:16:46,,N/A
+WO-2025082,B2025082,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,84.9,OP-wagnerjason,OP-rachaelclark,2025-05-21 19:09:46,Out of Spec,EQP004
+WO-2025082,B2025082,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.55,OP-wagnerjason,OP-kyle12,2025-05-21 21:09:46,Within Spec,EQP004
+WO-2025082,B2025082,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-wagnerjason,OP-istanton,2025-05-22 01:09:46,Completed,PKG-LINE-01
+WO-2025205,B2025205,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,51.33,OP-garzaeric,OP-istanton,2024-11-07 17:56:24,,N/A
+WO-2025205,B2025205,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,68.54,OP-wagnerjason,OP-cody37,2024-11-07 17:38:24,,N/A
+WO-2025205,B2025205,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,54.95,OP-cramos,OP-john51,2024-11-07 17:44:24,,N/A
+WO-2025205,B2025205,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,76.6,OP-john51,OP-john51,2024-11-07 19:33:24,Within Spec,EQP001
+WO-2025205,B2025205,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.02,OP-john51,OP-veronicascott,2024-11-07 21:33:24,Out of Spec,EQP001
+WO-2025205,B2025205,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-john51,OP-veronicascott,2024-11-08 01:33:24,Completed,PKG-LINE-01
+WO-2025214,B2025214,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,93.02,OP-hoffmanalvin,OP-cody37,2025-03-01 07:02:14,,N/A
+WO-2025214,B2025214,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,91.3,OP-istanton,OP-cody37,2025-03-01 07:23:14,,N/A
+WO-2025214,B2025214,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,74.2,OP-dana45,OP-john51,2025-03-01 08:56:14,Within Spec,EQP007
+WO-2025214,B2025214,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.8,OP-dana45,OP-thomas69,2025-03-01 10:56:14,Within Spec,EQP007
+WO-2025111,B2025111,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,55.11,OP-istanton,OP-rachaelclark,2025-05-16 17:54:25,,N/A
+WO-2025111,B2025111,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,63.13,OP-rachaelclark,OP-istanton,2025-05-16 17:54:25,,N/A
+WO-2025111,B2025111,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,67.0,OP-cramos,OP-hoffmanalvin,2025-05-16 17:48:25,,N/A
+WO-2025111,B2025111,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,74.7,OP-veronicascott,OP-cramos,2025-05-16 19:38:25,Within Spec,EQP003
+WO-2025111,B2025111,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,7.75,OP-veronicascott,OP-kyle12,2025-05-16 21:38:25,Out of Spec,EQP003
+WO-2025111,B2025111,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-veronicascott,OP-cramos,2025-05-17 01:38:25,Completed,PKG-LINE-01
+WO-2025049,B2025049,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,98.56,OP-hoffmanalvin,OP-efigueroa,2025-02-02 20:52:55,,N/A
+WO-2025049,B2025049,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,70.04,OP-cody37,OP-dsmith,2025-02-02 20:42:55,,N/A
+WO-2025049,B2025049,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,82.61,OP-cody37,OP-john51,2025-02-02 21:02:55,,N/A
+WO-2025049,B2025049,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,81.3,OP-thomas69,OP-rachaelclark,2025-02-02 22:35:55,Out of Spec,EQP003
+WO-2025049,B2025049,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,6.07,OP-thomas69,OP-veronicascott,2025-02-03 00:35:55,Out of Spec,EQP003
+WO-2025197,B2025197,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,93.48,OP-cramos,OP-istanton,2025-01-25 23:11:00,,N/A
+WO-2025197,B2025197,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,89.59,OP-kyle12,OP-rachaelclark,2025-01-25 23:17:00,,N/A
+WO-2025197,B2025197,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,70.1,OP-cramos,OP-hoffmanalvin,2025-01-26 00:56:00,Within Spec,EQP006
+WO-2025197,B2025197,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.12,OP-cramos,OP-veronicascott,2025-01-26 02:56:00,Out of Spec,EQP006
+WO-2025197,B2025197,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-cramos,OP-thomas69,2025-01-26 06:56:00,Completed,PKG-LINE-01
+WO-2025183,B2025183,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,94.47,OP-garzaeric,OP-dsmith,2024-09-15 14:11:22,,N/A
+WO-2025183,B2025183,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,55.19,OP-dsmith,OP-istanton,2024-09-15 14:19:22,,N/A
+WO-2025183,B2025183,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,77.65,OP-wagnerjason,OP-hoffmanalvin,2024-09-15 14:09:22,,N/A
+WO-2025183,B2025183,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,81.6,OP-veronicascott,OP-dana45,2024-09-15 15:54:22,Out of Spec,EQP004
+WO-2025183,B2025183,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,7.02,OP-veronicascott,OP-hoffmanalvin,2024-09-15 17:54:22,Within Spec,EQP004
+WO-2025183,B2025183,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-veronicascott,OP-kyle12,2024-09-15 21:54:22,Completed,PKG-LINE-01
+WO-2025075,B2025075,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,75.33,OP-istanton,OP-thomas69,2025-03-30 14:21:44,,N/A
+WO-2025075,B2025075,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,52.59,OP-john51,OP-cramos,2025-03-30 14:21:44,,N/A
+WO-2025075,B2025075,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,80.0,OP-hoffmanalvin,OP-wagnerjason,2025-03-30 16:09:44,Within Spec,EQP005
+WO-2025075,B2025075,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,6.65,OP-hoffmanalvin,OP-cramos,2025-03-30 18:09:44,Within Spec,EQP005
+WO-2025022,B2025022,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,91.92,OP-cody37,,2025-06-16 02:10:31,,N/A
+WO-2025022,B2025022,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,84.61,OP-cramos,OP-thomas69,2025-06-16 02:07:31,,N/A
+WO-2025022,B2025022,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,72.4,OP-kyle12,OP-veronicascott,2025-06-16 03:48:31,Within Spec,EQP003
+WO-2025022,B2025022,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.12,OP-kyle12,OP-rachaelclark,2025-06-16 05:48:31,Within Spec,EQP003
+WO-2025137,B2025137,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,74.41,OP-dsmith,OP-cramos,2025-03-21 12:30:32,,N/A
+WO-2025137,B2025137,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,95.67,OP-thomas69,OP-kyle12,2025-03-21 12:29:32,,N/A
+WO-2025137,B2025137,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,79.85,OP-dsmith,OP-cody37,2025-03-21 12:16:32,,N/A
+WO-2025137,B2025137,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,73.8,OP-garzaeric,OP-dana45,2025-03-21 14:03:32,Within Spec,EQP006
+WO-2025137,B2025137,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.77,OP-garzaeric,OP-veronicascott,2025-03-21 16:03:32,Within Spec,EQP006
+WO-2025117,B2025117,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,63.78,OP-cody37,OP-istanton,2024-11-07 02:04:47,,N/A
+WO-2025117,B2025117,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,86.21,OP-john51,OP-wagnerjason,2024-11-07 02:13:47,,N/A
+WO-2025117,B2025117,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,74.2,OP-veronicascott,OP-istanton,2024-11-07 03:59:47,Within Spec,EQP005
+WO-2025117,B2025117,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.83,OP-veronicascott,OP-garzaeric,2024-11-07 05:59:47,Within Spec,EQP005
+WO-2025009,B2025009,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,81.27,OP-dana45,OP-cody37,2024-10-17 01:41:43,,N/A
+WO-2025009,B2025009,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,81.68,OP-hoffmanalvin,OP-wagnerjason,2024-10-17 01:53:43,,N/A
+WO-2025009,B2025009,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,57.64,OP-thomas69,OP-wagnerjason,2024-10-17 01:48:43,,N/A
+WO-2025009,B2025009,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,84.1,OP-efigueroa,OP-efigueroa,2024-10-17 03:35:43,Out of Spec,EQP004
+WO-2025009,B2025009,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,7.47,OP-efigueroa,OP-thomas69,2024-10-17 05:35:43,Within Spec,EQP004
+WO-2025009,B2025009,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-efigueroa,OP-kyle12,2024-10-17 09:35:43,Completed,PKG-LINE-01
+WO-2025095,B2025095,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,69.48,OP-cramos,OP-cody37,2024-12-31 13:10:46,,N/A
+WO-2025095,B2025095,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,60.64,OP-kyle12,OP-dsmith,2024-12-31 13:27:46,,N/A
+WO-2025095,B2025095,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,77.6,OP-istanton,OP-cramos,2024-12-31 15:00:46,Within Spec,EQP006
+WO-2025095,B2025095,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.94,OP-istanton,OP-rachaelclark,2024-12-31 17:00:46,Within Spec,EQP006
+WO-2025095,B2025095,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-istanton,OP-efigueroa,2024-12-31 21:00:46,Completed,PKG-LINE-01
+WO-2025080,B2025080,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,52.73,OP-istanton,OP-dana45,2024-07-08 00:27:39,,N/A
+WO-2025080,B2025080,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,80.98,OP-efigueroa,OP-dana45,2024-07-08 00:22:39,,N/A
+WO-2025080,B2025080,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,50.99,OP-efigueroa,OP-thomas69,2024-07-08 00:38:39,,N/A
+WO-2025080,B2025080,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,71.4,OP-rachaelclark,OP-rachaelclark,2024-07-08 02:08:39,Within Spec,EQP003
+WO-2025080,B2025080,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.23,OP-rachaelclark,OP-kyle12,2024-07-08 04:08:39,Out of Spec,EQP003
+WO-2025080,B2025080,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-rachaelclark,OP-wagnerjason,2024-07-08 08:08:39,Completed,PKG-LINE-01
+WO-2025175,B2025175,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,54.83,OP-dsmith,OP-rachaelclark,2024-07-16 01:54:20,,N/A
+WO-2025175,B2025175,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,60.74,OP-wagnerjason,OP-thomas69,2024-07-16 01:50:20,,N/A
+WO-2025175,B2025175,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,80.2,OP-cramos,OP-dsmith,2024-07-16 03:29:20,Out of Spec,EQP004
+WO-2025175,B2025175,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,7.08,OP-cramos,OP-thomas69,2024-07-16 05:29:20,Within Spec,EQP004
+WO-2025182,B2025182,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,85.62,OP-garzaeric,OP-hoffmanalvin,2024-12-30 11:18:01,,N/A
+WO-2025182,B2025182,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,59.33,OP-thomas69,OP-john51,2024-12-30 11:24:01,,N/A
+WO-2025182,B2025182,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,81.2,OP-garzaeric,OP-kyle12,2024-12-30 12:58:01,Out of Spec,EQP001
+WO-2025182,B2025182,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,7.56,OP-garzaeric,OP-istanton,2024-12-30 14:58:01,Out of Spec,EQP001
+WO-2025182,B2025182,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-garzaeric,OP-kyle12,2024-12-30 18:58:01,Completed,PKG-LINE-01
+WO-2025055,B2025055,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,78.72,OP-veronicascott,OP-john51,2025-02-12 20:39:30,,N/A
+WO-2025055,B2025055,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,98.55,OP-dana45,OP-cramos,2025-02-12 20:42:30,,N/A
+WO-2025055,B2025055,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,78.8,OP-kyle12,OP-hoffmanalvin,2025-02-12 22:34:30,Within Spec,EQP004
+WO-2025055,B2025055,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.84,OP-kyle12,OP-efigueroa,2025-02-13 00:34:30,Within Spec,EQP004
+WO-2025055,B2025055,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-kyle12,OP-veronicascott,2025-02-13 04:34:30,Completed,PKG-LINE-01
+WO-2025158,B2025158,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,64.88,OP-john51,OP-rachaelclark,2025-02-28 19:12:56,,N/A
+WO-2025158,B2025158,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,71.4,OP-garzaeric,OP-thomas69,2025-02-28 19:19:56,,N/A
+WO-2025158,B2025158,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,76.5,OP-dsmith,OP-john51,2025-02-28 20:51:56,Within Spec,EQP005
+WO-2025158,B2025158,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,7.65,OP-dsmith,OP-veronicascott,2025-02-28 22:51:56,Out of Spec,EQP005
+WO-2025091,B2025091,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,93.56,OP-istanton,OP-garzaeric,2025-04-22 18:28:33,,N/A
+WO-2025091,B2025091,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,63.62,OP-wagnerjason,OP-veronicascott,2025-04-22 18:41:33,,N/A
+WO-2025091,B2025091,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,74.6,OP-rachaelclark,OP-hoffmanalvin,2025-04-22 20:14:33,Within Spec,EQP003
+WO-2025091,B2025091,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.8,OP-rachaelclark,OP-istanton,2025-04-22 22:14:33,Within Spec,EQP003
+WO-2025199,B2025199,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,79.19,OP-john51,OP-wagnerjason,2024-07-12 03:39:25,,N/A
+WO-2025199,B2025199,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,99.97,OP-dana45,OP-rachaelclark,2024-07-12 03:32:25,,N/A
+WO-2025199,B2025199,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,81.4,OP-istanton,OP-istanton,2024-07-12 05:22:25,Out of Spec,EQP002
+WO-2025199,B2025199,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.64,OP-istanton,OP-thomas69,2024-07-12 07:22:25,Out of Spec,EQP002
+WO-2025077,B2025077,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,52.03,OP-veronicascott,OP-cody37,2025-06-06 00:50:20,,N/A
+WO-2025077,B2025077,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,72.36,OP-john51,OP-hoffmanalvin,2025-06-06 00:52:20,,N/A
+WO-2025077,B2025077,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,74.1,OP-wagnerjason,OP-dana45,2025-06-06 02:22:20,Within Spec,EQP004
+WO-2025077,B2025077,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.64,OP-wagnerjason,OP-thomas69,2025-06-06 04:22:20,Within Spec,EQP004
+WO-2025188,B2025188,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,56.52,OP-efigueroa,OP-john51,2025-03-16 08:25:46,,N/A
+WO-2025188,B2025188,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,76.99,OP-thomas69,OP-veronicascott,2025-03-16 08:15:46,,N/A
+WO-2025188,B2025188,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,82.1,OP-hoffmanalvin,OP-cody37,2025-03-16 10:10:46,Out of Spec,EQP006
+WO-2025188,B2025188,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.51,OP-hoffmanalvin,OP-dsmith,2025-03-16 12:10:46,Within Spec,EQP006
+WO-2025188,B2025188,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-hoffmanalvin,OP-dana45,2025-03-16 16:10:46,Completed,PKG-LINE-01
+WO-2025208,B2025208,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,82.63,OP-hoffmanalvin,OP-veronicascott,2025-04-29 15:05:34,,N/A
+WO-2025208,B2025208,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,58.74,OP-thomas69,OP-istanton,2025-04-29 15:08:34,,N/A
+WO-2025208,B2025208,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,74.7,OP-cramos,OP-rachaelclark,2025-04-29 16:44:34,Within Spec,EQP001
+WO-2025208,B2025208,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.75,OP-cramos,OP-kyle12,2025-04-29 18:44:34,Within Spec,EQP001
+WO-2025028,B2025028,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,82.64,OP-efigueroa,OP-dsmith,2024-07-02 07:55:00,,N/A
+WO-2025028,B2025028,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,61.27,OP-istanton,OP-cramos,2024-07-02 08:11:00,,N/A
+WO-2025028,B2025028,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,71.6,OP-garzaeric,OP-dsmith,2024-07-02 09:48:00,Within Spec,EQP005
+WO-2025028,B2025028,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,7.97,OP-garzaeric,OP-efigueroa,2024-07-02 11:48:00,Out of Spec,EQP005
+WO-2025028,B2025028,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-garzaeric,OP-cramos,2024-07-02 15:48:00,Completed,PKG-LINE-01
+WO-2025027,B2025027,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,80.11,OP-kyle12,OP-cody37,2024-10-23 00:25:34,,N/A
+WO-2025027,B2025027,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,54.0,OP-cramos,OP-thomas69,2024-10-23 00:37:34,,N/A
+WO-2025027,B2025027,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,82.8,OP-veronicascott,OP-veronicascott,2024-10-23 02:13:34,Out of Spec,EQP001
+WO-2025027,B2025027,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.03,OP-veronicascott,OP-kyle12,2024-10-23 04:13:34,Out of Spec,EQP001
+WO-2025027,B2025027,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-veronicascott,OP-istanton,2024-10-23 08:13:34,Completed,PKG-LINE-01
+WO-2025007,B2025007,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,67.17,OP-istanton,OP-efigueroa,2024-11-25 01:40:30,,N/A
+WO-2025007,B2025007,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,55.0,OP-cody37,OP-john51,2024-11-25 01:18:30,,N/A
+WO-2025007,B2025007,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,78.27,OP-thomas69,OP-cody37,2024-11-25 01:32:30,,N/A
+WO-2025007,B2025007,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,80.1,OP-rachaelclark,OP-john51,2024-11-25 03:13:30,Out of Spec,EQP005
+WO-2025007,B2025007,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.64,OP-rachaelclark,OP-hoffmanalvin,2024-11-25 05:13:30,Within Spec,EQP005
+WO-2025186,B2025186,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,56.06,OP-rachaelclark,OP-wagnerjason,2025-04-14 01:35:47,,N/A
+WO-2025186,B2025186,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,53.31,OP-rachaelclark,OP-wagnerjason,2025-04-14 01:31:47,,N/A
+WO-2025186,B2025186,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,62.08,OP-garzaeric,OP-wagnerjason,2025-04-14 01:22:47,,N/A
+WO-2025186,B2025186,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,77.9,OP-wagnerjason,OP-dsmith,2025-04-14 03:07:47,Within Spec,EQP003
+WO-2025186,B2025186,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,7.78,OP-wagnerjason,OP-dsmith,2025-04-14 05:07:47,Out of Spec,EQP003
+WO-2025213,B2025213,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,88.74,OP-cody37,OP-wagnerjason,2025-06-15 03:02:46,,N/A
+WO-2025213,B2025213,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,85.55,OP-hoffmanalvin,OP-john51,2025-06-15 03:00:46,,N/A
+WO-2025213,B2025213,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,76.3,OP-garzaeric,OP-dsmith,2025-06-15 04:49:46,Within Spec,EQP001
+WO-2025213,B2025213,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,6.54,OP-garzaeric,OP-veronicascott,2025-06-15 06:49:46,Within Spec,EQP001
+WO-2025178,B2025178,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,99.76,OP-dsmith,OP-kyle12,2024-07-16 06:29:43,,N/A
+WO-2025178,B2025178,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,94.91,OP-thomas69,OP-garzaeric,2024-07-16 06:24:43,,N/A
+WO-2025178,B2025178,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,56.56,OP-john51,OP-veronicascott,2024-07-16 06:16:43,,N/A
+WO-2025178,B2025178,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,74.0,OP-cody37,OP-wagnerjason,2024-07-16 08:11:43,Within Spec,EQP004
+WO-2025178,B2025178,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,7.52,OP-cody37,OP-kyle12,2024-07-16 10:11:43,Out of Spec,EQP004
+WO-2025074,B2025074,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,60.86,OP-wagnerjason,OP-cody37,2025-01-26 03:31:35,,N/A
+WO-2025074,B2025074,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,52.38,OP-dsmith,OP-john51,2025-01-26 03:32:35,,N/A
+WO-2025074,B2025074,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,91.79,OP-john51,OP-garzaeric,2025-01-26 03:41:35,,N/A
+WO-2025074,B2025074,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,74.6,OP-cramos,OP-rachaelclark,2025-01-26 05:12:35,Within Spec,EQP004
+WO-2025074,B2025074,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.71,OP-cramos,OP-wagnerjason,2025-01-26 07:12:35,Within Spec,EQP004
+WO-2025160,B2025160,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,98.42,OP-dsmith,,2024-08-09 02:08:16,,N/A
+WO-2025160,B2025160,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,61.27,OP-veronicascott,OP-rachaelclark,2024-08-09 02:08:16,,N/A
+WO-2025160,B2025160,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,80.5,OP-hoffmanalvin,OP-dana45,2024-08-09 04:01:16,Out of Spec,EQP006
+WO-2025160,B2025160,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,6.81,OP-hoffmanalvin,OP-hoffmanalvin,2024-08-09 06:01:16,Within Spec,EQP006
+WO-2025193,B2025193,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,93.12,OP-garzaeric,,2025-04-22 22:37:09,,N/A
+WO-2025193,B2025193,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,76.64,OP-rachaelclark,OP-cramos,2025-04-22 22:34:09,,N/A
+WO-2025193,B2025193,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,74.9,OP-hoffmanalvin,OP-cody37,2025-04-23 00:20:09,Within Spec,EQP007
+WO-2025193,B2025193,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.68,OP-hoffmanalvin,OP-dana45,2025-04-23 02:20:09,Within Spec,EQP007
+WO-2025015,B2025015,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,70.37,OP-wagnerjason,,2025-01-17 22:12:29,,N/A
+WO-2025015,B2025015,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,84.31,OP-efigueroa,OP-rachaelclark,2025-01-17 22:05:29,,N/A
+WO-2025015,B2025015,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,74.9,OP-john51,OP-dana45,2025-01-17 23:56:29,Within Spec,EQP003
+WO-2025015,B2025015,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.54,OP-john51,OP-cramos,2025-01-18 01:56:29,Within Spec,EQP003
+WO-2025038,B2025038,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,84.69,OP-veronicascott,OP-rachaelclark,2025-04-06 12:43:03,,N/A
+WO-2025038,B2025038,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,55.1,OP-thomas69,OP-kyle12,2025-04-06 12:36:03,,N/A
+WO-2025038,B2025038,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,69.57,OP-dana45,OP-garzaeric,2025-04-06 12:28:03,,N/A
+WO-2025038,B2025038,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,77.8,OP-kyle12,OP-cramos,2025-04-06 14:21:03,Within Spec,EQP002
+WO-2025038,B2025038,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.67,OP-kyle12,OP-cody37,2025-04-06 16:21:03,Within Spec,EQP002
+WO-2025180,B2025180,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,67.76,OP-john51,OP-wagnerjason,2024-08-14 22:19:23,,N/A
+WO-2025180,B2025180,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,54.98,OP-dsmith,OP-garzaeric,2024-08-14 22:13:23,,N/A
+WO-2025180,B2025180,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,75.3,OP-dsmith,OP-john51,2024-08-15 00:07:23,Within Spec,EQP003
+WO-2025180,B2025180,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.68,OP-dsmith,OP-cody37,2024-08-15 02:07:23,Within Spec,EQP003
+WO-2025179,B2025179,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,84.05,OP-istanton,,2024-08-08 03:56:01,,N/A
+WO-2025179,B2025179,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,67.21,OP-kyle12,OP-garzaeric,2024-08-08 03:56:01,,N/A
+WO-2025179,B2025179,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,87.77,OP-istanton,OP-kyle12,2024-08-08 03:56:01,,N/A
+WO-2025179,B2025179,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,75.5,OP-veronicascott,OP-garzaeric,2024-08-08 05:44:01,Within Spec,EQP001
+WO-2025179,B2025179,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.52,OP-veronicascott,OP-kyle12,2024-08-08 07:44:01,Within Spec,EQP001
+WO-2025102,B2025102,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,72.75,OP-efigueroa,OP-thomas69,2025-03-23 14:22:39,,N/A
+WO-2025102,B2025102,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,82.88,OP-rachaelclark,OP-cody37,2025-03-23 14:06:39,,N/A
+WO-2025102,B2025102,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,71.2,OP-dsmith,OP-cramos,2025-03-23 14:20:39,,N/A
+WO-2025102,B2025102,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,71.6,OP-cramos,OP-istanton,2025-03-23 16:01:39,Within Spec,EQP003
+WO-2025102,B2025102,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,7.75,OP-cramos,OP-efigueroa,2025-03-23 18:01:39,Out of Spec,EQP003
+WO-2025124,B2025124,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,64.25,OP-rachaelclark,OP-kyle12,2024-08-25 04:28:26,,N/A
+WO-2025124,B2025124,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,77.67,OP-dsmith,OP-dana45,2024-08-25 04:30:26,,N/A
+WO-2025124,B2025124,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,73.48,OP-veronicascott,OP-dsmith,2024-08-25 04:24:26,,N/A
+WO-2025124,B2025124,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,84.8,OP-rachaelclark,OP-cramos,2024-08-25 06:04:26,Out of Spec,EQP007
+WO-2025124,B2025124,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,7.55,OP-rachaelclark,OP-john51,2024-08-25 08:04:26,Out of Spec,EQP007
+WO-2025124,B2025124,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-rachaelclark,OP-cramos,2024-08-25 12:04:26,Completed,PKG-LINE-01
+WO-2025056,B2025056,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,70.88,OP-thomas69,OP-efigueroa,2024-12-03 14:14:17,,N/A
+WO-2025056,B2025056,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,85.93,OP-efigueroa,OP-wagnerjason,2024-12-03 14:29:17,,N/A
+WO-2025056,B2025056,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,65.43,OP-cramos,OP-cody37,2024-12-03 14:10:17,,N/A
+WO-2025056,B2025056,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,71.9,OP-john51,OP-dana45,2024-12-03 16:00:17,Within Spec,EQP004
+WO-2025056,B2025056,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,7.78,OP-john51,OP-veronicascott,2024-12-03 18:00:17,Out of Spec,EQP004
+WO-2025121,B2025121,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,78.57,OP-cramos,OP-veronicascott,2024-11-08 05:22:39,,N/A
+WO-2025121,B2025121,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,67.91,OP-thomas69,,2024-11-08 05:01:39,,N/A
+WO-2025121,B2025121,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,68.58,OP-thomas69,OP-istanton,2024-11-08 05:08:39,,N/A
+WO-2025121,B2025121,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,75.2,OP-cramos,OP-wagnerjason,2024-11-08 06:56:39,Within Spec,EQP007
+WO-2025121,B2025121,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.81,OP-cramos,OP-thomas69,2024-11-08 08:56:39,Within Spec,EQP007
+WO-2025110,B2025110,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,50.46,OP-thomas69,OP-dana45,2025-04-28 05:41:30,,N/A
+WO-2025110,B2025110,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,55.34,OP-thomas69,OP-dana45,2025-04-28 05:47:30,,N/A
+WO-2025110,B2025110,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,77.65,OP-cramos,OP-john51,2025-04-28 05:44:30,,N/A
+WO-2025110,B2025110,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,81.3,OP-john51,OP-john51,2025-04-28 07:30:30,Out of Spec,EQP001
+WO-2025110,B2025110,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.04,OP-john51,OP-cody37,2025-04-28 09:30:30,Within Spec,EQP001
+WO-2025071,B2025071,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,90.52,OP-hoffmanalvin,OP-wagnerjason,2024-11-20 03:23:49,,N/A
+WO-2025071,B2025071,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,62.93,OP-istanton,OP-efigueroa,2024-11-20 03:21:49,,N/A
+WO-2025071,B2025071,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,79.38,OP-rachaelclark,OP-hoffmanalvin,2024-11-20 03:12:49,,N/A
+WO-2025071,B2025071,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,77.7,OP-veronicascott,OP-dsmith,2024-11-20 05:01:49,Within Spec,EQP004
+WO-2025071,B2025071,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.43,OP-veronicascott,OP-dana45,2024-11-20 07:01:49,Out of Spec,EQP004
+WO-2025184,B2025184,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,77.07,OP-garzaeric,OP-veronicascott,2025-05-20 11:36:42,,N/A
+WO-2025184,B2025184,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,72.97,OP-cody37,OP-dsmith,2025-05-20 11:30:42,,N/A
+WO-2025184,B2025184,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,75.5,OP-istanton,OP-efigueroa,2025-05-20 13:11:42,Within Spec,EQP003
+WO-2025184,B2025184,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.55,OP-istanton,OP-cody37,2025-05-20 15:11:42,Within Spec,EQP003
+WO-2025131,B2025131,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,53.16,OP-efigueroa,OP-veronicascott,2025-05-19 13:35:33,,N/A
+WO-2025131,B2025131,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,82.57,OP-dana45,OP-john51,2025-05-19 13:23:33,,N/A
+WO-2025131,B2025131,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,75.2,OP-thomas69,OP-cody37,2025-05-19 15:18:33,Within Spec,EQP006
+WO-2025131,B2025131,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.49,OP-thomas69,OP-rachaelclark,2025-05-19 17:18:33,Out of Spec,EQP006
+WO-2025079,B2025079,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,59.33,OP-istanton,,2024-07-14 10:53:02,,N/A
+WO-2025079,B2025079,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,76.08,OP-hoffmanalvin,OP-cramos,2024-07-14 10:58:02,,N/A
+WO-2025079,B2025079,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,58.33,OP-efigueroa,OP-kyle12,2024-07-14 10:37:02,,N/A
+WO-2025079,B2025079,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,70.5,OP-kyle12,OP-wagnerjason,2024-07-14 12:28:02,Within Spec,EQP002
+WO-2025079,B2025079,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,6.58,OP-kyle12,OP-efigueroa,2024-07-14 14:28:02,Within Spec,EQP002
+WO-2025150,B2025150,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,61.38,OP-garzaeric,OP-john51,2025-02-01 21:59:07,,N/A
+WO-2025150,B2025150,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,64.35,OP-dana45,OP-veronicascott,2025-02-01 22:05:07,,N/A
+WO-2025150,B2025150,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,74.06,OP-kyle12,,2025-02-01 22:10:07,,N/A
+WO-2025150,B2025150,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,80.4,OP-john51,OP-thomas69,2025-02-01 23:41:07,Out of Spec,EQP005
+WO-2025150,B2025150,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.75,OP-john51,OP-veronicascott,2025-02-02 01:41:07,Within Spec,EQP005
+WO-2025150,B2025150,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-john51,OP-garzaeric,2025-02-02 05:41:07,Completed,PKG-LINE-01
+WO-2025139,B2025139,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,65.52,OP-hoffmanalvin,OP-garzaeric,2024-12-02 00:36:26,,N/A
+WO-2025139,B2025139,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,73.23,OP-cramos,OP-john51,2024-12-02 00:31:26,,N/A
+WO-2025139,B2025139,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,84.0,OP-cramos,OP-istanton,2024-12-02 02:19:26,Out of Spec,EQP001
+WO-2025139,B2025139,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,6.9,OP-cramos,OP-dsmith,2024-12-02 04:19:26,Within Spec,EQP001
+WO-2025139,B2025139,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-cramos,OP-garzaeric,2024-12-02 08:19:26,Completed,PKG-LINE-01
+WO-2025135,B2025135,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,63.77,OP-dana45,OP-dsmith,2024-11-07 03:33:16,,N/A
+WO-2025135,B2025135,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,85.8,OP-istanton,OP-dana45,2024-11-07 03:47:16,,N/A
+WO-2025135,B2025135,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,66.99,OP-veronicascott,OP-rachaelclark,2024-11-07 03:31:16,,N/A
+WO-2025135,B2025135,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,75.8,OP-thomas69,OP-thomas69,2024-11-07 05:24:16,Within Spec,EQP005
+WO-2025135,B2025135,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.62,OP-thomas69,OP-cramos,2024-11-07 07:24:16,Within Spec,EQP005
+WO-2025026,B2025026,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,93.83,OP-dana45,OP-cody37,2024-08-31 08:56:04,,N/A
+WO-2025026,B2025026,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,61.58,OP-john51,OP-istanton,2024-08-31 09:15:04,,N/A
+WO-2025026,B2025026,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,77.5,OP-istanton,OP-dsmith,2024-08-31 10:45:04,Within Spec,EQP005
+WO-2025026,B2025026,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,6.66,OP-istanton,OP-dana45,2024-08-31 12:45:04,Within Spec,EQP005
+WO-2025026,B2025026,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-istanton,OP-cramos,2024-08-31 16:45:04,Completed,PKG-LINE-01
+WO-2025132,B2025132,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,60.82,OP-cramos,OP-efigueroa,2025-01-11 20:32:30,,N/A
+WO-2025132,B2025132,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,91.13,OP-thomas69,OP-garzaeric,2025-01-11 20:28:30,,N/A
+WO-2025132,B2025132,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,72.9,OP-rachaelclark,OP-veronicascott,2025-01-11 22:08:30,Within Spec,EQP001
+WO-2025132,B2025132,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.7,OP-rachaelclark,OP-wagnerjason,2025-01-12 00:08:30,Within Spec,EQP001
+WO-2025052,B2025052,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,97.14,OP-cramos,OP-wagnerjason,2024-11-22 03:05:34,,N/A
+WO-2025052,B2025052,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,97.06,OP-rachaelclark,OP-thomas69,2024-11-22 03:22:34,,N/A
+WO-2025052,B2025052,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,82.3,OP-rachaelclark,OP-garzaeric,2024-11-22 05:00:34,Out of Spec,EQP006
+WO-2025052,B2025052,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,7.02,OP-rachaelclark,OP-dana45,2024-11-22 07:00:34,Within Spec,EQP006
+WO-2025004,B2025004,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,89.06,OP-veronicascott,OP-garzaeric,2024-07-11 03:34:35,,N/A
+WO-2025004,B2025004,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,85.14,OP-cody37,OP-istanton,2024-07-11 03:27:35,,N/A
+WO-2025004,B2025004,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,56.53,OP-efigueroa,OP-cody37,2024-07-11 03:29:35,,N/A
+WO-2025004,B2025004,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,81.0,OP-hoffmanalvin,OP-thomas69,2024-07-11 05:10:35,Out of Spec,EQP002
+WO-2025004,B2025004,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,7.5,OP-hoffmanalvin,OP-dana45,2024-07-11 07:10:35,Within Spec,EQP002
+WO-2025159,B2025159,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,77.77,OP-rachaelclark,OP-efigueroa,2025-02-20 10:07:41,,N/A
+WO-2025159,B2025159,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,65.66,OP-dsmith,OP-john51,2025-02-20 10:19:41,,N/A
+WO-2025159,B2025159,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,81.91,OP-cramos,OP-garzaeric,2025-02-20 10:15:41,,N/A
+WO-2025159,B2025159,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,75.6,OP-veronicascott,OP-efigueroa,2025-02-20 11:51:41,Within Spec,EQP002
+WO-2025159,B2025159,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.57,OP-veronicascott,OP-istanton,2025-02-20 13:51:41,Within Spec,EQP002
+WO-2025103,B2025103,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,60.88,OP-rachaelclark,OP-hoffmanalvin,2025-02-22 02:29:04,,N/A
+WO-2025103,B2025103,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,91.42,OP-hoffmanalvin,OP-garzaeric,2025-02-22 02:28:04,,N/A
+WO-2025103,B2025103,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,66.96,OP-wagnerjason,OP-cramos,2025-02-22 02:33:04,,N/A
+WO-2025103,B2025103,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,75.5,OP-wagnerjason,OP-cramos,2025-02-22 04:05:04,Within Spec,EQP003
+WO-2025103,B2025103,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,7.89,OP-wagnerjason,OP-cramos,2025-02-22 06:05:04,Out of Spec,EQP003
+WO-2025040,B2025040,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,89.35,OP-efigueroa,OP-hoffmanalvin,2024-11-23 17:08:08,,N/A
+WO-2025040,B2025040,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,97.77,OP-dana45,OP-wagnerjason,2024-11-23 17:22:08,,N/A
+WO-2025040,B2025040,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,79.3,OP-cody37,OP-cody37,2024-11-23 19:03:08,Within Spec,EQP007
+WO-2025040,B2025040,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.37,OP-cody37,OP-john51,2024-11-23 21:03:08,Out of Spec,EQP007
+WO-2025040,B2025040,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-cody37,OP-cramos,2024-11-24 01:03:08,Completed,PKG-LINE-01
+WO-2025113,B2025113,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,89.35,OP-dana45,OP-wagnerjason,2024-08-14 10:50:38,,N/A
+WO-2025113,B2025113,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,52.31,OP-thomas69,OP-efigueroa,2024-08-14 10:54:38,,N/A
+WO-2025113,B2025113,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,87.28,OP-cody37,OP-john51,2024-08-14 10:58:38,,N/A
+WO-2025113,B2025113,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,77.8,OP-kyle12,OP-veronicascott,2024-08-14 12:29:38,Within Spec,EQP006
+WO-2025113,B2025113,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,7.57,OP-kyle12,OP-wagnerjason,2024-08-14 14:29:38,Out of Spec,EQP006
+WO-2025113,B2025113,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-kyle12,OP-veronicascott,2024-08-14 18:29:38,Completed,PKG-LINE-01
+WO-2025058,B2025058,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,66.88,OP-hoffmanalvin,OP-dana45,2024-10-07 09:01:23,,N/A
+WO-2025058,B2025058,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,82.67,OP-istanton,OP-garzaeric,2024-10-07 08:47:23,,N/A
+WO-2025058,B2025058,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,58.97,OP-efigueroa,OP-hoffmanalvin,2024-10-07 09:02:23,,N/A
+WO-2025058,B2025058,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,76.3,OP-cody37,OP-kyle12,2024-10-07 10:41:23,Within Spec,EQP007
+WO-2025058,B2025058,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.47,OP-cody37,OP-dsmith,2024-10-07 12:41:23,Out of Spec,EQP007
+WO-2025092,B2025092,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,75.61,OP-wagnerjason,OP-istanton,2025-03-26 06:44:12,,N/A
+WO-2025092,B2025092,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,87.13,OP-rachaelclark,OP-hoffmanalvin,2025-03-26 06:49:12,,N/A
+WO-2025092,B2025092,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,76.1,OP-cramos,OP-john51,2025-03-26 08:30:12,Within Spec,EQP003
+WO-2025092,B2025092,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.53,OP-cramos,OP-hoffmanalvin,2025-03-26 10:30:12,Within Spec,EQP003
+WO-2025106,B2025106,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,55.61,OP-garzaeric,OP-veronicascott,2024-10-31 22:14:17,,N/A
+WO-2025106,B2025106,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,97.79,OP-kyle12,OP-john51,2024-10-31 22:08:17,,N/A
+WO-2025106,B2025106,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,76.5,OP-dsmith,OP-istanton,2024-10-31 23:53:17,Within Spec,EQP004
+WO-2025106,B2025106,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.96,OP-dsmith,OP-rachaelclark,2024-11-01 01:53:17,Within Spec,EQP004
+WO-2025078,B2025078,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,58.49,OP-veronicascott,OP-thomas69,2025-01-19 06:30:53,,N/A
+WO-2025078,B2025078,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,88.42,OP-efigueroa,OP-cody37,2025-01-19 06:22:53,,N/A
+WO-2025078,B2025078,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,71.93,OP-cody37,OP-efigueroa,2025-01-19 06:07:53,,N/A
+WO-2025078,B2025078,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,76.5,OP-dana45,OP-dsmith,2025-01-19 08:00:53,Within Spec,EQP001
+WO-2025078,B2025078,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.53,OP-dana45,OP-veronicascott,2025-01-19 10:00:53,Within Spec,EQP001
+WO-2025081,B2025081,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,95.25,OP-cramos,,2024-11-12 18:40:45,,N/A
+WO-2025081,B2025081,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,95.03,OP-dsmith,OP-wagnerjason,2024-11-12 18:51:45,,N/A
+WO-2025081,B2025081,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,91.98,OP-rachaelclark,OP-dsmith,2024-11-12 18:56:45,,N/A
+WO-2025081,B2025081,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,77.6,OP-hoffmanalvin,OP-hoffmanalvin,2024-11-12 20:29:45,Within Spec,EQP005
+WO-2025081,B2025081,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.15,OP-hoffmanalvin,OP-garzaeric,2024-11-12 22:29:45,Out of Spec,EQP005
+WO-2025081,B2025081,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-hoffmanalvin,OP-hoffmanalvin,2024-11-13 02:29:45,Completed,PKG-LINE-01
+WO-2025217,B2025217,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,83.39,OP-istanton,OP-john51,2024-08-20 06:26:26,,N/A
+WO-2025217,B2025217,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,63.35,OP-cody37,OP-efigueroa,2024-08-20 06:31:26,,N/A
+WO-2025217,B2025217,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,83.5,OP-efigueroa,OP-cramos,2024-08-20 08:08:26,Out of Spec,EQP006
+WO-2025217,B2025217,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,7.12,OP-efigueroa,OP-cramos,2024-08-20 10:08:26,Within Spec,EQP006
+WO-2025008,B2025008,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,78.93,OP-hoffmanalvin,OP-thomas69,2025-04-13 18:47:43,,N/A
+WO-2025008,B2025008,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,72.93,OP-dsmith,OP-dana45,2025-04-13 18:43:43,,N/A
+WO-2025008,B2025008,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,88.08,OP-kyle12,OP-cody37,2025-04-13 18:50:43,,N/A
+WO-2025008,B2025008,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,79.6,OP-efigueroa,OP-cramos,2025-04-13 20:28:43,Within Spec,EQP007
+WO-2025008,B2025008,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,6.11,OP-efigueroa,OP-veronicascott,2025-04-13 22:28:43,Out of Spec,EQP007
+WO-2025008,B2025008,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-efigueroa,OP-dana45,2025-04-14 02:28:43,Completed,PKG-LINE-01
+WO-2025098,B2025098,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,65.2,OP-thomas69,OP-dsmith,2024-09-11 04:09:37,,N/A
+WO-2025098,B2025098,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,80.87,OP-dana45,OP-istanton,2024-09-11 04:20:37,,N/A
+WO-2025098,B2025098,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,76.8,OP-istanton,OP-istanton,2024-09-11 05:51:37,Within Spec,EQP005
+WO-2025098,B2025098,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.51,OP-istanton,OP-garzaeric,2024-09-11 07:51:37,Within Spec,EQP005
+WO-2025165,B2025165,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,72.78,OP-kyle12,OP-hoffmanalvin,2025-02-24 22:29:10,,N/A
+WO-2025165,B2025165,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,76.49,OP-cody37,OP-dana45,2025-02-24 22:41:10,,N/A
+WO-2025165,B2025165,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,85.0,OP-dsmith,OP-cody37,2025-02-25 00:14:10,Out of Spec,EQP005
+WO-2025165,B2025165,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,6.17,OP-dsmith,OP-efigueroa,2025-02-25 02:14:10,Out of Spec,EQP005
+WO-2025176,B2025176,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,95.13,OP-istanton,OP-cody37,2024-12-29 06:19:58,,N/A
+WO-2025176,B2025176,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,61.58,OP-rachaelclark,OP-veronicascott,2024-12-29 06:17:58,,N/A
+WO-2025176,B2025176,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,77.2,OP-rachaelclark,OP-cody37,2024-12-29 08:06:58,Within Spec,EQP002
+WO-2025176,B2025176,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.53,OP-rachaelclark,OP-cody37,2024-12-29 10:06:58,Within Spec,EQP002
+WO-2025176,B2025176,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-rachaelclark,OP-efigueroa,2024-12-29 14:06:58,Completed,PKG-LINE-01
+WO-2025107,B2025107,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,93.47,OP-dana45,,2024-09-27 13:23:16,,N/A
+WO-2025107,B2025107,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,59.0,OP-hoffmanalvin,OP-efigueroa,2024-09-27 13:28:16,,N/A
+WO-2025107,B2025107,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,71.4,OP-garzaeric,OP-hoffmanalvin,2024-09-27 15:17:16,Within Spec,EQP001
+WO-2025107,B2025107,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,7.18,OP-garzaeric,OP-kyle12,2024-09-27 17:17:16,Within Spec,EQP001
+WO-2025133,B2025133,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,98.92,OP-dana45,OP-hoffmanalvin,2024-11-28 09:12:01,,N/A
+WO-2025133,B2025133,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,78.75,OP-cody37,OP-efigueroa,2024-11-28 09:01:01,,N/A
+WO-2025133,B2025133,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,72.1,OP-rachaelclark,OP-dana45,2024-11-28 10:44:01,Within Spec,EQP007
+WO-2025133,B2025133,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,7.81,OP-rachaelclark,OP-kyle12,2024-11-28 12:44:01,Out of Spec,EQP007
+WO-2025133,B2025133,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-rachaelclark,OP-garzaeric,2024-11-28 16:44:01,Completed,PKG-LINE-01
+WO-2025043,B2025043,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,80.99,OP-cramos,OP-dsmith,2025-04-04 06:58:06,,N/A
+WO-2025043,B2025043,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,66.87,OP-istanton,OP-kyle12,2025-04-04 07:20:06,,N/A
+WO-2025043,B2025043,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,82.1,OP-cramos,OP-dsmith,2025-04-04 07:09:06,,N/A
+WO-2025043,B2025043,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,79.1,OP-cramos,OP-kyle12,2025-04-04 08:51:06,Within Spec,EQP004
+WO-2025043,B2025043,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.42,OP-cramos,OP-hoffmanalvin,2025-04-04 10:51:06,Out of Spec,EQP004
+WO-2025043,B2025043,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-cramos,OP-dsmith,2025-04-04 14:51:06,Completed,PKG-LINE-01
+WO-2025010,B2025010,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,89.75,OP-istanton,OP-garzaeric,2025-01-30 02:48:02,,N/A
+WO-2025010,B2025010,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,84.42,OP-john51,OP-wagnerjason,2025-01-30 02:33:02,,N/A
+WO-2025010,B2025010,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,89.4,OP-dana45,OP-cody37,2025-01-30 02:33:02,,N/A
+WO-2025010,B2025010,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,78.3,OP-thomas69,OP-dsmith,2025-01-30 04:25:02,Within Spec,EQP004
+WO-2025010,B2025010,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.17,OP-thomas69,OP-thomas69,2025-01-30 06:25:02,Out of Spec,EQP004
+WO-2025010,B2025010,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-thomas69,OP-hoffmanalvin,2025-01-30 10:25:02,Completed,PKG-LINE-01
+WO-2025210,B2025210,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,71.45,OP-wagnerjason,OP-rachaelclark,2024-08-10 13:01:13,,N/A
+WO-2025210,B2025210,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,92.33,OP-cramos,OP-dana45,2024-08-10 13:10:13,,N/A
+WO-2025210,B2025210,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,82.8,OP-john51,OP-cody37,2024-08-10 14:55:13,Out of Spec,EQP002
+WO-2025210,B2025210,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,6.89,OP-john51,OP-efigueroa,2024-08-10 16:55:13,Within Spec,EQP002
+WO-2025210,B2025210,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-john51,OP-cody37,2024-08-10 20:55:13,Completed,PKG-LINE-01
+WO-2025136,B2025136,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,59.31,OP-efigueroa,OP-thomas69,2025-03-14 00:18:54,,N/A
+WO-2025136,B2025136,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,70.2,OP-garzaeric,OP-hoffmanalvin,2025-03-14 00:12:54,,N/A
+WO-2025136,B2025136,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,71.8,OP-wagnerjason,OP-john51,2025-03-14 01:49:54,Within Spec,EQP007
+WO-2025136,B2025136,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.73,OP-wagnerjason,OP-veronicascott,2025-03-14 03:49:54,Within Spec,EQP007
+WO-2025136,B2025136,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-wagnerjason,OP-dsmith,2025-03-14 07:49:54,Completed,PKG-LINE-01
+WO-2025013,B2025013,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,87.05,OP-cramos,,2025-03-07 13:02:24,,N/A
+WO-2025013,B2025013,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,85.75,OP-veronicascott,OP-garzaeric,2025-03-07 12:59:24,,N/A
+WO-2025013,B2025013,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,82.2,OP-dana45,OP-garzaeric,2025-03-07 14:39:24,Out of Spec,EQP005
+WO-2025013,B2025013,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,6.69,OP-dana45,OP-cody37,2025-03-07 16:39:24,Within Spec,EQP005
+WO-2025194,B2025194,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,92.63,OP-wagnerjason,OP-rachaelclark,2025-04-10 22:09:21,,N/A
+WO-2025194,B2025194,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,77.57,OP-dana45,OP-garzaeric,2025-04-10 22:19:21,,N/A
+WO-2025194,B2025194,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,70.2,OP-dsmith,OP-istanton,2025-04-10 23:52:21,Within Spec,EQP007
+WO-2025194,B2025194,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.41,OP-dsmith,OP-john51,2025-04-11 01:52:21,Within Spec,EQP007
+WO-2025130,B2025130,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,71.05,OP-dana45,OP-kyle12,2024-12-11 11:28:21,,N/A
+WO-2025130,B2025130,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,83.51,OP-cody37,OP-kyle12,2024-12-11 11:09:21,,N/A
+WO-2025130,B2025130,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,85.05,OP-dsmith,OP-rachaelclark,2024-12-11 11:34:21,,N/A
+WO-2025130,B2025130,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,75.9,OP-thomas69,OP-cramos,2024-12-11 13:04:21,Within Spec,EQP006
+WO-2025130,B2025130,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.87,OP-thomas69,OP-kyle12,2024-12-11 15:04:21,Out of Spec,EQP006
+WO-2025123,B2025123,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,63.1,OP-dsmith,OP-veronicascott,2025-01-28 04:32:44,,N/A
+WO-2025123,B2025123,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,82.12,OP-kyle12,OP-hoffmanalvin,2025-01-28 04:37:44,,N/A
+WO-2025123,B2025123,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,76.2,OP-veronicascott,OP-istanton,2025-01-28 06:12:44,Within Spec,EQP001
+WO-2025123,B2025123,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.5,OP-veronicascott,OP-wagnerjason,2025-01-28 08:12:44,Within Spec,EQP001
+WO-2025154,B2025154,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,62.72,OP-dsmith,OP-garzaeric,2024-08-25 01:08:57,,N/A
+WO-2025154,B2025154,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,62.73,OP-cramos,OP-rachaelclark,2024-08-25 01:02:57,,N/A
+WO-2025154,B2025154,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,81.7,OP-john51,OP-veronicascott,2024-08-25 02:53:57,Out of Spec,EQP002
+WO-2025154,B2025154,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,7.1,OP-john51,OP-efigueroa,2024-08-25 04:53:57,Within Spec,EQP002
+WO-2025189,B2025189,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,79.63,OP-hoffmanalvin,OP-efigueroa,2024-06-25 06:39:48,,N/A
+WO-2025189,B2025189,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,70.56,OP-wagnerjason,OP-istanton,2024-06-25 06:40:48,,N/A
+WO-2025189,B2025189,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,65.97,OP-rachaelclark,OP-hoffmanalvin,2024-06-25 06:38:48,,N/A
+WO-2025189,B2025189,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,76.2,OP-garzaeric,OP-thomas69,2024-06-25 08:21:48,Within Spec,EQP005
+WO-2025189,B2025189,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.31,OP-garzaeric,OP-cramos,2024-06-25 10:21:48,Out of Spec,EQP005
+WO-2025161,B2025161,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,67.87,OP-john51,OP-thomas69,2024-12-04 20:57:28,,N/A
+WO-2025161,B2025161,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,76.97,OP-cramos,OP-cody37,2024-12-04 20:54:28,,N/A
+WO-2025161,B2025161,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,74.2,OP-efigueroa,OP-garzaeric,2024-12-04 22:36:28,Within Spec,EQP005
+WO-2025161,B2025161,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,7.76,OP-efigueroa,OP-garzaeric,2024-12-05 00:36:28,Out of Spec,EQP005
+WO-2025181,B2025181,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,97.68,OP-veronicascott,OP-dana45,2025-01-16 13:19:23,,N/A
+WO-2025181,B2025181,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,98.54,OP-garzaeric,OP-efigueroa,2025-01-16 13:15:23,,N/A
+WO-2025181,B2025181,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,79.77,OP-cramos,OP-cody37,2025-01-16 13:04:23,,N/A
+WO-2025181,B2025181,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,81.2,OP-wagnerjason,OP-wagnerjason,2025-01-16 14:56:23,Out of Spec,EQP001
+WO-2025181,B2025181,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,7.0,OP-wagnerjason,OP-kyle12,2025-01-16 16:56:23,Within Spec,EQP001
+WO-2025062,B2025062,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,88.18,OP-istanton,OP-cody37,2025-03-06 00:57:04,,N/A
+WO-2025062,B2025062,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,86.81,OP-rachaelclark,OP-john51,2025-03-06 01:06:04,,N/A
+WO-2025062,B2025062,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,90.27,OP-efigueroa,OP-istanton,2025-03-06 01:22:04,,N/A
+WO-2025062,B2025062,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,83.1,OP-thomas69,OP-john51,2025-03-06 02:52:04,Out of Spec,EQP005
+WO-2025062,B2025062,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,6.31,OP-thomas69,OP-garzaeric,2025-03-06 04:52:04,Out of Spec,EQP005
+WO-2025062,B2025062,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-thomas69,OP-cody37,2025-03-06 08:52:04,Completed,PKG-LINE-01
+WO-2025140,B2025140,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,70.35,OP-istanton,OP-efigueroa,2024-06-25 15:25:03,,N/A
+WO-2025140,B2025140,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,96.3,OP-dsmith,OP-efigueroa,2024-06-25 15:14:03,,N/A
+WO-2025140,B2025140,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,77.4,OP-dsmith,OP-thomas69,2024-06-25 17:01:03,Within Spec,EQP004
+WO-2025140,B2025140,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.17,OP-dsmith,OP-thomas69,2024-06-25 19:01:03,Within Spec,EQP004
+WO-2025024,B2025024,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,89.38,OP-wagnerjason,OP-kyle12,2024-07-05 19:28:11,,N/A
+WO-2025024,B2025024,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,73.44,OP-rachaelclark,OP-istanton,2024-07-05 19:33:11,,N/A
+WO-2025024,B2025024,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,79.6,OP-dsmith,OP-dsmith,2024-07-05 21:23:11,Within Spec,EQP006
+WO-2025024,B2025024,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.24,OP-dsmith,OP-rachaelclark,2024-07-05 23:23:11,Within Spec,EQP006
+WO-2025145,B2025145,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,56.91,OP-john51,,2024-07-02 14:45:07,,N/A
+WO-2025145,B2025145,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,78.31,OP-istanton,OP-cody37,2024-07-02 14:40:07,,N/A
+WO-2025145,B2025145,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,79.2,OP-cody37,OP-thomas69,2024-07-02 16:31:07,Within Spec,EQP006
+WO-2025145,B2025145,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,7.33,OP-cody37,OP-kyle12,2024-07-02 18:31:07,Within Spec,EQP006
+WO-2025169,B2025169,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,72.51,OP-cody37,,2024-12-23 13:49:51,,N/A
+WO-2025169,B2025169,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,71.02,OP-thomas69,OP-john51,2024-12-23 13:39:51,,N/A
+WO-2025169,B2025169,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,82.1,OP-hoffmanalvin,OP-cramos,2024-12-23 15:30:51,Out of Spec,EQP001
+WO-2025169,B2025169,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.43,OP-hoffmanalvin,OP-garzaeric,2024-12-23 17:30:51,Out of Spec,EQP001
+WO-2025002,B2025002,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,97.87,OP-garzaeric,OP-wagnerjason,2025-05-04 08:46:06,,N/A
+WO-2025002,B2025002,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,84.91,OP-dsmith,OP-hoffmanalvin,2025-05-04 08:59:06,,N/A
+WO-2025002,B2025002,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,95.42,OP-cramos,OP-kyle12,2025-05-04 08:53:06,,N/A
+WO-2025002,B2025002,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,76.8,OP-wagnerjason,OP-wagnerjason,2025-05-04 10:30:06,Within Spec,EQP004
+WO-2025002,B2025002,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.42,OP-wagnerjason,OP-john51,2025-05-04 12:30:06,Out of Spec,EQP004
+WO-2025051,B2025051,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,75.25,OP-rachaelclark,OP-garzaeric,2024-10-13 23:19:08,,N/A
+WO-2025051,B2025051,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,53.36,OP-cody37,OP-hoffmanalvin,2024-10-13 23:19:08,,N/A
+WO-2025051,B2025051,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,84.5,OP-cody37,OP-kyle12,2024-10-14 00:55:08,Out of Spec,EQP001
+WO-2025051,B2025051,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,7.55,OP-cody37,OP-dana45,2024-10-14 02:55:08,Out of Spec,EQP001
+WO-2025192,B2025192,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,89.84,OP-kyle12,OP-dsmith,2025-06-09 21:07:37,,N/A
+WO-2025192,B2025192,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,95.65,OP-garzaeric,OP-hoffmanalvin,2025-06-09 21:08:37,,N/A
+WO-2025192,B2025192,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,69.15,OP-dsmith,OP-cody37,2025-06-09 20:52:37,,N/A
+WO-2025192,B2025192,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,73.0,OP-dana45,OP-hoffmanalvin,2025-06-09 22:44:37,Within Spec,EQP005
+WO-2025192,B2025192,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,7.23,OP-dana45,OP-garzaeric,2025-06-10 00:44:37,Within Spec,EQP005
+WO-2025202,B2025202,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,86.97,OP-cody37,OP-rachaelclark,2025-05-16 19:31:21,,N/A
+WO-2025202,B2025202,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,63.25,OP-john51,OP-cody37,2025-05-16 19:19:21,,N/A
+WO-2025202,B2025202,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,80.7,OP-istanton,OP-john51,2025-05-16 21:09:21,Out of Spec,EQP007
+WO-2025202,B2025202,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,7.47,OP-istanton,OP-cramos,2025-05-16 23:09:21,Within Spec,EQP007
+WO-2025202,B2025202,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-istanton,OP-cramos,2025-05-17 03:09:21,Completed,PKG-LINE-01
+WO-2025048,B2025048,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,58.03,OP-wagnerjason,OP-cody37,2025-06-15 20:53:34,,N/A
+WO-2025048,B2025048,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,93.33,OP-garzaeric,OP-veronicascott,2025-06-15 20:51:34,,N/A
+WO-2025048,B2025048,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,91.78,OP-kyle12,OP-veronicascott,2025-06-15 20:58:34,,N/A
+WO-2025048,B2025048,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,77.4,OP-garzaeric,OP-istanton,2025-06-15 22:36:34,Within Spec,EQP007
+WO-2025048,B2025048,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,7.95,OP-garzaeric,OP-efigueroa,2025-06-16 00:36:34,Out of Spec,EQP007
+WO-2025084,B2025084,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,98.2,OP-cramos,OP-dana45,2024-07-22 01:49:50,,N/A
+WO-2025084,B2025084,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,50.76,OP-thomas69,OP-john51,2024-07-22 02:05:50,,N/A
+WO-2025084,B2025084,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,73.6,OP-garzaeric,OP-veronicascott,2024-07-22 03:40:50,Within Spec,EQP002
+WO-2025084,B2025084,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.37,OP-garzaeric,OP-veronicascott,2024-07-22 05:40:50,Within Spec,EQP002
+WO-2025125,B2025125,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,63.95,OP-wagnerjason,OP-cramos,2024-11-15 17:22:23,,N/A
+WO-2025125,B2025125,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,54.15,OP-wagnerjason,OP-rachaelclark,2024-11-15 17:06:23,,N/A
+WO-2025125,B2025125,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,69.95,OP-john51,OP-istanton,2024-11-15 17:26:23,,N/A
+WO-2025125,B2025125,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,76.4,OP-john51,OP-kyle12,2024-11-15 18:59:23,Within Spec,EQP002
+WO-2025125,B2025125,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.41,OP-john51,OP-efigueroa,2024-11-15 20:59:23,Out of Spec,EQP002
+WO-2025220,B2025220,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,72.8,OP-hoffmanalvin,OP-cramos,2024-07-23 00:50:04,,N/A
+WO-2025220,B2025220,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,81.51,OP-cody37,OP-dana45,2024-07-23 00:49:04,,N/A
+WO-2025220,B2025220,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,77.1,OP-cramos,OP-thomas69,2024-07-23 02:32:04,Within Spec,EQP002
+WO-2025220,B2025220,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.42,OP-cramos,OP-dana45,2024-07-23 04:32:04,Out of Spec,EQP002
+WO-2025164,B2025164,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,93.63,OP-efigueroa,OP-thomas69,2024-07-28 13:55:07,,N/A
+WO-2025164,B2025164,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,71.68,OP-dsmith,OP-efigueroa,2024-07-28 13:35:07,,N/A
+WO-2025164,B2025164,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,71.8,OP-cody37,OP-garzaeric,2024-07-28 15:26:07,Within Spec,EQP002
+WO-2025164,B2025164,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,7.58,OP-cody37,OP-istanton,2024-07-28 17:26:07,Out of Spec,EQP002
+WO-2025164,B2025164,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-cody37,OP-wagnerjason,2024-07-28 21:26:07,Completed,PKG-LINE-01
+WO-2025090,B2025090,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,57.36,OP-cramos,OP-wagnerjason,2024-12-11 15:17:03,,N/A
+WO-2025090,B2025090,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,86.84,OP-thomas69,OP-garzaeric,2024-12-11 15:17:03,,N/A
+WO-2025090,B2025090,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,82.3,OP-wagnerjason,OP-efigueroa,2024-12-11 17:01:03,Out of Spec,EQP006
+WO-2025090,B2025090,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,7.79,OP-wagnerjason,OP-cramos,2024-12-11 19:01:03,Out of Spec,EQP006
+WO-2025146,B2025146,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,72.37,OP-dana45,OP-veronicascott,2024-09-19 06:56:04,,N/A
+WO-2025146,B2025146,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,69.66,OP-cody37,OP-wagnerjason,2024-09-19 06:39:04,,N/A
+WO-2025146,B2025146,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,84.11,OP-garzaeric,OP-dsmith,2024-09-19 06:43:04,,N/A
+WO-2025146,B2025146,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,77.5,OP-cramos,OP-cody37,2024-09-19 08:32:04,Within Spec,EQP005
+WO-2025146,B2025146,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.68,OP-cramos,OP-istanton,2024-09-19 10:32:04,Out of Spec,EQP005
+WO-2025112,B2025112,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,70.6,OP-john51,OP-veronicascott,2024-11-18 22:02:15,,N/A
+WO-2025112,B2025112,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,65.25,OP-cody37,OP-thomas69,2024-11-18 21:50:15,,N/A
+WO-2025112,B2025112,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,76.5,OP-wagnerjason,OP-dana45,2024-11-18 23:45:15,Within Spec,EQP003
+WO-2025112,B2025112,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.62,OP-wagnerjason,OP-rachaelclark,2024-11-19 01:45:15,Within Spec,EQP003
+WO-2025143,B2025143,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,89.77,OP-thomas69,OP-dsmith,2025-05-23 16:14:08,,N/A
+WO-2025143,B2025143,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,92.86,OP-veronicascott,OP-dsmith,2025-05-23 16:34:08,,N/A
+WO-2025143,B2025143,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,84.4,OP-dana45,OP-hoffmanalvin,2025-05-23 18:04:08,Out of Spec,EQP002
+WO-2025143,B2025143,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.97,OP-dana45,OP-cody37,2025-05-23 20:04:08,Within Spec,EQP002
+WO-2025152,B2025152,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,68.16,OP-istanton,OP-efigueroa,2025-05-28 15:49:15,,N/A
+WO-2025152,B2025152,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,78.84,OP-wagnerjason,OP-istanton,2025-05-28 15:46:15,,N/A
+WO-2025152,B2025152,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,84.71,OP-dsmith,OP-dana45,2025-05-28 15:55:15,,N/A
+WO-2025152,B2025152,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,77.2,OP-john51,OP-wagnerjason,2025-05-28 17:36:15,Within Spec,EQP004
+WO-2025152,B2025152,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,6.72,OP-john51,OP-efigueroa,2025-05-28 19:36:15,Within Spec,EQP004
+WO-2025054,B2025054,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,76.28,OP-efigueroa,OP-cramos,2024-10-07 09:33:51,,N/A
+WO-2025054,B2025054,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,83.98,OP-cramos,OP-wagnerjason,2024-10-07 09:28:51,,N/A
+WO-2025054,B2025054,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,75.7,OP-wagnerjason,OP-veronicascott,2024-10-07 11:22:51,Within Spec,EQP005
+WO-2025054,B2025054,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.76,OP-wagnerjason,OP-rachaelclark,2024-10-07 13:22:51,Out of Spec,EQP005
+WO-2025064,B2025064,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,69.21,OP-istanton,OP-cody37,2025-03-21 00:43:52,,N/A
+WO-2025064,B2025064,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,64.77,OP-dsmith,OP-cody37,2025-03-21 00:34:52,,N/A
+WO-2025064,B2025064,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,73.7,OP-istanton,OP-kyle12,2025-03-21 02:18:52,Within Spec,EQP003
+WO-2025064,B2025064,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.1,OP-istanton,OP-john51,2025-03-21 04:18:52,Out of Spec,EQP003
+WO-2025215,B2025215,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,58.5,OP-istanton,OP-rachaelclark,2024-06-20 23:01:17,,N/A
+WO-2025215,B2025215,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,77.27,OP-garzaeric,OP-thomas69,2024-06-20 22:48:17,,N/A
+WO-2025215,B2025215,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,72.9,OP-garzaeric,OP-veronicascott,2024-06-21 00:36:17,Within Spec,EQP001
+WO-2025215,B2025215,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.31,OP-garzaeric,OP-wagnerjason,2024-06-21 02:36:17,Within Spec,EQP001
+WO-2025201,B2025201,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,75.36,OP-efigueroa,OP-kyle12,2025-05-06 13:23:27,,N/A
+WO-2025201,B2025201,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,82.82,OP-kyle12,OP-hoffmanalvin,2025-05-06 13:39:27,,N/A
+WO-2025201,B2025201,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,85.0,OP-kyle12,OP-garzaeric,2025-05-06 15:16:27,Out of Spec,EQP002
+WO-2025201,B2025201,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.53,OP-kyle12,OP-garzaeric,2025-05-06 17:16:27,Out of Spec,EQP002
+WO-2025108,B2025108,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,82.63,OP-wagnerjason,OP-istanton,2024-07-27 05:47:11,,N/A
+WO-2025108,B2025108,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,94.54,OP-istanton,OP-john51,2024-07-27 05:53:11,,N/A
+WO-2025108,B2025108,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,67.84,OP-rachaelclark,OP-dsmith,2024-07-27 05:50:11,,N/A
+WO-2025108,B2025108,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,76.3,OP-veronicascott,OP-veronicascott,2024-07-27 07:32:11,Within Spec,EQP005
+WO-2025108,B2025108,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.95,OP-veronicascott,OP-cody37,2024-07-27 09:32:11,Within Spec,EQP005
+WO-2025108,B2025108,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-veronicascott,OP-garzaeric,2024-07-27 13:32:11,Completed,PKG-LINE-01
+WO-2025142,B2025142,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,67.39,OP-dsmith,OP-john51,2024-12-25 20:59:13,,N/A
+WO-2025142,B2025142,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,69.28,OP-efigueroa,OP-wagnerjason,2024-12-25 20:48:13,,N/A
+WO-2025142,B2025142,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,71.7,OP-kyle12,OP-istanton,2024-12-25 22:32:13,Within Spec,EQP006
+WO-2025142,B2025142,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.88,OP-kyle12,OP-thomas69,2024-12-26 00:32:13,Within Spec,EQP006
+WO-2025126,B2025126,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,56.61,OP-efigueroa,OP-hoffmanalvin,2024-11-11 06:31:44,,N/A
+WO-2025126,B2025126,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,64.24,OP-istanton,,2024-11-11 06:25:44,,N/A
+WO-2025126,B2025126,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,80.3,OP-garzaeric,OP-dana45,2024-11-11 08:20:44,Out of Spec,EQP007
+WO-2025126,B2025126,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,6.14,OP-garzaeric,OP-dsmith,2024-11-11 10:20:44,Out of Spec,EQP007
+WO-2025173,B2025173,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,81.06,OP-hoffmanalvin,OP-efigueroa,2025-05-09 04:10:24,,N/A
+WO-2025173,B2025173,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,76.44,OP-cramos,OP-wagnerjason,2025-05-09 04:02:24,,N/A
+WO-2025173,B2025173,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,77.1,OP-rachaelclark,OP-hoffmanalvin,2025-05-09 05:50:24,Within Spec,EQP002
+WO-2025173,B2025173,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.3,OP-rachaelclark,OP-istanton,2025-05-09 07:50:24,Out of Spec,EQP002
+WO-2025148,B2025148,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,70.49,OP-cody37,OP-thomas69,2024-09-02 18:58:13,,N/A
+WO-2025148,B2025148,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,59.13,OP-veronicascott,OP-istanton,2024-09-02 19:04:13,,N/A
+WO-2025148,B2025148,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,71.26,OP-garzaeric,OP-veronicascott,2024-09-02 19:05:13,,N/A
+WO-2025148,B2025148,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,83.2,OP-dana45,OP-efigueroa,2024-09-02 20:50:13,Out of Spec,EQP003
+WO-2025148,B2025148,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,7.06,OP-dana45,OP-garzaeric,2024-09-02 22:50:13,Within Spec,EQP003
+WO-2025148,B2025148,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-dana45,OP-dsmith,2024-09-03 02:50:13,Completed,PKG-LINE-01
+WO-2025006,B2025006,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,97.37,OP-cody37,OP-kyle12,2024-09-08 18:43:33,,N/A
+WO-2025006,B2025006,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,65.76,OP-john51,OP-veronicascott,2024-09-08 18:58:33,,N/A
+WO-2025006,B2025006,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,63.08,OP-cody37,OP-veronicascott,2024-09-08 18:52:33,,N/A
+WO-2025006,B2025006,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,77.3,OP-cody37,OP-dana45,2024-09-08 20:33:33,Within Spec,EQP002
+WO-2025006,B2025006,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.23,OP-cody37,OP-dana45,2024-09-08 22:33:33,Out of Spec,EQP002
+WO-2025198,B2025198,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,62.73,OP-veronicascott,OP-thomas69,2024-11-04 10:31:43,,N/A
+WO-2025198,B2025198,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,73.55,OP-rachaelclark,OP-istanton,2024-11-04 10:06:43,,N/A
+WO-2025198,B2025198,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,77.4,OP-cody37,OP-istanton,2024-11-04 12:01:43,Within Spec,EQP004
+WO-2025198,B2025198,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.38,OP-cody37,OP-dana45,2024-11-04 14:01:43,Out of Spec,EQP004
+WO-2025039,B2025039,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,88.14,OP-cramos,OP-istanton,2024-08-27 13:03:06,,N/A
+WO-2025039,B2025039,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,97.79,OP-thomas69,OP-cody37,2024-08-27 13:04:06,,N/A
+WO-2025039,B2025039,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,71.03,OP-john51,OP-thomas69,2024-08-27 13:09:06,,N/A
+WO-2025039,B2025039,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,81.0,OP-wagnerjason,OP-dsmith,2024-08-27 14:41:06,Out of Spec,EQP006
+WO-2025039,B2025039,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.15,OP-wagnerjason,OP-cramos,2024-08-27 16:41:06,Within Spec,EQP006
+WO-2025101,B2025101,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,64.08,OP-wagnerjason,OP-veronicascott,2025-06-14 21:51:04,,N/A
+WO-2025101,B2025101,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,62.91,OP-dsmith,OP-veronicascott,2025-06-14 21:56:04,,N/A
+WO-2025101,B2025101,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,61.91,OP-istanton,OP-efigueroa,2025-06-14 21:54:04,,N/A
+WO-2025101,B2025101,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,81.1,OP-rachaelclark,OP-veronicascott,2025-06-14 23:28:04,Out of Spec,EQP005
+WO-2025101,B2025101,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,6.95,OP-rachaelclark,OP-hoffmanalvin,2025-06-15 01:28:04,Within Spec,EQP005
+WO-2025190,B2025190,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,56.09,OP-thomas69,OP-istanton,2025-03-06 17:48:59,,N/A
+WO-2025190,B2025190,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,75.3,OP-kyle12,OP-john51,2025-03-06 17:52:59,,N/A
+WO-2025190,B2025190,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,51.73,OP-thomas69,OP-efigueroa,2025-03-06 17:56:59,,N/A
+WO-2025190,B2025190,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,77.0,OP-rachaelclark,OP-istanton,2025-03-06 19:28:59,Within Spec,EQP004
+WO-2025190,B2025190,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.29,OP-rachaelclark,OP-cody37,2025-03-06 21:28:59,Out of Spec,EQP004
+WO-2025149,B2025149,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,71.86,OP-veronicascott,OP-kyle12,2025-03-27 17:49:14,,N/A
+WO-2025149,B2025149,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,92.95,OP-garzaeric,OP-cody37,2025-03-27 17:40:14,,N/A
+WO-2025149,B2025149,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,97.23,OP-john51,OP-efigueroa,2025-03-27 17:46:14,,N/A
+WO-2025149,B2025149,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,78.6,OP-hoffmanalvin,OP-efigueroa,2025-03-27 19:33:14,Within Spec,EQP003
+WO-2025149,B2025149,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,6.83,OP-hoffmanalvin,OP-dsmith,2025-03-27 21:33:14,Within Spec,EQP003
+WO-2025057,B2025057,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,85.04,OP-dana45,OP-rachaelclark,2024-10-06 19:58:15,,N/A
+WO-2025057,B2025057,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,53.14,OP-dsmith,OP-thomas69,2024-10-06 20:04:15,,N/A
+WO-2025057,B2025057,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,53.65,OP-hoffmanalvin,OP-istanton,2024-10-06 20:00:15,,N/A
+WO-2025057,B2025057,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,77.2,OP-dana45,OP-dana45,2024-10-06 21:50:15,Within Spec,EQP002
+WO-2025057,B2025057,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.24,OP-dana45,OP-dsmith,2024-10-06 23:50:15,Out of Spec,EQP002
+WO-2025147,B2025147,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,87.91,OP-garzaeric,OP-efigueroa,2025-03-25 06:00:39,,N/A
+WO-2025147,B2025147,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,66.51,OP-istanton,OP-garzaeric,2025-03-25 06:03:39,,N/A
+WO-2025147,B2025147,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,77.8,OP-cody37,OP-thomas69,2025-03-25 07:33:39,Within Spec,EQP007
+WO-2025147,B2025147,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.28,OP-cody37,OP-dana45,2025-03-25 09:33:39,Out of Spec,EQP007
+WO-2025166,B2025166,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,69.8,OP-hoffmanalvin,OP-thomas69,2024-10-29 12:10:58,,N/A
+WO-2025166,B2025166,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,93.29,OP-cramos,OP-garzaeric,2024-10-29 12:08:58,,N/A
+WO-2025166,B2025166,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,70.3,OP-garzaeric,OP-veronicascott,2024-10-29 13:44:58,Within Spec,EQP004
+WO-2025166,B2025166,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,7.54,OP-garzaeric,OP-thomas69,2024-10-29 15:44:58,Out of Spec,EQP004
+WO-2025166,B2025166,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-garzaeric,OP-istanton,2024-10-29 19:44:58,Completed,PKG-LINE-01
+WO-2025097,B2025097,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,98.68,OP-efigueroa,OP-rachaelclark,2024-11-25 18:18:26,,N/A
+WO-2025097,B2025097,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,61.24,OP-kyle12,OP-efigueroa,2024-11-25 18:07:26,,N/A
+WO-2025097,B2025097,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,82.57,OP-rachaelclark,OP-cramos,2024-11-25 18:18:26,,N/A
+WO-2025097,B2025097,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,78.1,OP-istanton,OP-efigueroa,2024-11-25 19:56:26,Within Spec,EQP006
+WO-2025097,B2025097,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.29,OP-istanton,OP-cody37,2024-11-25 21:56:26,Out of Spec,EQP006
+WO-2025047,B2025047,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,61.6,OP-rachaelclark,OP-kyle12,2025-04-09 01:31:44,,N/A
+WO-2025047,B2025047,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,58.74,OP-hoffmanalvin,OP-istanton,2025-04-09 01:33:44,,N/A
+WO-2025047,B2025047,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,78.4,OP-efigueroa,OP-thomas69,2025-04-09 03:08:44,Within Spec,EQP004
+WO-2025047,B2025047,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.27,OP-efigueroa,OP-john51,2025-04-09 05:08:44,Out of Spec,EQP004
+WO-2025021,B2025021,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,86.33,OP-veronicascott,OP-cramos,2025-03-18 03:03:41,,N/A
+WO-2025021,B2025021,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,99.36,OP-efigueroa,OP-cody37,2025-03-18 03:03:41,,N/A
+WO-2025021,B2025021,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,73.88,OP-dana45,OP-cramos,2025-03-18 03:07:41,,N/A
+WO-2025021,B2025021,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,82.3,OP-cramos,OP-dana45,2025-03-18 04:46:41,Out of Spec,EQP003
+WO-2025021,B2025021,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.34,OP-cramos,OP-cody37,2025-03-18 06:46:41,Out of Spec,EQP003
+WO-2025021,B2025021,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-cramos,OP-dana45,2025-03-18 10:46:41,Completed,PKG-LINE-01
+WO-2025041,B2025041,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,87.18,OP-hoffmanalvin,OP-garzaeric,2024-08-10 00:07:00,,N/A
+WO-2025041,B2025041,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,75.66,OP-dsmith,OP-wagnerjason,2024-08-10 00:01:00,,N/A
+WO-2025041,B2025041,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,74.0,OP-dana45,OP-cramos,2024-08-10 01:37:00,Within Spec,EQP006
+WO-2025041,B2025041,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.23,OP-dana45,OP-wagnerjason,2024-08-10 03:37:00,Out of Spec,EQP006
+WO-2025041,B2025041,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-dana45,OP-hoffmanalvin,2024-08-10 07:37:00,Completed,PKG-LINE-01
+WO-2025212,B2025212,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,83.96,OP-dana45,OP-kyle12,2024-11-01 22:29:00,,N/A
+WO-2025212,B2025212,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,95.27,OP-hoffmanalvin,OP-veronicascott,2024-11-01 22:11:00,,N/A
+WO-2025212,B2025212,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,77.8,OP-dana45,OP-kyle12,2024-11-02 00:02:00,Within Spec,EQP007
+WO-2025212,B2025212,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.2,OP-dana45,OP-dana45,2024-11-02 02:02:00,Out of Spec,EQP007
+WO-2025118,B2025118,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,58.91,OP-cody37,OP-john51,2025-05-14 12:15:59,,N/A
+WO-2025118,B2025118,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,69.75,OP-hoffmanalvin,OP-dsmith,2025-05-14 12:11:59,,N/A
+WO-2025118,B2025118,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,51.06,OP-rachaelclark,OP-garzaeric,2025-05-14 11:57:59,,N/A
+WO-2025118,B2025118,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,78.3,OP-garzaeric,OP-cody37,2025-05-14 13:48:59,Within Spec,EQP007
+WO-2025118,B2025118,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.09,OP-garzaeric,OP-thomas69,2025-05-14 15:48:59,Out of Spec,EQP007
+WO-2025076,B2025076,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,50.26,OP-rachaelclark,OP-kyle12,2025-04-26 21:04:16,,N/A
+WO-2025076,B2025076,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,98.06,OP-john51,OP-wagnerjason,2025-04-26 20:54:16,,N/A
+WO-2025076,B2025076,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,82.73,OP-cramos,OP-veronicascott,2025-04-26 21:13:16,,N/A
+WO-2025076,B2025076,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,78.8,OP-istanton,OP-cody37,2025-04-26 22:43:16,Within Spec,EQP005
+WO-2025076,B2025076,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,7.02,OP-istanton,OP-cramos,2025-04-27 00:43:16,Within Spec,EQP005
+WO-2025031,B2025031,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,70.27,OP-efigueroa,OP-garzaeric,2025-03-07 23:11:59,,N/A
+WO-2025031,B2025031,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,84.19,OP-dsmith,OP-wagnerjason,2025-03-07 23:05:59,,N/A
+WO-2025031,B2025031,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,84.8,OP-hoffmanalvin,OP-rachaelclark,2025-03-08 00:59:59,Out of Spec,EQP002
+WO-2025031,B2025031,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,6.59,OP-hoffmanalvin,OP-veronicascott,2025-03-08 02:59:59,Within Spec,EQP002
+WO-2025031,B2025031,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-hoffmanalvin,OP-rachaelclark,2025-03-08 06:59:59,Completed,PKG-LINE-01
+WO-2025122,B2025122,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,90.35,OP-garzaeric,OP-dana45,2024-10-24 09:09:54,,N/A
+WO-2025122,B2025122,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,94.85,OP-efigueroa,OP-dsmith,2024-10-24 09:12:54,,N/A
+WO-2025122,B2025122,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,80.5,OP-garzaeric,OP-rachaelclark,2024-10-24 10:42:54,Out of Spec,EQP002
+WO-2025122,B2025122,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,7.75,OP-garzaeric,OP-cramos,2024-10-24 12:42:54,Out of Spec,EQP002
+WO-2025122,B2025122,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-garzaeric,OP-hoffmanalvin,2024-10-24 16:42:54,Completed,PKG-LINE-01
+WO-2025216,B2025216,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,96.68,OP-thomas69,OP-dsmith,2024-11-25 08:40:16,,N/A
+WO-2025216,B2025216,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,56.84,OP-istanton,OP-cody37,2024-11-25 08:45:16,,N/A
+WO-2025216,B2025216,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,59.94,OP-efigueroa,OP-wagnerjason,2024-11-25 08:56:16,,N/A
+WO-2025216,B2025216,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,80.3,OP-dana45,OP-kyle12,2024-11-25 10:26:16,Out of Spec,EQP001
+WO-2025216,B2025216,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,7.57,OP-dana45,OP-john51,2024-11-25 12:26:16,Out of Spec,EQP001
+WO-2025070,B2025070,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,76.94,OP-cody37,OP-cramos,2024-08-24 01:54:44,,N/A
+WO-2025070,B2025070,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,68.48,OP-rachaelclark,OP-thomas69,2024-08-24 02:14:44,,N/A
+WO-2025070,B2025070,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,79.7,OP-istanton,OP-cramos,2024-08-24 03:44:44,Within Spec,EQP007
+WO-2025070,B2025070,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.34,OP-istanton,OP-dana45,2024-08-24 05:44:44,Out of Spec,EQP007
+WO-2025155,B2025155,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,70.79,OP-istanton,OP-kyle12,2024-09-16 09:21:05,,N/A
+WO-2025155,B2025155,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,55.53,OP-dana45,OP-john51,2024-09-16 09:32:05,,N/A
+WO-2025155,B2025155,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,50.6,OP-dsmith,OP-wagnerjason,2024-09-16 09:23:05,,N/A
+WO-2025155,B2025155,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,78.3,OP-hoffmanalvin,OP-veronicascott,2024-09-16 11:13:05,Within Spec,EQP003
+WO-2025155,B2025155,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.08,OP-hoffmanalvin,OP-john51,2024-09-16 13:13:05,Within Spec,EQP003
+WO-2025020,B2025020,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,72.35,OP-hoffmanalvin,OP-wagnerjason,2025-04-20 01:38:03,,N/A
+WO-2025020,B2025020,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,65.11,OP-hoffmanalvin,OP-cramos,2025-04-20 01:50:03,,N/A
+WO-2025020,B2025020,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,73.2,OP-kyle12,OP-thomas69,2025-04-20 01:30:03,,N/A
+WO-2025020,B2025020,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,78.7,OP-cody37,OP-thomas69,2025-04-20 03:21:03,Within Spec,EQP006
+WO-2025020,B2025020,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.11,OP-cody37,OP-kyle12,2025-04-20 05:21:03,Out of Spec,EQP006
+WO-2025032,B2025032,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,61.31,OP-cody37,OP-dana45,2025-02-17 13:09:13,,N/A
+WO-2025032,B2025032,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,81.08,OP-john51,OP-rachaelclark,2025-02-17 13:25:13,,N/A
+WO-2025032,B2025032,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,78.2,OP-thomas69,OP-cody37,2025-02-17 14:56:13,Within Spec,EQP006
+WO-2025032,B2025032,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.14,OP-thomas69,OP-john51,2025-02-17 16:56:13,Out of Spec,EQP006
+WO-2025017,B2025017,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,94.3,OP-cramos,OP-efigueroa,2024-12-10 14:46:43,,N/A
+WO-2025017,B2025017,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,81.14,OP-garzaeric,OP-cramos,2024-12-10 14:42:43,,N/A
+WO-2025017,B2025017,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,54.34,OP-cramos,OP-hoffmanalvin,2024-12-10 14:55:43,,N/A
+WO-2025017,B2025017,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,83.2,OP-cody37,OP-garzaeric,2024-12-10 16:37:43,Out of Spec,EQP002
+WO-2025017,B2025017,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,6.01,OP-cody37,OP-istanton,2024-12-10 18:37:43,Out of Spec,EQP002
+WO-2025061,B2025061,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,60.86,OP-cody37,OP-garzaeric,2025-05-12 06:57:46,,N/A
+WO-2025061,B2025061,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,71.13,OP-veronicascott,OP-wagnerjason,2025-05-12 06:48:46,,N/A
+WO-2025061,B2025061,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,57.18,OP-hoffmanalvin,OP-thomas69,2025-05-12 06:49:46,,N/A
+WO-2025061,B2025061,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,84.8,OP-dsmith,OP-cramos,2025-05-12 08:35:46,Out of Spec,EQP001
+WO-2025061,B2025061,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.84,OP-dsmith,OP-garzaeric,2025-05-12 10:35:46,Within Spec,EQP001
+WO-2025045,B2025045,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,99.97,OP-cody37,OP-garzaeric,2024-07-17 03:11:47,,N/A
+WO-2025045,B2025045,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,94.78,OP-dsmith,OP-istanton,2024-07-17 03:20:47,,N/A
+WO-2025045,B2025045,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,80.3,OP-cramos,OP-kyle12,2024-07-17 04:57:47,Out of Spec,EQP003
+WO-2025045,B2025045,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.58,OP-cramos,OP-wagnerjason,2024-07-17 06:57:47,Within Spec,EQP003
+WO-2025045,B2025045,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-cramos,OP-kyle12,2024-07-17 10:57:47,Completed,PKG-LINE-01
+WO-2025034,B2025034,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,54.79,OP-john51,OP-hoffmanalvin,2024-10-28 15:36:58,,N/A
+WO-2025034,B2025034,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,99.06,OP-dana45,OP-istanton,2024-10-28 15:21:58,,N/A
+WO-2025034,B2025034,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,78.7,OP-efigueroa,OP-cramos,2024-10-28 17:14:58,Within Spec,EQP002
+WO-2025034,B2025034,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,6.04,OP-efigueroa,OP-cramos,2024-10-28 19:14:58,Out of Spec,EQP002
+WO-2025127,B2025127,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,86.27,OP-cramos,OP-dsmith,2024-08-21 17:52:49,,N/A
+WO-2025127,B2025127,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,98.23,OP-thomas69,OP-istanton,2024-08-21 18:12:49,,N/A
+WO-2025127,B2025127,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,70.7,OP-cramos,OP-cramos,2024-08-21 19:45:49,Within Spec,EQP002
+WO-2025127,B2025127,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,7.1,OP-cramos,OP-cody37,2024-08-21 21:45:49,Within Spec,EQP002
+WO-2025156,B2025156,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,83.08,OP-efigueroa,OP-kyle12,2025-01-09 01:11:26,,N/A
+WO-2025156,B2025156,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,73.08,OP-dana45,OP-istanton,2025-01-09 01:33:26,,N/A
+WO-2025156,B2025156,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,92.3,OP-kyle12,OP-rachaelclark,2025-01-09 01:28:26,,N/A
+WO-2025156,B2025156,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,80.1,OP-cody37,OP-thomas69,2025-01-09 03:04:26,Out of Spec,EQP002
+WO-2025156,B2025156,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,6.32,OP-cody37,OP-garzaeric,2025-01-09 05:04:26,Out of Spec,EQP002
+WO-2025035,B2025035,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,89.46,OP-garzaeric,OP-hoffmanalvin,2024-12-17 04:24:36,,N/A
+WO-2025035,B2025035,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,69.96,OP-kyle12,OP-john51,2024-12-17 04:42:36,,N/A
+WO-2025035,B2025035,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,75.0,OP-cramos,OP-cody37,2024-12-17 06:12:36,Within Spec,EQP005
+WO-2025035,B2025035,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,7.39,OP-cramos,OP-cramos,2024-12-17 08:12:36,Within Spec,EQP005
+WO-2025035,B2025035,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-cramos,OP-dana45,2024-12-17 12:12:36,Completed,PKG-LINE-01
+WO-2025144,B2025144,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Coating Agent Z,MAT-003,81.16,OP-kyle12,OP-dsmith,2025-04-10 10:01:00,,N/A
+WO-2025144,B2025144,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense API-Alpha,MAT-002,78.48,OP-hoffmanalvin,OP-dsmith,2025-04-10 10:06:00,,N/A
+WO-2025144,B2025144,PROD-004,RECIPE-PROD-004-V2,Dispensing,Dispense Excipient X,MAT-001,70.75,OP-dana45,,2025-04-10 09:52:00,,N/A
+WO-2025144,B2025144,PROD-004,RECIPE-PROD-004-V2,Manufacturing,Heating Step,Temperature,70.4,OP-cody37,OP-hoffmanalvin,2025-04-10 11:38:00,Within Spec,EQP002
+WO-2025144,B2025144,PROD-004,RECIPE-PROD-004-V2,Manufacturing,pH Adjustment,pH,6.82,OP-cody37,OP-wagnerjason,2025-04-10 13:38:00,Within Spec,EQP002
+WO-2025144,B2025144,Product D,RECIPE-PROD-004-V2,Packaging,Final Label Check,Label Verification,Pass,OP-cody37,OP-istanton,2025-04-10 17:38:00,Completed,PKG-LINE-01
+WO-2025050,B2025050,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,67.96,OP-kyle12,,2024-10-24 03:07:14,,N/A
+WO-2025050,B2025050,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,58.69,OP-cody37,,2024-10-24 03:10:14,,N/A
+WO-2025050,B2025050,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,78.9,OP-dsmith,OP-dsmith,2024-10-24 04:48:14,Within Spec,EQP007
+WO-2025050,B2025050,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.12,OP-dsmith,OP-john51,2024-10-24 06:48:14,Out of Spec,EQP007
+WO-2025030,B2025030,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,74.66,OP-wagnerjason,OP-john51,2024-12-18 16:20:56,,N/A
+WO-2025030,B2025030,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,65.51,OP-thomas69,OP-cody37,2024-12-18 16:19:56,,N/A
+WO-2025030,B2025030,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,71.3,OP-efigueroa,OP-hoffmanalvin,2024-12-18 18:02:56,Within Spec,EQP001
+WO-2025030,B2025030,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.55,OP-efigueroa,OP-rachaelclark,2024-12-18 20:02:56,Within Spec,EQP001
+WO-2025187,B2025187,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,75.26,OP-thomas69,OP-john51,2024-10-18 16:24:44,,N/A
+WO-2025187,B2025187,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,71.36,OP-rachaelclark,OP-cody37,2024-10-18 16:37:44,,N/A
+WO-2025187,B2025187,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,82.8,OP-hoffmanalvin,OP-efigueroa,2024-10-18 18:19:44,Out of Spec,EQP006
+WO-2025187,B2025187,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.48,OP-hoffmanalvin,OP-veronicascott,2024-10-18 20:19:44,Within Spec,EQP006
+WO-2025204,B2025204,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,96.29,OP-kyle12,,2024-08-22 06:55:36,,N/A
+WO-2025204,B2025204,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,68.5,OP-rachaelclark,OP-veronicascott,2024-08-22 07:03:36,,N/A
+WO-2025204,B2025204,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,79.1,OP-garzaeric,OP-kyle12,2024-08-22 08:45:36,Within Spec,EQP004
+WO-2025204,B2025204,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.32,OP-garzaeric,OP-rachaelclark,2024-08-22 10:45:36,Within Spec,EQP004
+WO-2025096,B2025096,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,80.42,OP-kyle12,,2024-11-15 22:26:38,,N/A
+WO-2025096,B2025096,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,94.59,OP-thomas69,OP-kyle12,2024-11-15 22:08:38,,N/A
+WO-2025096,B2025096,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,70.7,OP-wagnerjason,OP-rachaelclark,2024-11-15 23:56:38,Within Spec,EQP003
+WO-2025096,B2025096,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.59,OP-wagnerjason,OP-kyle12,2024-11-16 01:56:38,Within Spec,EQP003
+WO-2025096,B2025096,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-wagnerjason,OP-dana45,2024-11-16 05:56:38,Completed,PKG-LINE-01
+WO-2025195,B2025195,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,57.57,OP-garzaeric,OP-rachaelclark,2024-11-21 17:16:03,,N/A
+WO-2025195,B2025195,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,81.77,OP-wagnerjason,OP-dana45,2024-11-21 17:17:03,,N/A
+WO-2025195,B2025195,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,80.4,OP-kyle12,OP-wagnerjason,2024-11-21 19:04:03,Out of Spec,EQP004
+WO-2025195,B2025195,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,6.11,OP-kyle12,OP-kyle12,2024-11-21 21:04:03,Out of Spec,EQP004
+WO-2025104,B2025104,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,77.56,OP-istanton,OP-wagnerjason,2024-11-01 02:57:41,,N/A
+WO-2025104,B2025104,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Coating Agent Z,MAT-003,88.01,OP-cody37,OP-garzaeric,2024-11-01 03:06:41,,N/A
+WO-2025104,B2025104,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,85.37,OP-rachaelclark,OP-efigueroa,2024-11-01 02:50:41,,N/A
+WO-2025104,B2025104,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,83.7,OP-dana45,OP-kyle12,2024-11-01 04:36:41,Out of Spec,EQP003
+WO-2025104,B2025104,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.43,OP-dana45,OP-istanton,2024-11-01 06:36:41,Out of Spec,EQP003
+WO-2025104,B2025104,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-dana45,OP-dsmith,2024-11-01 10:36:41,Completed,PKG-LINE-01
+WO-2025196,B2025196,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,86.0,OP-dana45,OP-istanton,2024-08-01 12:29:38,,N/A
+WO-2025196,B2025196,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,76.95,OP-efigueroa,OP-veronicascott,2024-08-01 12:39:38,,N/A
+WO-2025196,B2025196,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,63.52,OP-rachaelclark,OP-hoffmanalvin,2024-08-01 12:22:38,,N/A
+WO-2025196,B2025196,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,78.3,OP-kyle12,OP-veronicascott,2024-08-01 14:10:38,Within Spec,EQP006
+WO-2025196,B2025196,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.16,OP-kyle12,OP-wagnerjason,2024-08-01 16:10:38,Out of Spec,EQP006
+WO-2025168,B2025168,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,96.11,OP-rachaelclark,OP-veronicascott,2024-10-31 08:26:27,,N/A
+WO-2025168,B2025168,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,55.21,OP-rachaelclark,OP-cramos,2024-10-31 08:33:27,,N/A
+WO-2025168,B2025168,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,92.31,OP-istanton,,2024-10-31 08:41:27,,N/A
+WO-2025168,B2025168,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,79.8,OP-dsmith,OP-hoffmanalvin,2024-10-31 10:16:27,Within Spec,EQP002
+WO-2025168,B2025168,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,7.62,OP-dsmith,OP-efigueroa,2024-10-31 12:16:27,Out of Spec,EQP002
+WO-2025069,B2025069,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,62.8,OP-john51,,2024-12-06 17:34:04,,N/A
+WO-2025069,B2025069,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,51.65,OP-hoffmanalvin,OP-garzaeric,2024-12-06 17:41:04,,N/A
+WO-2025069,B2025069,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,84.3,OP-cody37,OP-hoffmanalvin,2024-12-06 19:20:04,Out of Spec,EQP004
+WO-2025069,B2025069,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.79,OP-cody37,OP-rachaelclark,2024-12-06 21:20:04,Within Spec,EQP004
+WO-2025037,B2025037,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,60.36,OP-john51,OP-dsmith,2024-06-20 06:18:36,,N/A
+WO-2025037,B2025037,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,92.83,OP-veronicascott,OP-dana45,2024-06-20 06:41:36,,N/A
+WO-2025037,B2025037,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,80.99,OP-efigueroa,OP-kyle12,2024-06-20 06:21:36,,N/A
+WO-2025037,B2025037,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,82.1,OP-dana45,OP-istanton,2024-06-20 08:12:36,Out of Spec,EQP005
+WO-2025037,B2025037,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,6.81,OP-dana45,OP-efigueroa,2024-06-20 10:12:36,Within Spec,EQP005
+WO-2025174,B2025174,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense API-Alpha,MAT-002,58.44,OP-wagnerjason,OP-cody37,2024-09-28 23:43:09,,N/A
+WO-2025174,B2025174,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,97.59,OP-wagnerjason,OP-efigueroa,2024-09-28 23:39:09,,N/A
+WO-2025174,B2025174,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,83.7,OP-john51,OP-hoffmanalvin,2024-09-29 01:22:09,Out of Spec,EQP003
+WO-2025174,B2025174,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,7.97,OP-john51,OP-thomas69,2024-09-29 03:22:09,Out of Spec,EQP003
+WO-2025170,B2025170,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,77.83,OP-dana45,OP-istanton,2024-07-29 19:47:30,,N/A
+WO-2025170,B2025170,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,99.35,OP-thomas69,OP-istanton,2024-07-29 19:53:30,,N/A
+WO-2025170,B2025170,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,79.1,OP-dana45,OP-john51,2024-07-29 21:23:30,Within Spec,EQP002
+WO-2025170,B2025170,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.01,OP-dana45,OP-rachaelclark,2024-07-29 23:23:30,Out of Spec,EQP002
+WO-2025209,B2025209,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,60.67,OP-rachaelclark,OP-istanton,2025-03-16 04:01:11,,N/A
+WO-2025209,B2025209,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,74.54,OP-kyle12,OP-thomas69,2025-03-16 03:54:11,,N/A
+WO-2025209,B2025209,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,51.63,OP-rachaelclark,,2025-03-16 04:03:11,,N/A
+WO-2025209,B2025209,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,75.9,OP-cramos,OP-cody37,2025-03-16 05:34:11,Within Spec,EQP001
+WO-2025209,B2025209,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.15,OP-cramos,OP-kyle12,2025-03-16 07:34:11,Out of Spec,EQP001
+WO-2025005,B2025005,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,87.08,OP-cody37,OP-cramos,2024-08-21 11:21:21,,N/A
+WO-2025005,B2025005,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,52.41,OP-efigueroa,,2024-08-21 11:24:21,,N/A
+WO-2025005,B2025005,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,86.92,OP-efigueroa,OP-cramos,2024-08-21 11:16:21,,N/A
+WO-2025005,B2025005,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,83.8,OP-rachaelclark,OP-garzaeric,2024-08-21 12:57:21,Out of Spec,EQP006
+WO-2025005,B2025005,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.73,OP-rachaelclark,OP-hoffmanalvin,2024-08-21 14:57:21,Out of Spec,EQP006
+WO-2025105,B2025105,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense API-Alpha,MAT-002,68.95,OP-rachaelclark,OP-efigueroa,2024-06-24 18:42:21,,N/A
+WO-2025105,B2025105,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,57.87,OP-hoffmanalvin,OP-veronicascott,2024-06-24 18:56:21,,N/A
+WO-2025105,B2025105,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,71.24,OP-cramos,OP-hoffmanalvin,2024-06-24 18:48:21,,N/A
+WO-2025105,B2025105,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,79.1,OP-veronicascott,OP-john51,2024-06-24 20:34:21,Within Spec,EQP007
+WO-2025105,B2025105,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.03,OP-veronicascott,OP-thomas69,2024-06-24 22:34:21,Out of Spec,EQP007
+WO-2025060,B2025060,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,92.08,OP-rachaelclark,OP-hoffmanalvin,2025-03-07 19:33:51,,N/A
+WO-2025060,B2025060,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,97.96,OP-john51,OP-hoffmanalvin,2025-03-07 19:53:51,,N/A
+WO-2025060,B2025060,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,84.99,OP-wagnerjason,OP-kyle12,2025-03-07 19:51:51,,N/A
+WO-2025060,B2025060,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,78.5,OP-veronicascott,OP-istanton,2025-03-07 21:26:51,Within Spec,EQP005
+WO-2025060,B2025060,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,6.49,OP-veronicascott,OP-cody37,2025-03-07 23:26:51,Out of Spec,EQP005
+WO-2025141,B2025141,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,82.42,OP-veronicascott,OP-dsmith,2025-05-18 07:00:58,,N/A
+WO-2025141,B2025141,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,84.41,OP-dana45,OP-dsmith,2025-05-18 07:03:58,,N/A
+WO-2025141,B2025141,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,75.0,OP-cody37,OP-john51,2025-05-18 08:37:58,Within Spec,EQP002
+WO-2025141,B2025141,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,6.37,OP-cody37,OP-dsmith,2025-05-18 10:37:58,Out of Spec,EQP002
+WO-2025211,B2025211,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,76.02,OP-rachaelclark,OP-kyle12,2025-04-13 05:18:56,,N/A
+WO-2025211,B2025211,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,67.79,OP-thomas69,OP-rachaelclark,2025-04-13 05:19:56,,N/A
+WO-2025211,B2025211,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,72.6,OP-kyle12,OP-kyle12,2025-04-13 06:56:56,Within Spec,EQP004
+WO-2025211,B2025211,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,7.91,OP-kyle12,OP-garzaeric,2025-04-13 08:56:56,Out of Spec,EQP004
+WO-2025086,B2025086,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,64.74,OP-john51,OP-thomas69,2024-07-19 04:20:44,,N/A
+WO-2025086,B2025086,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,65.84,OP-veronicascott,OP-dsmith,2024-07-19 04:42:44,,N/A
+WO-2025086,B2025086,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,80.5,OP-wagnerjason,OP-istanton,2024-07-19 06:13:44,Out of Spec,EQP001
+WO-2025086,B2025086,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,7.68,OP-wagnerjason,OP-istanton,2024-07-19 08:13:44,Out of Spec,EQP001
+WO-2025036,B2025036,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,66.78,OP-thomas69,OP-john51,2025-01-06 10:08:00,,N/A
+WO-2025036,B2025036,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,91.81,OP-dana45,OP-cramos,2025-01-06 10:04:00,,N/A
+WO-2025036,B2025036,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,76.7,OP-thomas69,OP-cody37,2025-01-06 11:46:00,Within Spec,EQP001
+WO-2025036,B2025036,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,7.58,OP-thomas69,OP-istanton,2025-01-06 13:46:00,Out of Spec,EQP001
+WO-2025036,B2025036,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-thomas69,OP-istanton,2025-01-06 17:46:00,Completed,PKG-LINE-01
+WO-2025067,B2025067,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,50.97,OP-veronicascott,OP-cody37,2025-04-25 13:49:43,,N/A
+WO-2025067,B2025067,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,64.55,OP-thomas69,OP-cody37,2025-04-25 13:50:43,,N/A
+WO-2025067,B2025067,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,75.7,OP-rachaelclark,OP-dana45,2025-04-25 15:35:43,Within Spec,EQP001
+WO-2025067,B2025067,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,6.75,OP-rachaelclark,OP-kyle12,2025-04-25 17:35:43,Within Spec,EQP001
+WO-2025177,B2025177,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense API-Alpha,MAT-002,62.36,OP-veronicascott,OP-hoffmanalvin,2025-02-02 03:05:48,,N/A
+WO-2025177,B2025177,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Excipient X,MAT-001,70.21,OP-veronicascott,OP-cramos,2025-02-02 03:00:48,,N/A
+WO-2025177,B2025177,PROD-001,RECIPE-PROD-001-V2,Dispensing,Dispense Coating Agent Z,MAT-003,87.68,OP-veronicascott,OP-wagnerjason,2025-02-02 03:04:48,,N/A
+WO-2025177,B2025177,PROD-001,RECIPE-PROD-001-V2,Manufacturing,Heating Step,Temperature,78.5,OP-wagnerjason,OP-istanton,2025-02-02 04:50:48,Within Spec,EQP006
+WO-2025177,B2025177,PROD-001,RECIPE-PROD-001-V2,Manufacturing,pH Adjustment,pH,6.15,OP-wagnerjason,OP-cody37,2025-02-02 06:50:48,Out of Spec,EQP006
+WO-2025203,B2025203,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Coating Agent Z,MAT-003,66.88,OP-efigueroa,OP-kyle12,2024-12-28 01:37:25,,N/A
+WO-2025203,B2025203,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,98.22,OP-thomas69,OP-dana45,2024-12-28 01:34:25,,N/A
+WO-2025203,B2025203,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,62.83,OP-hoffmanalvin,OP-thomas69,2024-12-28 01:48:25,,N/A
+WO-2025203,B2025203,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,78.3,OP-hoffmanalvin,OP-hoffmanalvin,2024-12-28 03:25:25,Within Spec,EQP006
+WO-2025203,B2025203,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,6.26,OP-hoffmanalvin,OP-garzaeric,2024-12-28 05:25:25,Out of Spec,EQP006
+WO-2025109,B2025109,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Excipient X,MAT-001,71.17,OP-thomas69,OP-rachaelclark,2025-05-01 22:14:53,,N/A
+WO-2025109,B2025109,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense Coating Agent Z,MAT-003,83.16,OP-istanton,OP-cody37,2025-05-01 22:02:53,,N/A
+WO-2025109,B2025109,PROD-004,RECIPE-PROD-004-V3,Dispensing,Dispense API-Alpha,MAT-002,63.39,OP-wagnerjason,OP-veronicascott,2025-05-01 22:04:53,,N/A
+WO-2025109,B2025109,PROD-004,RECIPE-PROD-004-V3,Manufacturing,Heating Step,Temperature,83.2,OP-kyle12,OP-rachaelclark,2025-05-01 23:48:53,Out of Spec,EQP002
+WO-2025109,B2025109,PROD-004,RECIPE-PROD-004-V3,Manufacturing,pH Adjustment,pH,7.86,OP-kyle12,OP-istanton,2025-05-02 01:48:53,Out of Spec,EQP002
+WO-2025109,B2025109,Product D,RECIPE-PROD-004-V3,Packaging,Final Label Check,Label Verification,Pass,OP-kyle12,OP-kyle12,2025-05-02 05:48:53,Completed,PKG-LINE-01
+WO-2025073,B2025073,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Excipient X,MAT-001,90.1,OP-cramos,OP-veronicascott,2025-03-23 09:41:30,,N/A
+WO-2025073,B2025073,PROD-003,RECIPE-PROD-003-V1,Dispensing,Dispense Coating Agent Z,MAT-003,78.01,OP-john51,OP-cramos,2025-03-23 09:44:30,,N/A
+WO-2025073,B2025073,PROD-003,RECIPE-PROD-003-V1,Manufacturing,Heating Step,Temperature,72.2,OP-thomas69,OP-efigueroa,2025-03-23 11:16:30,Within Spec,EQP002
+WO-2025073,B2025073,PROD-003,RECIPE-PROD-003-V1,Manufacturing,pH Adjustment,pH,7.38,OP-thomas69,OP-wagnerjason,2025-03-23 13:16:30,Within Spec,EQP002
+WO-2025089,B2025089,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Excipient X,MAT-001,98.75,OP-hoffmanalvin,OP-john51,2025-03-11 06:20:13,,N/A
+WO-2025089,B2025089,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense Coating Agent Z,MAT-003,50.77,OP-dsmith,OP-wagnerjason,2025-03-11 06:27:13,,N/A
+WO-2025089,B2025089,PROD-003,RECIPE-PROD-003-V3,Dispensing,Dispense API-Alpha,MAT-002,57.4,OP-cramos,OP-hoffmanalvin,2025-03-11 06:16:13,,N/A
+WO-2025089,B2025089,PROD-003,RECIPE-PROD-003-V3,Manufacturing,Heating Step,Temperature,73.7,OP-kyle12,OP-cramos,2025-03-11 08:10:13,Within Spec,EQP006
+WO-2025089,B2025089,PROD-003,RECIPE-PROD-003-V3,Manufacturing,pH Adjustment,pH,6.57,OP-kyle12,OP-hoffmanalvin,2025-03-11 10:10:13,Within Spec,EQP006
+WO-2025119,B2025119,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,93.33,OP-cody37,OP-thomas69,2024-12-08 14:22:50,,N/A
+WO-2025119,B2025119,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,84.21,OP-dana45,OP-hoffmanalvin,2024-12-08 13:59:50,,N/A
+WO-2025119,B2025119,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,82.0,OP-garzaeric,OP-garzaeric,2024-12-08 15:52:50,Out of Spec,EQP001
+WO-2025119,B2025119,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,7.83,OP-garzaeric,OP-cramos,2024-12-08 17:52:50,Out of Spec,EQP001
+WO-2025162,B2025162,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense Excipient X,MAT-001,74.4,OP-veronicascott,OP-thomas69,2025-02-01 05:28:19,,N/A
+WO-2025162,B2025162,PROD-004,RECIPE-PROD-004-V1,Dispensing,Dispense API-Alpha,MAT-002,92.67,OP-garzaeric,OP-cramos,2025-02-01 05:42:19,,N/A
+WO-2025162,B2025162,PROD-004,RECIPE-PROD-004-V1,Manufacturing,Heating Step,Temperature,84.8,OP-cramos,OP-dana45,2025-02-01 07:15:19,Out of Spec,EQP002
+WO-2025162,B2025162,PROD-004,RECIPE-PROD-004-V1,Manufacturing,pH Adjustment,pH,6.8,OP-cramos,OP-john51,2025-02-01 09:15:19,Within Spec,EQP002
+WO-2025162,B2025162,Product D,RECIPE-PROD-004-V1,Packaging,Final Label Check,Label Verification,Pass,OP-cramos,OP-john51,2025-02-01 13:15:19,Completed,PKG-LINE-01
+WO-2025138,B2025138,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense API-Alpha,MAT-002,75.42,OP-cody37,OP-john51,2025-02-11 02:02:49,,N/A
+WO-2025138,B2025138,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,68.27,OP-cramos,OP-john51,2025-02-11 02:12:49,,N/A
+WO-2025138,B2025138,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,78.8,OP-dsmith,OP-efigueroa,2025-02-11 03:54:49,Within Spec,EQP004
+WO-2025138,B2025138,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,6.86,OP-dsmith,OP-dsmith,2025-02-11 05:54:49,Within Spec,EQP004
+WO-2025100,B2025100,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,50.81,OP-istanton,,2024-09-24 09:28:02,,N/A
+WO-2025100,B2025100,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Coating Agent Z,MAT-003,97.79,OP-thomas69,OP-dsmith,2024-09-24 09:26:02,,N/A
+WO-2025100,B2025100,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,76.3,OP-istanton,OP-veronicascott,2024-09-24 11:16:02,Within Spec,EQP007
+WO-2025100,B2025100,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,7.4,OP-istanton,OP-wagnerjason,2024-09-24 13:16:02,Within Spec,EQP007
+WO-2025012,B2025012,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense API-Alpha,MAT-002,99.38,OP-kyle12,OP-cramos,2024-09-10 14:42:49,,N/A
+WO-2025012,B2025012,PROD-002,RECIPE-PROD-002-V2,Dispensing,Dispense Excipient X,MAT-001,70.35,OP-hoffmanalvin,OP-cramos,2024-09-10 14:45:49,,N/A
+WO-2025012,B2025012,PROD-002,RECIPE-PROD-002-V2,Manufacturing,Heating Step,Temperature,74.9,OP-dana45,OP-garzaeric,2024-09-10 16:35:49,Within Spec,EQP001
+WO-2025012,B2025012,PROD-002,RECIPE-PROD-002-V2,Manufacturing,pH Adjustment,pH,7.24,OP-dana45,OP-garzaeric,2024-09-10 18:35:49,Within Spec,EQP001
+WO-2025163,B2025163,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Excipient X,MAT-001,63.33,OP-cramos,OP-wagnerjason,2025-01-03 23:32:47,,N/A
+WO-2025163,B2025163,PROD-002,RECIPE-PROD-002-V3,Dispensing,Dispense Coating Agent Z,MAT-003,66.29,OP-rachaelclark,OP-dsmith,2025-01-03 23:50:47,,N/A
+WO-2025163,B2025163,PROD-002,RECIPE-PROD-002-V3,Manufacturing,Heating Step,Temperature,77.8,OP-cramos,OP-efigueroa,2025-01-04 01:24:47,Within Spec,EQP006
+WO-2025163,B2025163,PROD-002,RECIPE-PROD-002-V3,Manufacturing,pH Adjustment,pH,6.85,OP-cramos,OP-garzaeric,2025-01-04 03:24:47,Within Spec,EQP006
+WO-2025157,B2025157,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Coating Agent Z,MAT-003,98.69,OP-kyle12,OP-john51,2024-10-05 22:40:20,,N/A
+WO-2025157,B2025157,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense API-Alpha,MAT-002,67.85,OP-thomas69,OP-dana45,2024-10-05 22:24:20,,N/A
+WO-2025157,B2025157,PROD-001,RECIPE-PROD-001-V1,Dispensing,Dispense Excipient X,MAT-001,88.48,OP-dsmith,OP-john51,2024-10-05 22:45:20,,N/A
+WO-2025157,B2025157,PROD-001,RECIPE-PROD-001-V1,Manufacturing,Heating Step,Temperature,79.4,OP-rachaelclark,OP-wagnerjason,2024-10-06 00:15:20,Within Spec,EQP007
+WO-2025157,B2025157,PROD-001,RECIPE-PROD-001-V1,Manufacturing,pH Adjustment,pH,6.03,OP-rachaelclark,OP-hoffmanalvin,2024-10-06 02:15:20,Out of Spec,EQP007
+WO-2025200,B2025200,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense API-Alpha,MAT-002,99.61,OP-hoffmanalvin,,2024-07-28 01:29:55,,N/A
+WO-2025200,B2025200,PROD-003,RECIPE-PROD-003-V2,Dispensing,Dispense Excipient X,MAT-001,82.28,OP-cramos,OP-john51,2024-07-28 01:27:55,,N/A
+WO-2025200,B2025200,PROD-003,RECIPE-PROD-003-V2,Manufacturing,Heating Step,Temperature,78.4,OP-efigueroa,OP-cody37,2024-07-28 03:09:55,Within Spec,EQP004
+WO-2025200,B2025200,PROD-003,RECIPE-PROD-003-V2,Manufacturing,pH Adjustment,pH,7.69,OP-efigueroa,OP-john51,2024-07-28 05:09:55,Out of Spec,EQP004
+WO-2025033,B2025033,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense API-Alpha,MAT-002,60.84,OP-efigueroa,OP-dsmith,2025-03-26 04:34:31,,N/A
+WO-2025033,B2025033,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Excipient X,MAT-001,83.65,OP-hoffmanalvin,OP-dana45,2025-03-26 04:17:31,,N/A
+WO-2025033,B2025033,PROD-002,RECIPE-PROD-002-V1,Dispensing,Dispense Coating Agent Z,MAT-003,69.46,OP-veronicascott,OP-cody37,2025-03-26 04:24:31,,N/A
+WO-2025033,B2025033,PROD-002,RECIPE-PROD-002-V1,Manufacturing,Heating Step,Temperature,70.5,OP-john51,OP-kyle12,2025-03-26 06:07:31,Within Spec,EQP004
+WO-2025033,B2025033,PROD-002,RECIPE-PROD-002-V1,Manufacturing,pH Adjustment,pH,6.71,OP-john51,OP-dana45,2025-03-26 08:07:31,Within Spec,EQP004
+WO-2025093,B2025093,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Excipient X,MAT-001,60.63,OP-wagnerjason,OP-kyle12,2025-01-17 00:15:59,,N/A
+WO-2025093,B2025093,PROD-001,RECIPE-PROD-001-V3,Dispensing,Dispense Coating Agent Z,MAT-003,80.66,OP-efigueroa,OP-rachaelclark,2025-01-17 00:12:59,,N/A
+WO-2025093,B2025093,PROD-001,RECIPE-PROD-001-V3,Manufacturing,Heating Step,Temperature,79.0,OP-istanton,OP-dsmith,2025-01-17 02:03:59,Within Spec,EQP006
+WO-2025093,B2025093,PROD-001,RECIPE-PROD-001-V3,Manufacturing,pH Adjustment,pH,6.09,OP-istanton,OP-cody37,2025-01-17 04:03:59,Out of Spec,EQP006

@@ -1,0 +1,101 @@
+Deviation_ID,Batch_ID,Product_Name,Deviation_Open_Date,Deviation_Description,Root_Cause_Identified,CAPA_Required,CAPA_ID,Deviation_Status,Closure_Date
+DEV001,B024,ProductC,2023-11-04,There official space apply cause yourself interest mother.,No,Yes,CAPA001,Open,
+DEV002,B025,ProductB,2024-08-28,Decide collection spring month window minute design win.,Yes,Yes,CAPA002,Pending Investigation,
+DEV003,B093,ProductC,2024-07-22,Since movie goal world thank answer together newspaper.,No,Yes,CAPA003,Open,
+DEV004,B049,ProductB,2025-05-22,Pay audience usually return hundred five site maybe sort guess water.,Pending,No,,Closed,2025-06-15
+DEV005,B037,ProductC,2025-05-09,Maybe class get fill happen help simply new field order time.,Pending,Yes,CAPA004,Pending Investigation,
+DEV006,B082,ProductC,2023-09-19,Either full whom day suggest tend.,Pending,Yes,CAPA005,Open,
+DEV007,B061,ProductB,2023-11-10,Floor child big property that international scene however push choice house especially.,Yes,Yes,CAPA006,Pending Investigation,
+DEV008,B047,Product D,2023-08-17,Argue under health hotel theory involve another.,Pending,No,,Open,
+DEV009,B125,ProductB,2025-05-25,Red data red age above pattern knowledge.,No,No,,Closed,2025-06-04
+DEV010,B043,ProductB,2024-07-03,History decide everyone ask center race late international along student.,Yes,No,,Open,
+DEV011,B149,ProductA,2024-11-08,Republican take keep drug throw myself tough way may.,Pending,No,,Closed,2024-11-30
+DEV012,B067,ProductB,2025-04-07,Most tell city risk possible range.,Pending,Yes,,Closed,2025-04-09
+DEV013,B004,Product D,2025-05-26,Watch girl during response commercial quickly such collection.,No,No,,Closed,2025-06-16
+DEV014,B129,ProductB,2024-07-13,Open wife return again question management development east own worry.,Pending,Yes,CAPA007,Pending Investigation,
+DEV015,B081,ProductB,2023-11-30,Know song tax owner nation eight person event kid parent chance.,No,No,,Closed,2024-01-15
+DEV016,B022,ProductA,2024-06-13,Indicate onto life piece his choice particular dream car husband.,Yes,No,,Open,
+DEV017,B146,ProductC,2025-04-27,Whose phone vote prevent manage cell policy probably capital wall half away machine turn quickly four read.,Yes,Yes,CAPA008,Closed,2025-05-09
+DEV018,B047,ProductC,2024-07-25,Maintain live commercial manager sell majority avoid nearly picture law culture should best mission these thus commercial.,Pending,No,,Open,
+DEV019,B018,Product D,2023-11-09,Girl always something learn indeed run person game organization indicate would.,No,No,,Open,
+DEV020,B031,Product D,2023-09-14,Teach arm message century into position season number.,Pending,Yes,CAPA009,Pending Investigation,
+DEV021,B126,ProductA,2023-10-09,Institution artist international personal bad learn bed.,No,Yes,CAPA010,Open,
+DEV022,B032,ProductA,2024-04-29,Should can goal clearly those direction role because think.,Yes,Yes,,Closed,2024-05-19
+DEV023,B009,ProductA,2024-01-17,Wait threat professor court mean operation.,Pending,No,,Pending Investigation,
+DEV024,B014,ProductA,2024-02-05,Rate order doctor beat Mrs structure four brother ground similar common.,Yes,Yes,CAPA011,Closed,2024-02-14
+DEV025,B023,ProductB,2024-02-12,Official woman fish indeed figure shoulder yet begin involve.,Yes,Yes,CAPA012,Pending Investigation,
+DEV026,B032,ProductA,2023-08-15,Good pass institution sense improve key third.,No,No,,Pending Investigation,
+DEV027,B032,ProductB,2024-12-06,Personal author car hand box partner middle film.,No,Yes,CAPA013,Open,
+DEV028,B140,Product D,2024-01-19,Letter provide partner throughout tree something phone order pressure marriage black international at blue green suggest rise.,No,No,,Open,
+DEV029,B049,ProductA,2024-01-06,Arm write play here somebody.,Pending,No,,Open,
+DEV030,B136,ProductC,2023-11-20,Thing both reduce owner firm anyone available.,Yes,Yes,CAPA014,Open,
+DEV031,B080,ProductB,2024-08-12,Skill kitchen voice gas strong race start outside rock back.,Pending,Yes,CAPA015,Open,
+DEV032,B079,ProductA,2023-09-19,Agreement discussion impact knowledge look thing describe attention game floor.,Yes,Yes,CAPA016,Open,
+DEV033,B002,Product B,2023-12-12,Play affect newspaper follow thousand public cup be threat.,Pending,Yes,,Pending Investigation,
+DEV034,B093,Product D,2023-06-30,Majority authority myself may population type fight find three expert pass.,Yes,Yes,CAPA017,Open,
+DEV035,B006,Product D,2024-05-26,OOS result for purity test LIMS_S012 for batch B006,Yes,Yes,CAPA004,Open,
+DEV036,B071,Product D,2023-11-15,School answer dog notice type culture.,Pending,Yes,CAPA019,Pending Investigation,
+DEV037,B032,ProductA,2023-10-18,Current want decide drive foreign pressure sure.,Yes,Yes,CAPA020,Open,
+DEV038,B062,Product D,2024-08-18,Design bill again people east but drug article music study local black.,Pending,Yes,CAPA021,Closed,2024-08-30
+DEV039,B131,ProductB,2024-07-05,Baby air pick impact common.,Yes,Yes,CAPA022,Closed,2024-07-12
+DEV040,B131,ProductC,2025-04-07,Suddenly radio huge data go common rich.,Yes,Yes,CAPA023,Open,
+DEV041,B048,ProductB,2024-04-16,Threat staff care summer news line again we play thought four.,Pending,No,,Open,
+DEV042,B049,Product D,2024-06-18,Able fire senior still player century.,Pending,Yes,CAPA024,Closed,2024-06-23
+DEV043,B077,ProductC,2024-07-12,Fight traditional night million.,Yes,No,,Pending Investigation,
+DEV044,B077,ProductB,2024-01-14,May charge scene.,No,Yes,CAPA025,Open,
+DEV045,B138,ProductC,2024-12-08,Maintain service difference practice none south impact nice blood investment size better.,Pending,Yes,CAPA026,Open,
+DEV046,B103,ProductA,2025-03-31,Land great particularly news executive how or debate.,Yes,Yes,CAPA027,Open,
+DEV047,B117,ProductC,2024-05-21,Word be could car final.,Pending,Yes,CAPA028,Open,
+DEV048,B141,Product D,2023-12-17,Reason table glass pass positive cup member get use strong almost second which shoulder his memory wear indicate suggest.,No,No,,Open,
+DEV049,B055,ProductB,2024-03-21,Peace require public issue main anyone seem through however community office guy.,Yes,Yes,CAPA029,Closed,2024-04-11
+DEV050,B060,ProductA,2025-04-19,Only professional everybody deep huge employee range today over.,No,Yes,CAPA030,Pending Investigation,
+DEV051,B069,ProductA,2024-12-24,Fear energy power machine will director sea there treatment public.,No,No,,Open,
+DEV052,B007,Product D,2023-12-12,Process parameter CPP1 exceeded limit in MES for batch B007,Yes,No,,Pending Investigation,
+DEV053,B021,ProductA,2023-09-21,Building relationship reflect others artist strong community majority treat movie hotel.,No,No,,Pending Investigation,
+DEV054,B064,ProductB,2024-04-05,Have safe anyone not middle movement budget Mr expert house already memory her.,No,No,,Pending Investigation,
+DEV055,B018,ProductB,2023-07-26,Management center onto move physical series go opportunity us else commercial.,No,No,,Pending Investigation,
+DEV056,B021,ProductC,2024-07-30,Majority last head source happy lose single road.,Pending,Yes,,Open,
+DEV057,B005,Product D,2023-08-10,Garden response partner write perform say land.,Yes,No,,Open,
+DEV058,B097,ProductC,2023-11-06,Owner them national forward culture human.,Yes,Yes,CAPA032,Open,
+DEV059,B059,ProductC,2025-02-25,At tree morning class where myself develop wear realize piece suddenly religious board already day.,No,No,,Pending Investigation,
+DEV060,B099,ProductB,2025-01-26,Form black executive every tend describe itself accept type floor.,Yes,No,,Pending Investigation,
+DEV061,B103,ProductB,2024-06-07,Woman word develop it per understand case.,Pending,No,,Closed,2024-06-16
+DEV062,B007,ProductC,2024-05-02,Process parameter CPP1 exceeded limit in MES for batch B007,Yes,No,,Pending Investigation,
+DEV063,B095,ProductC,2024-11-25,Mrs ask letter work yet leg address cell they chance yet control success simply face.,No,No,,Open,
+DEV064,B067,ProductA,2023-08-05,Lawyer ground sport success seven office those develop fast draw home.,No,No,,Pending Investigation,
+DEV065,B071,ProductC,2025-06-04,Prevent knowledge offer lead government like decade decide statement move none ready.,Yes,No,,Pending Investigation,
+DEV066,B076,ProductB,2024-05-07,Scientist cut area force machine wall tree loss author.,Yes,No,,Open,
+DEV067,B024,ProductB,2025-02-17,Successful debate theory answer clear important drug laugh site since raise put effect.,No,Yes,CAPA034,Closed,2025-02-21
+DEV068,B107,Product D,2023-10-01,Much identify civil glass heavy write tend outside too crime agree.,Pending,No,,Closed,2023-10-20
+DEV069,B079,ProductA,2024-07-01,Long include yes important hand civil girl beat event.,Yes,Yes,CAPA035,Pending Investigation,
+DEV070,B037,Product D,2024-03-29,Daughter truth that.,No,Yes,CAPA036,Open,
+DEV071,B126,ProductA,2024-05-20,Form camera practice you improve wrong.,No,Yes,CAPA037,Closed,2024-05-24
+DEV072,B119,Product D,2024-11-13,Nor career suddenly Republican treatment positive.,No,No,,Closed,2025-01-08
+DEV073,B066,Product D,2024-01-22,Question task choose above law image.,Yes,Yes,CAPA038,Closed,2024-02-09
+DEV074,B150,ProductB,2023-12-02,Black be recent kid piece still performance everyone then writer school word build.,Yes,Yes,CAPA039,Pending Investigation,
+DEV075,B083,Product D,2023-10-17,Pick rate mean time enter stage wear admit model soon couple into scene fall same affect cup claim.,Pending,No,,Closed,2023-11-14
+DEV076,B093,Product D,2023-09-16,Blood onto ok only difference author country peace that outside writer plan down suddenly write design.,Yes,No,,Pending Investigation,
+DEV077,B070,ProductB,2025-03-05,Significant game animal arrive set the.,Pending,Yes,CAPA040,Open,
+DEV078,B119,ProductB,2024-08-17,Civil near reality everybody bar inside actually attention guy side campaign show build region customer young husband.,Yes,No,,Closed,2024-09-11
+DEV079,B076,ProductA,2023-07-23,Week red chance idea anyone eat show.,Pending,Yes,CAPA041,Pending Investigation,
+DEV080,B133,ProductB,2023-07-10,Executive tough natural itself executive turn piece official including set fall financial billion little.,Pending,No,,Pending Investigation,
+DEV081,B012,Product D,2024-12-24,Quickly use inside his much action church need deep professional government experience probably forward crime day.,No,Yes,CAPA042,Pending Investigation,
+DEV082,B066,ProductB,2024-11-30,Dark young so name past too investment film military spring clearly fill also choose budget these.,Yes,No,,Pending Investigation,
+DEV083,B022,ProductB,2024-04-09,Natural turn several ask wear.,No,Yes,CAPA043,Pending Investigation,
+DEV084,B037,ProductA,2024-03-30,Where reflect control attack growth time yet.,Pending,Yes,,Closed,2024-05-13
+DEV085,B013,ProductC,2025-02-05,Team position attention imagine choice matter join hope.,Yes,Yes,CAPA044,Pending Investigation,
+DEV086,B124,ProductA,2024-04-22,Talk body hotel argue everything respond day.,No,No,,Pending Investigation,
+DEV087,B075,ProductB,2024-12-18,Until experience mind rather education number almost yard can suggest plan right economic power above realize difference no style threat.,No,No,,Open,
+DEV088,B035,ProductB,2023-07-19,Democrat long oil serious account around here meeting all check.,Pending,No,,Pending Investigation,
+DEV089,B126,ProductB,2025-02-18,Figure court today brother citizen term perform figure investment return.,No,Yes,CAPA045,Closed,2025-03-13
+DEV090,B148,ProductB,2025-05-16,Might understand blood manage adult increase base where bring shoulder city.,No,Yes,CAPA046,Pending Investigation,
+DEV091,B045,ProductA,2025-03-15,Know easy fight television sort other maybe sometimes cover take commercial religious moment.,No,Yes,CAPA047,Open,
+DEV092,B144,ProductC,2025-05-07,Eight later successful management chair already leave challenge near agent year position myself value girl.,Pending,Yes,CAPA048,Pending Investigation,
+DEV093,B102,Product D,2025-01-27,Experience national station pay life activity remember eight toward response.,No,No,,Pending Investigation,
+DEV094,B105,ProductB,2023-11-09,Floor follow present senior feel data born next rich still hour.,No,No,,Open,
+DEV095,B099,Product D,2025-01-16,Still poor she here center consider choose wife three.,Pending,No,,Closed,2025-02-19
+DEV096,B068,ProductB,2024-03-13,Case him first adult meet low offer hour evidence.,Pending,Yes,CAPA049,Pending Investigation,
+DEV097,B001,ProductC,2024-09-03,Open each unit radio treat machine issue interest test.,No,Yes,,Closed,2024-09-07
+DEV098,B050,Product D,2025-03-03,Five event fast store message research.,Yes,Yes,CAPA050,Open,
+DEV099,B077,ProductA,2024-08-06,Deal huge among toward full inside material party building himself.,No,Yes,CAPA051,Pending Investigation,
+DEV100,B049,ProductC,2023-07-05,Prevent camera economy moment nor visit share it.,Pending,No,,Open,

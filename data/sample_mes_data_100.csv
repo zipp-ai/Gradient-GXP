@@ -1,0 +1,101 @@
+Batch_ID,Product_Name,Manufacturing_Start_Timestamp,Manufacturing_End_Timestamp,Equipment_ID,Operator_ID,CPP1_Name,CPP1_Value,CPP1_UOM,CPP1_Status,CPP2_Name,CPP2_Value,CPP2_UOM,CPP2_Status,Yield_Kg,Batch_Status,Linked_Deviation_ID
+B144,ProductC,2024-12-01 04:16:18.371603,2024-12-01 10:59:18.371603,EQP005,OP001,Temperature,72.4,C,Within Spec,MixingSpeed,301,RPM,Within Spec,,In Progress,
+B076,ProductB,2025-06-10 16:58:30.686171,2025-06-11 02:33:30.686171,EQP002,OP002,Temperature,72.1,C,Within Spec,MixingSpeed,307,RPM,Within Spec,,In Progress,
+B032,ProductB,2024-11-16 21:00:11.282091,2024-11-17 07:34:11.282091,EQP002,OP004,Temperature,71.8,C,Within Spec,MixingSpeed,299,RPM,Within Spec,,In Progress,
+B095,Product D,2025-04-14 18:25:32.202536,2025-04-15 07:02:32.202536,EQP002,OP003,Temperature,72.3,C,Within Spec,MixingSpeed,282,RPM,Out of Spec,,Rejected,DEV039
+B066,ProductA,2025-06-03 21:19:08.848984,2025-06-04 08:32:08.848984,EQP002,OP007,Temperature,81.8,C,Out of Spec,MixingSpeed,304,RPM,Within Spec,,Hold,DEV038
+B009,ProductA,2025-04-16 05:21:11.009235,2025-04-16 17:20:11.009235,EQP001,OP005,Temperature,75.3,C,Within Spec,MixingSpeed,299,RPM,Within Spec,,Completed,
+B087,Product D,2024-10-15 01:18:33.222418,2024-10-15 09:16:33.222418,EQP002,OP005,Temperature,78.1,C,Within Spec,MixingSpeed,292,RPM,Within Spec,,In Progress,
+B110,Product D,2024-10-25 04:08:25.627435,2024-10-25 10:24:25.627435,EQP002,OP006,Temperature,74.1,C,Within Spec,MixingSpeed,290,RPM,Within Spec,,Completed,
+B099,ProductA,2024-07-01 17:18:22.168657,2024-07-01 23:43:22.168657,EQP002,OP005,Temperature,80.9,C,Out of Spec,MixingSpeed,282,RPM,Out of Spec,,Hold,DEV062
+B035,ProductB,2024-10-18 16:24:43.412265,2024-10-19 00:10:43.412265,EQP002,OP010,Temperature,75.2,C,Within Spec,MixingSpeed,303,RPM,Within Spec,,Completed,
+B120,ProductC,2025-05-31 06:32:41.251141,2025-05-31 17:45:41.251141,EQP005,OP009,Temperature,72.1,C,Within Spec,MixingSpeed,299,RPM,Within Spec,85.9,Completed,
+B023,ProductB,2024-07-06 08:07:08.896307,2024-07-06 15:24:08.896307,EQP004,OP002,Temperature,83.1,C,Out of Spec,MixingSpeed,295,RPM,Within Spec,85.8,Rejected,DEV058
+B015,ProductA,2025-04-15 16:48:32.533436,2025-04-16 04:42:32.533436,EQP002,OP007,Temperature,70.3,C,Within Spec,MixingSpeed,299,RPM,Within Spec,96.4,In Progress,
+B037,Product D,2025-02-09 10:04:52.265936,2025-02-09 19:58:52.265936,EQP002,OP004,Temperature,84.9,C,Out of Spec,MixingSpeed,292,RPM,Within Spec,89.4,Rejected,DEV009
+B089,ProductA,2024-12-09 12:08:00.329921,2024-12-09 22:20:00.329921,EQP001,OP003,Temperature,74.8,C,Within Spec,MixingSpeed,282,RPM,Out of Spec,95.3,Rejected,
+B138,ProductA,2024-11-07 14:07:56.077119,2024-11-07 23:59:56.077119,EQP004,OP009,Temperature,75.1,C,Within Spec,MixingSpeed,299,RPM,Within Spec,90.7,In Progress,
+B020,ProductA,2024-12-28 23:44:20.767168,2024-12-29 05:44:20.767168,EQP001,OP005,Temperature,75.4,C,Within Spec,MixingSpeed,295,RPM,Within Spec,87.4,Completed,
+B130,Product D,2025-02-28 15:03:53.403799,2025-03-01 02:45:53.403799,EQP002,OP003,Temperature,76.5,C,Within Spec,MixingSpeed,283,RPM,Out of Spec,92.8,Rejected,
+B139,ProductB,2024-10-03 21:58:54.338394,2024-10-04 08:57:54.338394,EQP002,OP008,Temperature,81.5,C,Out of Spec,MixingSpeed,315,RPM,Out of Spec,90.2,Rejected,DEV021
+B090,Product D,2025-02-05 17:33:59.284359,2025-02-06 01:52:59.284359,EQP002,OP002,Temperature,82.8,C,Out of Spec,MixingSpeed,304,RPM,Within Spec,85.1,Rejected,
+B021,ProductC,2025-01-26 02:48:52.460588,2025-01-26 10:10:52.460588,EQP005,OP007,Temperature,78.2,C,Within Spec,MixingSpeed,288,RPM,Out of Spec,85.6,Hold,
+B034,ProductA,2024-11-26 16:13:49.752340,2024-11-26 22:41:49.752340,EQP002,OP005,Temperature,83.5,C,Out of Spec,MixingSpeed,295,RPM,Within Spec,95.5,Hold,
+B109,Product D,2024-12-11 02:36:14.453845,2024-12-11 09:08:14.453845,EQP005,OP009,Temperature,79.5,C,Within Spec,MixingSpeed,297,RPM,Within Spec,92.5,In Progress,
+B108,Product D,2025-04-23 14:47:49.058131,2025-04-23 23:09:49.058131,EQP001,OP001,Temperature,80.0,C,Within Spec,MixingSpeed,307,RPM,Within Spec,95.7,Completed,
+B146,ProductA,2024-10-17 16:11:22.504792,2024-10-18 04:42:22.504792,EQP001,OP001,Temperature,75.5,C,Within Spec,MixingSpeed,307,RPM,Within Spec,97.2,Completed,
+B028,Product D,2024-07-30 18:19:15.741519,2024-07-31 07:03:15.741519,EQP002,OP005,Temperature,80.2,C,Out of Spec,MixingSpeed,313,RPM,Out of Spec,85.7,Hold,DEV050
+B099,ProductA,2025-06-04 19:16:33.223982,2025-06-05 06:33:33.223982,EQP002,OP001,Temperature,79.7,C,Within Spec,MixingSpeed,301,RPM,Within Spec,88.5,Completed,
+B067,Product D,2025-01-06 23:22:58.333775,2025-01-07 05:55:58.333775,EQP002,OP001,Temperature,81.9,C,Out of Spec,MixingSpeed,291,RPM,Within Spec,92.4,Rejected,DEV027
+B126,ProductA,2024-09-27 03:15:21.451929,2024-09-27 11:18:21.451929,EQP002,OP001,Temperature,70.4,C,Within Spec,MixingSpeed,298,RPM,Within Spec,91.3,Completed,
+B050,ProductC,2024-08-01 18:23:39.269632,2024-08-02 02:42:39.269632,EQP005,OP002,Temperature,76.2,C,Within Spec,MixingSpeed,313,RPM,Out of Spec,86.4,Rejected,DEV025
+B072,Product D,2024-07-30 22:55:34.114032,2024-07-31 05:11:34.114032,EQP002,OP001,Temperature,74.7,C,Within Spec,MixingSpeed,296,RPM,Within Spec,99.6,Completed,
+B002,Product B,2025-01-19 03:21:26.047543,2025-01-19 12:44:26.047543,EQP002,OP003,Temperature,78.4,C,Within Spec,MixingSpeed,289,RPM,Out of Spec,91.0,Rejected,
+B010,ProductA,2024-09-24 15:32:13.101422,2024-09-24 22:53:13.101422,EQP002,OP010,Temperature,73.5,C,Within Spec,MixingSpeed,317,RPM,Out of Spec,87.0,Rejected,
+B090,Product D,2025-01-15 00:50:01.408636,2025-01-15 09:20:01.408636,EQP002,OP009,Temperature,78.7,C,Within Spec,MixingSpeed,284,RPM,Out of Spec,89.9,Rejected,
+B012,ProductC,2025-04-19 11:56:52.293340,2025-04-19 21:53:52.293340,EQP005,OP003,Temperature,70.9,C,Within Spec,MixingSpeed,310,RPM,Within Spec,89.1,Completed,
+B117,ProductC,2025-02-18 13:25:21.868669,2025-02-19 00:54:21.868669,EQP005,OP001,Temperature,76.5,C,Within Spec,MixingSpeed,286,RPM,Out of Spec,99.4,Hold,DEV085
+B085,Product D,2025-02-22 05:17:22.617954,2025-02-22 16:50:22.617954,EQP002,OP001,Temperature,70.6,C,Within Spec,MixingSpeed,298,RPM,Within Spec,96.2,In Progress,
+B077,ProductB,2025-05-19 22:07:41.983928,2025-05-20 08:16:41.983928,EQP005,OP003,Temperature,81.7,C,Out of Spec,MixingSpeed,315,RPM,Out of Spec,88.2,Hold,
+B008,ProductC,2024-12-15 21:16:32.209985,2024-12-16 09:20:32.209985,EQP005,OP001,Temperature,70.3,C,Within Spec,MixingSpeed,294,RPM,Within Spec,97.9,Completed,
+B149,ProductB,2024-07-20 23:34:55.052304,2024-07-21 06:47:55.052304,EQP002,OP010,Temperature,81.2,C,Out of Spec,MixingSpeed,298,RPM,Within Spec,92.8,Hold,DEV031
+B143,ProductB,2025-04-30 21:07:12.540824,2025-05-01 08:48:12.540824,EQP004,OP004,Temperature,84.7,C,Out of Spec,MixingSpeed,298,RPM,Within Spec,97.3,Hold,
+B095,Product D,2025-02-11 14:48:50.212270,2025-02-11 22:40:50.212270,EQP002,OP009,Temperature,78.6,C,Within Spec,MixingSpeed,300,RPM,Within Spec,90.2,In Progress,
+B067,Product D,2025-03-20 15:21:58.155316,2025-03-21 04:16:58.155316,EQP002,OP003,Temperature,80.6,C,Out of Spec,MixingSpeed,290,RPM,Within Spec,92.2,Hold,DEV027
+B129,Product D,2024-09-10 13:16:40.323043,2024-09-10 19:54:40.323043,EQP002,OP004,Temperature,74.1,C,Within Spec,MixingSpeed,296,RPM,Within Spec,93.5,Completed,
+B090,Product D,2025-02-12 07:43:10.516853,2025-02-12 15:44:10.516853,EQP002,OP010,Temperature,71.5,C,Within Spec,MixingSpeed,319,RPM,Out of Spec,87.6,Rejected,
+B140,ProductC,2024-12-08 04:05:14.464381,2024-12-08 14:53:14.464381,EQP005,OP006,Temperature,71.0,C,Within Spec,MixingSpeed,282,RPM,Out of Spec,88.2,Hold,DEV076
+B074,Product D,2024-08-31 20:49:17.926041,2024-09-01 02:50:17.926041,EQP002,OP007,Temperature,75.8,C,Within Spec,MixingSpeed,314,RPM,Out of Spec,99.5,Rejected,DEV029
+B014,Product D,2025-02-28 09:47:17.412208,2025-02-28 16:09:17.412208,EQP002,OP001,Temperature,73.1,C,Within Spec,MixingSpeed,283,RPM,Out of Spec,98.2,Rejected,DEV037
+B094,ProductA,2025-05-07 02:53:11.658419,2025-05-07 15:10:11.658419,EQP002,OP005,Temperature,78.2,C,Within Spec,MixingSpeed,319,RPM,Out of Spec,96.6,Hold,
+B084,ProductA,2025-02-02 10:13:49.360798,2025-02-02 20:01:49.360798,EQP002,OP009,Temperature,70.9,C,Within Spec,MixingSpeed,307,RPM,Within Spec,96.3,Completed,
+B064,ProductA,2024-07-31 01:43:14.768664,2024-07-31 10:04:14.768664,EQP002,OP004,Temperature,78.1,C,Within Spec,MixingSpeed,305,RPM,Within Spec,87.0,Completed,
+B026,Product D,2024-10-18 16:15:38.973311,2024-10-18 22:29:38.973311,EQP001,OP005,Temperature,70.1,C,Within Spec,MixingSpeed,295,RPM,Within Spec,86.7,Completed,
+B004,Product D,2024-06-14 08:55:18.603724,2024-06-14 16:49:18.603724,EQP002,OP003,Temperature,73.2,C,Within Spec,MixingSpeed,281,RPM,Out of Spec,89.4,Rejected,DEV073
+B024,ProductC,2024-08-26 08:07:05.977277,2024-08-26 20:44:05.977277,EQP005,OP001,Temperature,73.5,C,Within Spec,MixingSpeed,281,RPM,Out of Spec,92.9,Hold,DEV044
+B066,ProductA,2025-03-28 21:24:13.281306,2025-03-29 09:27:13.281306,EQP003,OP009,Temperature,73.9,C,Within Spec,MixingSpeed,300,RPM,Within Spec,98.7,In Progress,
+B092,ProductB,2024-11-17 06:19:51.473483,2024-11-17 14:55:51.473483,EQP002,OP005,Temperature,73.5,C,Within Spec,MixingSpeed,313,RPM,Out of Spec,87.8,Rejected,DEV074
+B092,ProductB,2024-08-31 14:14:20.483424,2024-09-01 01:14:20.483424,EQP002,OP002,Temperature,84.4,C,Out of Spec,MixingSpeed,301,RPM,Within Spec,99.2,Rejected,DEV074
+B024,ProductC,2025-02-18 18:55:23.523367,2025-02-19 07:12:23.523367,EQP005,OP004,Temperature,72.5,C,Within Spec,MixingSpeed,302,RPM,Within Spec,90.2,In Progress,
+B071,ProductB,2025-01-05 22:05:01.246286,2025-01-06 06:03:01.246286,EQP002,OP006,Temperature,71.8,C,Within Spec,MixingSpeed,298,RPM,Within Spec,92.5,Completed,
+B090,Product D,2025-05-03 12:52:20.382360,2025-05-04 01:12:20.382360,EQP002,OP008,Temperature,84.0,C,Out of Spec,MixingSpeed,302,RPM,Within Spec,87.1,Hold,DEV026
+B089,ProductA,2024-08-24 08:58:01.628040,2024-08-24 20:19:01.628040,EQP001,OP009,Temperature,76.1,C,Within Spec,MixingSpeed,294,RPM,Within Spec,89.3,Completed,
+B089,ProductA,2025-05-17 22:05:14.212900,2025-05-18 08:28:14.212900,EQP002,OP001,Temperature,73.3,C,Within Spec,MixingSpeed,299,RPM,Within Spec,93.7,In Progress,
+B033,Product D,2025-01-26 01:49:08.786105,2025-01-26 11:14:08.786105,EQP002,OP009,Temperature,80.7,C,Out of Spec,MixingSpeed,294,RPM,Within Spec,87.7,Rejected,
+B040,ProductB,2024-12-22 08:39:48.979074,2024-12-22 20:18:48.979074,EQP002,OP006,Temperature,80.0,C,Within Spec,MixingSpeed,315,RPM,Out of Spec,98.0,Rejected,DEV045
+B030,ProductA,2025-02-19 23:33:58.198490,2025-02-20 08:53:58.198490,EQP001,OP010,Temperature,75.8,C,Within Spec,MixingSpeed,312,RPM,Out of Spec,95.0,Hold,
+B013,ProductB,2025-02-22 07:45:26.077291,2025-02-22 18:39:26.077291,EQP002,OP004,Temperature,82.1,C,Out of Spec,MixingSpeed,301,RPM,Within Spec,96.4,Hold,DEV012
+B024,ProductC,2024-06-13 04:49:23.272607,2024-06-13 12:00:23.272607,EQP005,OP008,Temperature,80.2,C,Out of Spec,MixingSpeed,301,RPM,Within Spec,89.6,Rejected,DEV044
+B131,ProductB,2025-05-29 11:38:48.627713,2025-05-29 20:22:48.627713,EQP002,OP006,Temperature,70.2,C,Within Spec,MixingSpeed,298,RPM,Within Spec,87.9,Completed,
+B064,ProductA,2025-05-11 04:00:14.551990,2025-05-11 12:44:14.551990,EQP002,OP005,Temperature,80.0,C,Within Spec,MixingSpeed,285,RPM,Out of Spec,92.5,Rejected,DEV083
+B090,Product D,2025-01-23 15:37:02.211323,2025-01-24 02:18:02.211323,EQP002,OP010,Temperature,80.4,C,Out of Spec,MixingSpeed,317,RPM,Out of Spec,99.1,Hold,DEV026
+B071,ProductB,2025-04-05 20:16:05.323085,2025-04-06 04:57:05.323085,EQP005,OP002,Temperature,77.9,C,Within Spec,MixingSpeed,295,RPM,Within Spec,89.0,Completed,
+B040,ProductB,2025-02-05 09:27:03.691658,2025-02-05 17:58:03.691658,EQP005,OP002,Temperature,77.2,C,Within Spec,MixingSpeed,306,RPM,Within Spec,92.2,In Progress,
+B090,Product D,2024-11-13 05:37:55.044302,2024-11-13 16:56:55.044302,EQP002,OP006,Temperature,73.0,C,Within Spec,MixingSpeed,310,RPM,Within Spec,93.0,Completed,
+B006,Product D,2024-11-28 23:24:55.919193,2024-11-29 12:20:55.919193,EQP003,OP004,Temperature,72.5,C,Within Spec,MixingSpeed,308,RPM,Within Spec,99.1,Completed,
+B083,ProductB,2025-01-14 09:28:38.446754,2025-01-14 17:04:38.446754,EQP005,OP010,Temperature,82.5,C,Out of Spec,MixingSpeed,307,RPM,Within Spec,93.5,Hold,
+B052,ProductA,2025-04-17 18:44:08.676585,2025-04-18 01:30:08.676585,EQP002,OP005,Temperature,82.5,C,Out of Spec,MixingSpeed,312,RPM,Out of Spec,97.7,Hold,
+B005,ProductB,2024-11-11 04:49:21.207810,2024-11-11 15:24:21.207810,EQP002,OP008,Temperature,78.6,C,Within Spec,MixingSpeed,285,RPM,Out of Spec,91.8,Rejected,
+B007,ProductA,2024-08-30 18:06:00.806611,2024-08-31 01:50:00.806611,EQP002,OP003,Temperature,78.9,C,Within Spec,MixingSpeed,317,RPM,Out of Spec,93.5,Hold,DEV051
+B085,Product D,2025-03-15 10:30:51.498614,2025-03-15 21:36:51.498614,EQP002,OP002,Temperature,70.8,C,Within Spec,MixingSpeed,305,RPM,Within Spec,88.7,In Progress,
+B080,ProductB,2024-07-03 13:56:12.601180,2024-07-04 02:38:12.601180,EQP002,OP004,Temperature,77.7,C,Within Spec,MixingSpeed,318,RPM,Out of Spec,92.7,Rejected,DEV004
+B092,ProductB,2024-09-04 09:56:25.907625,2024-09-04 16:45:25.907625,EQP002,OP002,Temperature,71.3,C,Within Spec,MixingSpeed,302,RPM,Within Spec,99.8,Completed,
+B098,ProductC,2024-06-16 04:44:51.617764,2024-06-16 13:35:51.617764,EQP005,OP005,Temperature,82.9,C,Out of Spec,MixingSpeed,311,RPM,Out of Spec,96.9,Hold,DEV035
+B081,ProductA,2025-04-19 22:17:31.087242,2025-04-20 07:46:31.087242,EQP005,OP002,Temperature,76.1,C,Within Spec,MixingSpeed,305,RPM,Within Spec,87.0,Completed,
+B024,ProductC,2024-08-14 15:51:55.708777,2024-08-15 04:03:55.708777,EQP005,OP003,Temperature,70.0,C,Within Spec,MixingSpeed,315,RPM,Out of Spec,94.3,Hold,
+B087,Product D,2025-04-23 18:06:50.553500,2025-04-24 04:58:50.553500,EQP001,OP002,Temperature,81.4,C,Out of Spec,MixingSpeed,310,RPM,Within Spec,87.0,Hold,
+B035,ProductB,2024-10-25 19:17:03.413145,2024-10-26 07:51:03.413145,EQP004,OP010,Temperature,77.7,C,Within Spec,MixingSpeed,294,RPM,Within Spec,93.2,Completed,
+B097,ProductC,2025-06-08 07:22:26.359319,2025-06-08 14:51:26.359319,EQP005,OP004,Temperature,73.9,C,Within Spec,MixingSpeed,299,RPM,Within Spec,92.0,In Progress,
+B109,Product D,2024-12-13 20:59:32.483407,2024-12-14 05:05:32.483407,EQP002,OP001,Temperature,83.4,C,Out of Spec,MixingSpeed,316,RPM,Out of Spec,94.4,Hold,DEV020
+B031,Product D,2024-10-04 01:28:56.998325,2024-10-04 09:24:56.998325,EQP002,OP002,Temperature,78.6,C,Within Spec,MixingSpeed,283,RPM,Out of Spec,92.3,Hold,DEV072
+B076,ProductB,2024-09-07 14:02:14.907422,2024-09-08 01:42:14.907422,EQP002,OP009,Temperature,83.9,C,Out of Spec,MixingSpeed,284,RPM,Out of Spec,97.4,Rejected,
+B069,ProductC,2025-02-15 21:57:25.384555,2025-02-16 04:00:25.384555,EQP005,OP003,Temperature,72.5,C,Within Spec,MixingSpeed,292,RPM,Within Spec,93.4,In Progress,
+B025,Product D,2025-04-06 22:38:17.371043,2025-04-07 07:23:17.371043,EQP002,OP010,Temperature,78.0,C,Within Spec,MixingSpeed,315,RPM,Out of Spec,93.4,Hold,DEV011
+B035,ProductB,2024-10-14 03:54:35.007353,2024-10-14 13:31:35.007353,EQP002,OP003,Temperature,81.3,C,Out of Spec,MixingSpeed,287,RPM,Out of Spec,89.5,Hold,DEV017
+B001,ProductA,2024-09-08 08:51:54.963259,2024-09-08 18:38:54.963259,EQP001,OP009,Temperature,78.8,C,Within Spec,MixingSpeed,308,RPM,Within Spec,87.8,Completed,DEV001
+B091,ProductB,2025-04-17 02:22:22.262288,2025-04-17 09:14:22.262288,EQP003,OP001,Temperature,73.6,C,Within Spec,MixingSpeed,310,RPM,Within Spec,96.3,Completed,
+B122,ProductC,2024-10-27 03:41:32.425491,2024-10-27 16:32:32.425491,EQP005,OP003,Temperature,80.9,C,Out of Spec,MixingSpeed,298,RPM,Within Spec,92.7,Rejected,DEV014
+B003,ProductA,2024-08-20 01:54:27.653424,2024-08-20 12:56:27.653424,EQP001,OP006,Temperature,79.1,C,Within Spec,MixingSpeed,305,RPM,Within Spec,89.6,Completed,
+B055,ProductB,2025-04-06 02:14:27.826825,2025-04-06 13:47:27.826825,EQP002,OP004,Temperature,83.6,C,Out of Spec,MixingSpeed,296,RPM,Within Spec,91.4,Rejected,DEV082
+B107,ProductC,2024-10-01 06:29:33.039468,2024-10-01 18:58:33.039468,EQP005,OP006,Temperature,74.4,C,Within Spec,MixingSpeed,318,RPM,Out of Spec,85.7,Rejected,
+B124,ProductB,2024-07-18 09:18:41.199824,2024-07-18 17:57:41.199824,EQP002,OP008,Temperature,70.6,C,Within Spec,MixingSpeed,309,RPM,Within Spec,94.2,Completed,

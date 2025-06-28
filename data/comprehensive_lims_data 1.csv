@@ -1,0 +1,451 @@
+Lab_Sample_ID,Batch_ID,Product_Name,Sample_Type,Sample_Login_Timestamp,Sample_Status,Test_Name,Test_Method_ID,Instrument_ID,Spec_Limit_Min,Spec_Limit_Max,Result_Value,Result_UOM,Result_Status,Analyst_ID,Result_Entry_Timestamp,Reviewed_By,Approved_By
+SMPL-00001,B2025126,ProductC,Finished Product,2024-11-11 08:15:44,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,,%,Test Not Performed,AN-bryantheather,2024-11-11 10:15:44,,
+SMPL-00002,B2025009,Product D,Finished Product,2024-10-17 02:16:43,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.6,%,Pass,AN-meyerjoseph,2024-10-17 04:16:43,QA-douglas49,QA-lambertscott
+SMPL-00003,B2025001,ProductB,Finished Product,2025-02-25 03:12:23,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-3,99.0,,99.18,%,Pass,AN-wallderek,2025-02-25 07:12:23,,
+SMPL-00004,B2025177,ProductA,Finished Product,2025-02-02 04:59:48,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.59,,Pass,AN-meyerjoseph,2025-02-02 05:59:48,QA-lambertscott,
+SMPL-00005,B2025048,ProductC,In-Process,2025-06-15 22:45:34,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-3,99.0,,99.83,%,Pass,AN-wallderek,2025-06-15 23:45:34,QA-debra72,QA-lambertscott
+SMPL-00006,B2025137,ProductA,Finished Product,2025-03-21 13:16:32,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,98.81,%,OOS,AN-teresa11,2025-03-21 14:16:32,QA-georgejames,QA-lambertscott
+SMPL-00007,B2025061,ProductC,Finished Product,2025-05-12 07:13:46,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,6.53,,Pass,AN-bryantheather,2025-05-12 11:13:46,,
+SMPL-00008,B2025148,Product D,In-Process,2024-09-02 20:51:13,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,100.2,%,Pass,AN-zcole,2024-09-02 21:51:13,,
+SMPL-00009,B2025028,Product D ,Finished Product,2024-07-02 08:17:00,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.95,%,Pass,AN-lauraodom,2024-07-02 11:17:00,QA-lambertscott,QA-debra72
+SMPL-00010,B2025112,ProductC,Finished Product,2024-11-18 23:33:15,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.68,%,Pass,AN-wallderek,2024-11-19 01:33:15,QA-georgejames,QA-douglas49
+SMPL-00011,B2025122,Product D,Finished Product,2024-10-24 09:55:54,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,101.2,%,Pass,AN-jose98,2024-10-24 13:55:54,QA-douglas49,
+SMPL-00012,B2025193,ProductA,In-Process,2025-04-23 00:20:09,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.5,,Pass,AN-bryantheather,2025-04-23 02:20:09,QA-debra72,QA-lambertscott
+SMPL-00013,B2025080,Product D,Finished Product,2024-07-08 02:26:39,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,101.1,%,Pass,AN-bryantheather,2024-07-08 06:26:39,QA-debra72,QA-douglas49
+SMPL-00014,B2025127,ProductC,In-Process,2024-08-21 18:02:49,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,100.0,%,Pass,AN-teresa11,2024-08-21 20:02:49,QA-lambertscott,
+SMPL-00015,B2025075,ProductC,In-Process,2025-03-30 14:36:44,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.89,%,Pass,AN-jose98,2025-03-30 16:36:44,QA-lambertscott,QA-georgejames
+SMPL-00016,B2025075,ProductC,Finished Product,2025-03-30 16:06:44,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-2,98.0,102.0,,%,Test Not Performed,AN-teresa11,2025-03-30 18:06:44,,
+SMPL-00017,B2025126,ProductC,In-Process,2024-11-11 06:47:44,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,99.4,%,Pass,AN-bryantheather,2024-11-11 09:47:44,QA-debra72,QA-douglas49
+SMPL-00018,B2025188,Product D,Finished Product,2025-03-16 10:12:46,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,101.6,%,Pass,AN-jose98,2025-03-16 11:12:46,,
+SMPL-00019,B2025214,ProductA,Finished Product,2025-03-01 08:21:14,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,6.74,,Pass,AN-teresa11,2025-03-01 12:21:14,QA-georgejames,QA-lambertscott
+SMPL-00020,B2025043,Product D ,In-Process,2025-04-04 07:15:06,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,6.59,,Pass,AN-teresa11,2025-04-04 08:15:06,QA-georgejames,QA-lambertscott
+SMPL-00021,B2025164,Product D,Finished Product,2024-07-28 15:19:07,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,100.1,%,Pass,AN-jose98,2024-07-28 18:19:07,QA-georgejames,QA-debra72
+SMPL-00022,B2025113,Product D,In-Process,2024-08-14 11:58:38,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,6.67,,Pass,AN-meyerjoseph,2024-08-14 13:58:38,QA-douglas49,QA-debra72
+SMPL-00023,B2025093,ProductA,Finished Product,2025-01-17 01:01:59,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,7.32,,Pass,AN-meyerjoseph,2025-01-17 02:01:59,QA-douglas49,QA-lambertscott
+SMPL-00024,B2025035,Product D ,In-Process,2024-12-17 04:59:36,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,98.9,%,OOS,AN-meyerjoseph,2024-12-17 06:59:36,QA-lambertscott,QA-debra72
+SMPL-00025,B2025140,ProductB,In-Process,2024-06-25 16:32:03,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,7.41,,Pass,AN-bryantheather,2024-06-25 17:32:03,QA-debra72,QA-douglas49
+SMPL-00026,B2025220,ProductA,In-Process,2024-07-23 02:23:04,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,98.96,%,OOS,AN-meyerjoseph,2024-07-23 06:23:04,QA-lambertscott,
+SMPL-00027,B2025006,ProductA,Finished Product,2024-09-08 19:15:33,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.57,,Pass,AN-zcole,2024-09-08 22:15:33,QA-debra72,QA-douglas49
+SMPL-00028,B2025105,ProductA,Finished Product,2024-06-24 19:35:21,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,101.5,%,Pass,AN-lauraodom,2024-06-24 20:35:21,QA-douglas49,QA-lambertscott
+SMPL-00029,B2025054,ProductB,Finished Product,2024-10-07 10:21:51,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-3,99.0,,99.36,%,Pass,AN-zcole,2024-10-07 12:21:51,QA-douglas49,QA-georgejames
+SMPL-00030,B2025143,ProductC,In-Process,2025-05-23 16:25:08,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.46,%,Pass,AN-jose98,2025-05-23 20:25:08,QA-lambertscott,QA-debra72
+SMPL-00031,B2025214,ProductA,Finished Product,2025-03-01 07:27:14,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-1,99.0,,,%,Test Not Performed,AN-lauraodom,2025-03-01 11:27:14,,
+SMPL-00032,B2025161,ProductB,Finished Product,2024-12-04 21:20:28,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,7.35,,Pass,AN-meyerjoseph,2024-12-05 01:20:28,,
+SMPL-00033,B2025033,ProductB,Finished Product,2025-03-26 04:52:31,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,6.58,,Pass,AN-meyerjoseph,2025-03-26 08:52:31,QA-douglas49,QA-debra72
+SMPL-00034,B2025013,ProductB,Finished Product,2025-03-07 14:35:24,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-2,98.0,102.0,102.1,%,OOS,AN-lauraodom,2025-03-07 17:35:24,QA-lambertscott,
+SMPL-00035,B2025050,ProductA,In-Process,2024-10-24 04:22:14,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-2,99.0,,99.59,%,Pass,AN-meyerjoseph,2024-10-24 05:22:14,,
+SMPL-00036,B2025016,ProductC,In-Process,2024-07-05 15:24:41,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,98.91,%,OOS,AN-teresa11,2024-07-05 16:24:41,QA-debra72,QA-georgejames
+SMPL-00037,B2025179,ProductA,In-Process,2024-08-08 04:58:01,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,6.52,,Pass,AN-jose98,2024-08-08 06:58:01,QA-lambertscott,QA-debra72
+SMPL-00038,B2025070,ProductC,In-Process,2024-08-24 02:45:44,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,98.92,%,OOS,AN-jose98,2024-08-24 05:45:44,,
+SMPL-00039,B2025143,ProductC,Finished Product,2025-05-23 18:02:08,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,6.75,,Pass,AN-jose98,2025-05-23 21:02:08,QA-debra72,
+SMPL-00040,B2025183,Product D,Finished Product,2024-09-15 14:57:22,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.91,%,Pass,AN-lauraodom,2024-09-15 18:57:22,QA-lambertscott,QA-debra72
+SMPL-00041,B2025047,ProductA,In-Process,2025-04-09 01:42:44,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,100.7,%,Pass,AN-meyerjoseph,2025-04-09 02:42:44,QA-douglas49,QA-georgejames
+SMPL-00042,B2025095,Product D,Finished Product,2024-12-31 14:17:46,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.66,%,Pass,AN-bryantheather,2024-12-31 18:17:46,QA-douglas49,
+SMPL-00043,B2025142,ProductC,Finished Product,2024-12-25 21:13:13,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,7.47,,Pass,AN-meyerjoseph,2024-12-25 23:13:13,QA-debra72,QA-georgejames
+SMPL-00044,B2025030,ProductC,In-Process,2024-12-18 16:31:56,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,102.0,%,Pass,AN-lauraodom,2024-12-18 20:31:56,QA-georgejames,QA-lambertscott
+SMPL-00045,B2025012,ProductB,In-Process,2024-09-10 16:10:49,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,6.88,,Pass,AN-teresa11,2024-09-10 20:10:49,QA-lambertscott,QA-douglas49
+SMPL-00046,B2025179,ProductA,In-Process,2024-08-08 05:02:01,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,,%,Test Not Performed,AN-lauraodom,2024-08-08 06:02:01,,
+SMPL-00047,B2025195,ProductB,Finished Product,2024-11-21 18:45:03,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-1,99.0,,99.57,%,Pass,AN-wallderek,2024-11-21 22:45:03,,
+SMPL-00048,B2025126,ProductC,Finished Product,2024-11-11 08:24:44,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,6.48,,OOS,AN-lauraodom,2024-11-11 09:24:44,QA-douglas49,QA-georgejames
+SMPL-00049,B2025102,ProductC,In-Process,2025-03-23 15:40:39,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.89,%,Pass,AN-bryantheather,2025-03-23 16:40:39,QA-douglas49,QA-georgejames
+SMPL-00050,B2025141,ProductB,In-Process,2025-05-18 07:51:58,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.98,%,Pass,AN-jose98,2025-05-18 10:51:58,QA-lambertscott,QA-debra72
+SMPL-00051,B2025034,ProductB,Finished Product,2024-10-28 17:24:58,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,99.9,%,Pass,AN-meyerjoseph,2024-10-28 20:24:58,QA-debra72,QA-lambertscott
+SMPL-00052,B2025202,Product D,Finished Product,2025-05-16 19:52:21,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,6.75,,Pass,AN-jose98,2025-05-16 23:52:21,QA-douglas49,QA-debra72
+SMPL-00053,B2025093,ProductA,In-Process,2025-01-17 01:43:59,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,98.0,%,Pass,AN-teresa11,2025-01-17 04:43:59,QA-douglas49,QA-debra72
+SMPL-00054,B2025123,ProductA,In-Process,2025-01-28 05:06:44,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,98.88,%,OOS,AN-teresa11,2025-01-28 09:06:44,QA-lambertscott,QA-douglas49
+SMPL-00055,B2025049,ProductB,Finished Product,2025-02-02 22:39:55,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-3,99.0,,98.93,%,OOS,AN-lauraodom,2025-02-02 23:39:55,QA-debra72,QA-georgejames
+SMPL-00056,B2025040,Product D,In-Process,2024-11-23 18:02:08,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.18,%,Pass,AN-wallderek,2024-11-23 22:02:08,QA-georgejames,QA-lambertscott
+SMPL-00057,B2025130,ProductB,Finished Product,2024-12-11 13:03:21,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-3,99.0,,98.97,%,OOS,AN-teresa11,2024-12-11 15:03:21,QA-lambertscott,QA-georgejames
+SMPL-00058,B2025132,ProductC,Finished Product,2025-01-11 21:27:30,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,99.8,%,Pass,AN-zcole,2025-01-11 23:27:30,QA-lambertscott,QA-douglas49
+SMPL-00059,B2025200,ProductC,Finished Product,2024-07-28 01:50:55,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,99.9,%,Pass,AN-meyerjoseph,2024-07-28 05:50:55,,
+SMPL-00060,B2025188,Product D ,In-Process,2025-03-16 09:52:46,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.52,%,Pass,AN-wallderek,2025-03-16 12:52:46,QA-georgejames,QA-douglas49
+SMPL-00061,B2025146,ProductB,Finished Product,2024-09-19 07:49:04,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,,,Test Not Performed,AN-zcole,2024-09-19 10:49:04,,
+SMPL-00062,B2025162,Product D ,Finished Product,2025-02-01 06:46:19,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,98.9,%,Pass,AN-jose98,2025-02-01 08:46:19,QA-georgejames,QA-debra72
+SMPL-00063,B2025070,ProductC,In-Process,2024-08-24 03:47:44,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.02,%,Pass,AN-lauraodom,2024-08-24 07:47:44,,
+SMPL-00064,B2025125,ProductA,In-Process,2024-11-15 18:00:23,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-1,99.0,,99.9,%,Pass,AN-jose98,2024-11-15 20:00:23,QA-debra72,QA-lambertscott
+SMPL-00065,B2025208,ProductA,Finished Product,2025-04-29 15:54:34,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,7.44,,Pass,AN-teresa11,2025-04-29 17:54:34,QA-debra72,
+SMPL-00066,B2025173,ProductA,In-Process,2025-05-09 04:31:24,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.95,,Pass,AN-jose98,2025-05-09 08:31:24,QA-lambertscott,QA-debra72
+SMPL-00067,B2025062,Product D,Finished Product,2025-03-06 01:51:04,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,6.65,,Pass,AN-wallderek,2025-03-06 05:51:04,QA-georgejames,QA-debra72
+SMPL-00068,B2025195,ProductB,Finished Product,2024-11-21 17:28:03,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,101.7,%,Pass,AN-zcole,2024-11-21 19:28:03,QA-lambertscott,
+SMPL-00069,B2025064,ProductC,In-Process,2025-03-21 01:57:52,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-3,99.0,,99.61,%,Pass,AN-jose98,2025-03-21 03:57:52,QA-douglas49,QA-lambertscott
+SMPL-00070,B2025063,ProductC,In-Process,2024-06-21 02:02:20,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-3,99.0,,98.85,%,OOS,AN-lauraodom,2024-06-21 03:02:20,QA-debra72,QA-georgejames
+SMPL-00071,B2025008,Product D,In-Process,2025-04-13 19:54:43,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,100.3,%,Pass,AN-meyerjoseph,2025-04-13 21:54:43,QA-debra72,QA-georgejames
+SMPL-00072,B2025155,ProductB,Finished Product,2024-09-16 10:37:05,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-2,98.0,102.0,99.8,%,Pass,AN-wallderek,2024-09-16 12:37:05,,
+SMPL-00073,B2025023,ProductB,In-Process,2024-12-27 23:54:25,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,6.88,,Pass,AN-meyerjoseph,2024-12-28 03:54:25,QA-debra72,QA-douglas49
+SMPL-00074,B2025107,ProductC,Finished Product,2024-09-27 15:05:16,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.14,%,Pass,AN-bryantheather,2024-09-27 19:05:16,QA-georgejames,QA-debra72
+SMPL-00075,B2025080,Product D ,Finished Product,2024-07-08 01:30:39,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,7.36,,Pass,AN-meyerjoseph,2024-07-08 04:30:39,QA-douglas49,
+SMPL-00076,B2025101,ProductB,Finished Product,2025-06-14 23:04:04,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,,,Test Not Performed,AN-jose98,2025-06-15 02:04:04,,
+SMPL-00077,B2025162,Product D,Finished Product,2025-02-01 06:45:19,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,101.6,%,Pass,AN-teresa11,2025-02-01 09:45:19,QA-debra72,QA-georgejames
+SMPL-00078,B2025054,ProductB,In-Process,2024-10-07 09:53:51,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-1,99.0,,99.52,%,Pass,AN-wallderek,2024-10-07 12:53:51,QA-lambertscott,QA-georgejames
+SMPL-00079,B2025131,ProductA,Finished Product,2025-05-19 14:19:33,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,97.5,%,OOS,AN-wallderek,2025-05-19 15:19:33,QA-georgejames,QA-debra72
+SMPL-00080,B2025104,Product D,In-Process,2024-11-01 04:23:41,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,6.53,,Pass,AN-teresa11,2024-11-01 08:23:41,QA-debra72,QA-georgejames
+SMPL-00081,B2025164,Product D ,In-Process,2024-07-28 15:02:07,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,99.5,%,Pass,AN-lauraodom,2024-07-28 18:02:07,QA-debra72,
+SMPL-00082,B2025165,ProductB,In-Process,2025-02-24 22:45:10,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,6.93,,Pass,AN-wallderek,2025-02-25 01:45:10,QA-debra72,QA-douglas49
+SMPL-00083,B2025017,ProductB,In-Process,2024-12-10 16:26:43,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-1,99.0,,98.87,%,OOS,AN-lauraodom,2024-12-10 20:26:43,QA-douglas49,QA-lambertscott
+SMPL-00084,B2025082,Product D ,Finished Product,2025-05-21 18:16:46,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.73,%,Pass,AN-teresa11,2025-05-21 22:16:46,QA-lambertscott,QA-douglas49
+SMPL-00085,B2025121,ProductC,Finished Product,2024-11-08 05:37:39,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,101.9,%,Pass,AN-teresa11,2024-11-08 06:37:39,QA-douglas49,QA-debra72
+SMPL-00086,B2025012,ProductB,Finished Product,2024-09-10 15:59:49,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-1,98.0,102.0,97.8,%,OOS,AN-meyerjoseph,2024-09-10 17:59:49,QA-georgejames,QA-douglas49
+SMPL-00087,B2025108,Product D ,In-Process,2024-07-27 07:06:11,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,6.87,,Pass,AN-zcole,2024-07-27 11:06:11,QA-lambertscott,QA-debra72
+SMPL-00088,B2025007,ProductC,Finished Product,2024-11-25 02:37:30,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,6.78,,Pass,AN-meyerjoseph,2024-11-25 03:37:30,QA-douglas49,QA-lambertscott
+SMPL-00089,B2025132,ProductC,Finished Product,2025-01-11 21:31:30,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,98.85,%,OOS,AN-lauraodom,2025-01-11 23:31:30,QA-lambertscott,QA-douglas49
+SMPL-00090,B2025098,ProductA,Finished Product,2024-09-11 04:51:37,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-1,99.0,,99.15,%,Pass,AN-jose98,2024-09-11 05:51:37,QA-georgejames,QA-douglas49
+SMPL-00091,B2025201,ProductB,In-Process,2025-05-06 14:29:27,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,,%,Test Not Performed,AN-meyerjoseph,2025-05-06 17:29:27,,
+SMPL-00092,B2025217,ProductC,In-Process,2024-08-20 08:04:26,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,7.26,,Pass,AN-bryantheather,2024-08-20 12:04:26,QA-debra72,QA-douglas49
+SMPL-00093,B2025139,Product D ,Finished Product,2024-12-02 01:06:26,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.51,%,Pass,AN-meyerjoseph,2024-12-02 04:06:26,,
+SMPL-00094,B2025164,Product D ,In-Process,2024-07-28 15:34:07,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.09,%,Pass,AN-lauraodom,2024-07-28 18:34:07,QA-georgejames,QA-lambertscott
+SMPL-00095,B2025039,ProductB,In-Process,2024-08-27 14:04:06,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.54,%,Pass,AN-zcole,2024-08-27 18:04:06,QA-georgejames,QA-debra72
+SMPL-00096,B2025220,ProductA,Finished Product,2024-07-23 01:32:04,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,6.67,,Pass,AN-jose98,2024-07-23 03:32:04,QA-debra72,QA-georgejames
+SMPL-00097,B2025172,Product D,In-Process,2024-08-13 08:54:54,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.1,%,Pass,AN-teresa11,2024-08-13 09:54:54,QA-debra72,QA-lambertscott
+SMPL-00098,B2025114,ProductC,Finished Product,2024-12-28 07:20:33,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.18,%,Pass,AN-teresa11,2024-12-28 08:20:33,QA-lambertscott,QA-douglas49
+SMPL-00099,B2025117,ProductA,Finished Product,2024-11-07 03:00:47,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,97.5,%,OOS,AN-wallderek,2024-11-07 04:00:47,QA-lambertscott,QA-georgejames
+SMPL-00100,B2025004,ProductC,In-Process,2024-07-11 04:40:35,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,6.68,,Pass,AN-teresa11,2024-07-11 08:40:35,QA-georgejames,QA-lambertscott
+SMPL-00101,B2025161,ProductB,In-Process,2024-12-04 22:23:28,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,6.45,,OOS,AN-teresa11,2024-12-05 01:23:28,QA-lambertscott,QA-douglas49
+SMPL-00102,B2025052,ProductB,Finished Product,2024-11-22 04:33:34,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-3,99.0,,99.77,%,Pass,AN-meyerjoseph,2024-11-22 07:33:34,QA-debra72,QA-lambertscott
+SMPL-00103,B2025080,Product D ,In-Process,2024-07-08 00:46:39,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.8,%,Pass,AN-zcole,2024-07-08 04:46:39,,
+SMPL-00104,B2025047,ProductA,Finished Product,2025-04-09 03:06:44,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,102.5,%,OOS,AN-lauraodom,2025-04-09 06:06:44,QA-lambertscott,QA-debra72
+SMPL-00105,B2025111,Product D ,Finished Product,2025-05-16 18:05:25,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.52,%,Pass,AN-lauraodom,2025-05-16 21:05:25,,
+SMPL-00106,B2025131,ProductA,In-Process,2025-05-19 14:32:33,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,,%,Test Not Performed,AN-lauraodom,2025-05-19 17:32:33,,
+SMPL-00107,B2025017,ProductB,Finished Product,2024-12-10 15:00:43,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,7.1,,Pass,AN-zcole,2024-12-10 19:00:43,QA-debra72,
+SMPL-00108,B2025107,ProductC,In-Process,2024-09-27 15:18:16,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,6.67,,Pass,AN-bryantheather,2024-09-27 19:18:16,QA-lambertscott,QA-debra72
+SMPL-00109,B2025054,ProductB,Finished Product,2024-10-07 10:10:51,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,6.6,,Pass,AN-meyerjoseph,2024-10-07 14:10:51,QA-debra72,QA-lambertscott
+SMPL-00110,B2025122,Product D,In-Process,2024-10-24 11:01:54,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,6.94,,Pass,AN-zcole,2024-10-24 15:01:54,QA-debra72,
+SMPL-00111,B2025166,Product D ,In-Process,2024-10-29 13:23:58,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,100.3,%,Pass,AN-lauraodom,2024-10-29 17:23:58,QA-debra72,QA-lambertscott
+SMPL-00112,B2025169,ProductC,Finished Product,2024-12-23 14:13:51,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-3,99.0,,99.74,%,Pass,AN-wallderek,2024-12-23 15:13:51,QA-lambertscott,QA-debra72
+SMPL-00113,B2025054,ProductB,Finished Product,2024-10-07 10:41:51,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.99,%,Pass,AN-bryantheather,2024-10-07 14:41:51,,
+SMPL-00114,B2025048,ProductC,In-Process,2025-06-15 21:06:34,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,98.4,%,Pass,AN-jose98,2025-06-15 23:06:34,QA-debra72,QA-douglas49
+SMPL-00115,B2025174,ProductC,In-Process,2024-09-28 23:56:09,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-2,98.0,102.0,100.8,%,Pass,AN-lauraodom,2024-09-29 02:56:09,QA-georgejames,QA-lambertscott
+SMPL-00116,B2025106,ProductC,In-Process,2024-10-31 23:12:17,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-3,99.0,,99.05,%,Pass,AN-teresa11,2024-11-01 03:12:17,QA-georgejames,QA-lambertscott
+SMPL-00117,B2025161,ProductB,In-Process,2024-12-04 21:24:28,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.02,%,Pass,AN-teresa11,2024-12-04 22:24:28,,
+SMPL-00118,B2025032,ProductA,Finished Product,2025-02-17 14:50:13,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,101.5,%,Pass,AN-bryantheather,2025-02-17 18:50:13,QA-georgejames,QA-douglas49
+SMPL-00119,B2025111,Product D,In-Process,2025-05-16 18:32:25,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,6.92,,Pass,AN-zcole,2025-05-16 21:32:25,QA-georgejames,QA-debra72
+SMPL-00120,B2025015,ProductA,In-Process,2025-01-18 00:08:29,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-2,99.0,,99.27,%,Pass,AN-zcole,2025-01-18 03:08:29,QA-douglas49,QA-debra72
+SMPL-00121,B2025154,ProductB,In-Process,2024-08-25 03:03:57,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,,,Test Not Performed,AN-meyerjoseph,2024-08-25 04:03:57,,
+SMPL-00122,B2025138,ProductB,In-Process,2025-02-11 02:49:49,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,7.19,,Pass,AN-jose98,2025-02-11 05:49:49,QA-douglas49,QA-lambertscott
+SMPL-00123,B2025007,ProductC,Finished Product,2024-11-25 03:08:30,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.51,%,Pass,AN-zcole,2024-11-25 07:08:30,QA-georgejames,QA-lambertscott
+SMPL-00124,B2025170,ProductA,In-Process,2024-07-29 21:21:30,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,99.4,%,Pass,AN-zcole,2024-07-29 23:21:30,QA-debra72,QA-lambertscott
+SMPL-00125,B2025204,ProductB,Finished Product,2024-08-22 07:55:36,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.28,%,Pass,AN-wallderek,2024-08-22 10:55:36,QA-lambertscott,
+SMPL-00126,B2025020,ProductA,Finished Product,2025-04-20 03:27:03,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,97.7,%,OOS,AN-teresa11,2025-04-20 06:27:03,QA-douglas49,QA-georgejames
+SMPL-00127,B2025063,ProductC,Finished Product,2024-06-21 02:23:20,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,7.55,,OOS,AN-teresa11,2024-06-21 05:23:20,,
+SMPL-00128,B2025182,Product D,Finished Product,2024-12-30 11:41:01,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.5,%,Pass,AN-zcole,2024-12-30 15:41:01,QA-debra72,
+SMPL-00129,B2025144,Product D ,In-Process,2025-04-10 11:36:00,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,7.26,,Pass,AN-wallderek,2025-04-10 15:36:00,QA-debra72,
+SMPL-00130,B2025145,ProductC,In-Process,2024-07-02 16:03:07,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.48,%,Pass,AN-zcole,2024-07-02 18:03:07,QA-debra72,QA-georgejames
+SMPL-00131,B2025101,ProductB,In-Process,2025-06-14 23:51:04,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-1,98.0,102.0,100.8,%,Pass,AN-jose98,2025-06-15 01:51:04,QA-debra72,QA-douglas49
+SMPL-00132,B2025214,ProductA,Finished Product,2025-03-01 08:36:14,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-1,99.0,,99.93,%,Pass,AN-meyerjoseph,2025-03-01 11:36:14,QA-debra72,
+SMPL-00133,B2025084,ProductB,Finished Product,2024-07-22 03:40:50,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,6.48,,OOS,AN-zcole,2024-07-22 04:40:50,,
+SMPL-00134,B2025156,ProductB,In-Process,2025-01-09 02:47:26,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-3,99.0,,99.95,%,Pass,AN-teresa11,2025-01-09 05:47:26,QA-lambertscott,QA-douglas49
+SMPL-00135,B2025051,ProductC,In-Process,2024-10-13 23:52:08,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,6.51,,Pass,AN-zcole,2024-10-14 01:52:08,QA-douglas49,QA-debra72
+SMPL-00136,B2025154,ProductB,Finished Product,2024-08-25 02:43:57,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,,%,Test Not Performed,AN-wallderek,2024-08-25 05:43:57,,
+SMPL-00137,B2025139,Product D,Finished Product,2024-12-02 02:11:26,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.88,%,Pass,AN-bryantheather,2024-12-02 04:11:26,QA-douglas49,QA-georgejames
+SMPL-00138,B2025107,ProductC,Finished Product,2024-09-27 15:11:16,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-3,99.0,,99.32,%,Pass,AN-lauraodom,2024-09-27 19:11:16,QA-douglas49,QA-debra72
+SMPL-00139,B2025116,ProductA,Finished Product,2025-01-02 21:04:57,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,99.6,%,Pass,AN-zcole,2025-01-03 01:04:57,QA-douglas49,QA-georgejames
+SMPL-00140,B2025008,Product D ,In-Process,2025-04-13 20:06:43,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,7.33,,Pass,AN-jose98,2025-04-14 00:06:43,,
+SMPL-00141,B2025086,ProductB,In-Process,2024-07-19 05:53:44,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,6.44,,OOS,AN-zcole,2024-07-19 07:53:44,QA-georgejames,QA-lambertscott
+SMPL-00142,B2025182,Product D ,In-Process,2024-12-30 11:59:01,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,7.43,,Pass,AN-jose98,2024-12-30 13:59:01,QA-debra72,QA-georgejames
+SMPL-00143,B2025093,ProductA,Finished Product,2025-01-17 01:12:59,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.42,,OOS,AN-teresa11,2025-01-17 05:12:59,QA-lambertscott,QA-debra72
+SMPL-00144,B2025220,ProductA,In-Process,2024-07-23 02:21:04,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.59,,Pass,AN-zcole,2024-07-23 05:21:04,QA-lambertscott,QA-debra72
+SMPL-00145,B2025135,ProductA,In-Process,2024-11-07 04:43:16,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.45,,OOS,AN-zcole,2024-11-07 05:43:16,QA-lambertscott,
+SMPL-00146,B2025104,Product D ,Finished Product,2024-11-01 04:46:41,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,99.5,%,Pass,AN-teresa11,2024-11-01 07:46:41,,
+SMPL-00147,B2025189,ProductA,In-Process,2024-06-25 07:53:48,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,99.6,%,Pass,AN-jose98,2024-06-25 08:53:48,QA-lambertscott,
+SMPL-00148,B2025137,ProductA,In-Process,2025-03-21 13:26:32,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,7.2,,Pass,AN-lauraodom,2025-03-21 16:26:32,QA-debra72,QA-georgejames
+SMPL-00149,B2025130,ProductB,In-Process,2024-12-11 13:22:21,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.98,%,Pass,AN-zcole,2024-12-11 15:22:21,QA-lambertscott,QA-debra72
+SMPL-00150,B2025117,ProductA,Finished Product,2024-11-07 02:59:47,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,7.35,,Pass,AN-lauraodom,2024-11-07 03:59:47,QA-douglas49,
+SMPL-00151,B2025166,Product D,Finished Product,2024-10-29 12:34:58,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,,%,Test Not Performed,AN-jose98,2024-10-29 15:34:58,,
+SMPL-00152,B2025058,ProductA,In-Process,2024-10-07 09:40:23,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-2,99.0,,99.29,%,Pass,AN-jose98,2024-10-07 11:40:23,QA-georgejames,QA-debra72
+SMPL-00153,B2025030,ProductC,In-Process,2024-12-18 17:46:56,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-2,98.0,102.0,99.2,%,Pass,AN-zcole,2024-12-18 18:46:56,QA-debra72,QA-douglas49
+SMPL-00154,B2025034,ProductB,In-Process,2024-10-28 17:28:58,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,6.85,,Pass,AN-wallderek,2024-10-28 20:28:58,,
+SMPL-00155,B2025137,ProductA,Finished Product,2025-03-21 13:57:32,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,6.43,,OOS,AN-lauraodom,2025-03-21 16:57:32,QA-lambertscott,
+SMPL-00156,B2025009,Product D,Finished Product,2024-10-17 03:16:43,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,100.1,%,Pass,AN-bryantheather,2024-10-17 07:16:43,,
+SMPL-00157,B2025006,ProductA,Finished Product,2024-09-08 19:27:33,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.87,%,Pass,AN-bryantheather,2024-09-08 22:27:33,QA-lambertscott,QA-douglas49
+SMPL-00158,B2025207,Product D ,Finished Product,2024-12-02 07:12:22,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.75,%,Pass,AN-wallderek,2024-12-02 10:12:22,QA-georgejames,QA-debra72
+SMPL-00159,B2025152,ProductB,Finished Product,2025-05-28 16:53:15,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-1,99.0,,99.81,%,Pass,AN-zcole,2025-05-28 18:53:15,QA-georgejames,QA-lambertscott
+SMPL-00160,B2025031,Product D,Finished Product,2025-03-08 01:09:59,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,100.5,%,Pass,AN-jose98,2025-03-08 03:09:59,QA-debra72,QA-georgejames
+SMPL-00161,B2025157,ProductA,In-Process,2024-10-05 23:39:20,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,6.76,,Pass,AN-teresa11,2024-10-06 00:39:20,QA-douglas49,QA-lambertscott
+SMPL-00162,B2025109,Product D ,In-Process,2025-05-01 22:32:53,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,98.3,%,Pass,AN-meyerjoseph,2025-05-02 00:32:53,QA-debra72,QA-lambertscott
+SMPL-00163,B2025159,ProductA,In-Process,2025-02-20 10:33:41,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,101.3,%,Pass,AN-jose98,2025-02-20 12:33:41,QA-douglas49,QA-lambertscott
+SMPL-00164,B2025021,Product D ,In-Process,2025-03-18 03:43:41,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,7.6,,OOS,AN-zcole,2025-03-18 05:43:41,QA-debra72,QA-lambertscott
+SMPL-00165,B2025133,Product D ,Finished Product,2024-11-28 09:27:01,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,98.8,%,Pass,AN-wallderek,2024-11-28 12:27:01,,
+SMPL-00166,B2025106,ProductC,In-Process,2024-10-31 23:28:17,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,,,Test Not Performed,AN-bryantheather,2024-11-01 01:28:17,,
+SMPL-00167,B2025208,ProductA,In-Process,2025-04-29 17:00:34,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,7.46,,Pass,AN-zcole,2025-04-29 20:00:34,QA-debra72,QA-douglas49
+SMPL-00168,B2025097,ProductA,In-Process,2024-11-25 19:20:26,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,101.6,%,Pass,AN-lauraodom,2024-11-25 20:20:26,QA-lambertscott,
+SMPL-00169,B2025008,Product D,Finished Product,2025-04-13 20:47:43,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,98.96,%,OOS,AN-jose98,2025-04-13 21:47:43,QA-douglas49,
+SMPL-00170,B2025009,Product D,Finished Product,2024-10-17 02:58:43,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,7.07,,Pass,AN-wallderek,2024-10-17 06:58:43,QA-debra72,QA-douglas49
+SMPL-00171,B2025046,ProductC,In-Process,2024-06-20 10:37:27,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,99.0,%,Pass,AN-lauraodom,2024-06-20 13:37:27,QA-georgejames,QA-debra72
+SMPL-00172,B2025116,ProductA,In-Process,2025-01-02 21:00:57,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-2,99.0,,98.86,%,OOS,AN-teresa11,2025-01-03 01:00:57,QA-douglas49,QA-georgejames
+SMPL-00173,B2025024,ProductB,Finished Product,2024-07-05 19:56:11,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,7.22,,Pass,AN-meyerjoseph,2024-07-05 21:56:11,QA-georgejames,QA-lambertscott
+SMPL-00174,B2025142,ProductC,In-Process,2024-12-25 22:55:13,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.28,%,Pass,AN-wallderek,2024-12-26 01:55:13,QA-debra72,
+SMPL-00175,B2025138,ProductB,Finished Product,2025-02-11 03:58:49,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,7.4,,Pass,AN-teresa11,2025-02-11 04:58:49,QA-debra72,QA-lambertscott
+SMPL-00176,B2025180,ProductA,In-Process,2024-08-14 22:44:23,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-2,99.0,,99.48,%,Pass,AN-jose98,2024-08-15 01:44:23,QA-georgejames,
+SMPL-00177,B2025103,ProductC,Finished Product,2025-02-22 03:10:04,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.09,%,Pass,AN-bryantheather,2025-02-22 04:10:04,QA-lambertscott,QA-georgejames
+SMPL-00178,B2025194,ProductB,Finished Product,2025-04-10 22:34:21,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,6.51,,Pass,AN-bryantheather,2025-04-11 00:34:21,QA-lambertscott,
+SMPL-00179,B2025038,ProductC,In-Process,2025-04-06 12:57:03,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-3,99.0,,99.23,%,Pass,AN-meyerjoseph,2025-04-06 15:57:03,QA-georgejames,QA-douglas49
+SMPL-00180,B2025197,Product D,In-Process,2025-01-26 00:54:00,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,6.51,,Pass,AN-bryantheather,2025-01-26 02:54:00,QA-douglas49,QA-georgejames
+SMPL-00181,B2025074,ProductA,Finished Product,2025-01-26 04:17:35,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,,,Test Not Performed,AN-teresa11,2025-01-26 05:17:35,,
+SMPL-00182,B2025169,ProductC,Finished Product,2024-12-23 14:44:51,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,7.26,,Pass,AN-jose98,2024-12-23 18:44:51,QA-douglas49,QA-lambertscott
+SMPL-00183,B2025017,ProductB,Finished Product,2024-12-10 15:01:43,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-3,99.0,,99.89,%,Pass,AN-lauraodom,2024-12-10 19:01:43,QA-lambertscott,QA-debra72
+SMPL-00184,B2025176,Product D ,In-Process,2024-12-29 07:55:58,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,98.93,%,OOS,AN-meyerjoseph,2024-12-29 08:55:58,QA-douglas49,
+SMPL-00185,B2025009,Product D ,Finished Product,2024-10-17 02:40:43,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.59,%,Pass,AN-zcole,2024-10-17 04:40:43,QA-georgejames,QA-lambertscott
+SMPL-00186,B2025107,ProductC,Finished Product,2024-09-27 15:02:16,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.35,%,Pass,AN-jose98,2024-09-27 19:02:16,QA-lambertscott,QA-georgejames
+SMPL-00187,B2025197,Product D ,Finished Product,2025-01-25 23:25:00,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,7.53,,OOS,AN-meyerjoseph,2025-01-26 01:25:00,QA-debra72,QA-douglas49
+SMPL-00188,B2025054,ProductB,In-Process,2024-10-07 11:30:51,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-2,98.0,102.0,98.2,%,Pass,AN-bryantheather,2024-10-07 13:30:51,,
+SMPL-00189,B2025057,ProductA,Finished Product,2024-10-06 20:58:15,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,7.33,,Pass,AN-meyerjoseph,2024-10-06 21:58:15,QA-douglas49,QA-georgejames
+SMPL-00190,B2025144,Product D,Finished Product,2025-04-10 11:28:00,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.52,%,Pass,AN-lauraodom,2025-04-10 14:28:00,QA-debra72,QA-lambertscott
+SMPL-00191,B2025177,ProductA,In-Process,2025-02-02 04:06:48,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,99.9,%,Pass,AN-lauraodom,2025-02-02 06:06:48,QA-lambertscott,QA-debra72
+SMPL-00192,B2025190,ProductA,Finished Product,2025-03-06 18:25:59,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,6.6,,Pass,AN-zcole,2025-03-06 20:25:59,QA-lambertscott,QA-georgejames
+SMPL-00193,B2025212,ProductA,In-Process,2024-11-01 23:24:00,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.06,%,Pass,AN-zcole,2024-11-02 03:24:00,QA-debra72,QA-lambertscott
+SMPL-00194,B2025030,ProductC,Finished Product,2024-12-18 17:37:56,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-3,99.0,,99.09,%,Pass,AN-meyerjoseph,2024-12-18 19:37:56,QA-debra72,QA-georgejames
+SMPL-00195,B2025206,ProductC,Finished Product,2025-05-25 14:03:16,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.47,,Pass,AN-wallderek,2025-05-25 18:03:16,QA-georgejames,QA-douglas49
+SMPL-00196,B2025111,Product D ,Finished Product,2025-05-16 19:33:25,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,,%,Test Not Performed,AN-bryantheather,2025-05-16 23:33:25,,
+SMPL-00197,B2025008,Product D ,In-Process,2025-04-13 19:53:43,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,101.0,%,Pass,AN-teresa11,2025-04-13 20:53:43,QA-debra72,QA-lambertscott
+SMPL-00198,B2025193,ProductA,Finished Product,2025-04-23 00:11:09,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,7.38,,Pass,AN-meyerjoseph,2025-04-23 01:11:09,,
+SMPL-00199,B2025140,ProductB,In-Process,2024-06-25 16:39:03,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-3,99.0,,99.93,%,Pass,AN-meyerjoseph,2024-06-25 17:39:03,QA-debra72,QA-lambertscott
+SMPL-00200,B2025097,ProductA,In-Process,2024-11-25 18:56:26,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.05,%,Pass,AN-jose98,2024-11-25 21:56:26,QA-debra72,QA-georgejames
+SMPL-00201,B2025095,Product D ,Finished Product,2024-12-31 13:28:46,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,6.96,,Pass,AN-zcole,2024-12-31 16:28:46,QA-douglas49,
+SMPL-00202,B2025055,Product D,Finished Product,2025-02-12 22:36:30,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.1,%,Pass,AN-lauraodom,2025-02-13 02:36:30,QA-douglas49,QA-debra72
+SMPL-00203,B2025012,ProductB,Finished Product,2024-09-10 15:09:49,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-1,98.0,102.0,99.8,%,Pass,AN-lauraodom,2024-09-10 16:09:49,,
+SMPL-00204,B2025055,Product D,Finished Product,2025-02-12 21:08:30,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,99.3,%,Pass,AN-bryantheather,2025-02-12 22:08:30,QA-debra72,QA-georgejames
+SMPL-00205,B2025213,ProductB,Finished Product,2025-06-15 03:52:46,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,7.51,,OOS,AN-lauraodom,2025-06-15 05:52:46,QA-debra72,QA-lambertscott
+SMPL-00206,B2025071,ProductC,Finished Product,2024-11-20 04:10:49,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.67,%,Pass,AN-jose98,2024-11-20 06:10:49,QA-debra72,QA-douglas49
+SMPL-00207,B2025015,ProductA,In-Process,2025-01-17 22:55:29,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.09,%,Pass,AN-bryantheather,2025-01-17 23:55:29,QA-douglas49,QA-lambertscott
+SMPL-00208,B2025055,Product D,Finished Product,2025-02-12 20:59:30,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,99.3,%,Pass,AN-meyerjoseph,2025-02-12 22:59:30,QA-debra72,QA-georgejames
+SMPL-00209,B2025101,ProductB,In-Process,2025-06-14 22:28:04,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,98.9,%,Pass,AN-bryantheather,2025-06-15 00:28:04,QA-douglas49,
+SMPL-00210,B2025074,ProductA,Finished Product,2025-01-26 05:30:35,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,7.11,,Pass,AN-zcole,2025-01-26 09:30:35,QA-georgejames,
+SMPL-00211,B2025006,ProductA,In-Process,2024-09-08 19:38:33,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,,%,Test Not Performed,AN-jose98,2024-09-08 23:38:33,,
+SMPL-00212,B2025168,ProductC,Finished Product,2024-10-31 09:15:27,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.41,%,Pass,AN-jose98,2024-10-31 12:15:27,QA-debra72,QA-douglas49
+SMPL-00213,B2025086,ProductB,Finished Product,2024-07-19 06:13:44,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,98.5,%,Pass,AN-lauraodom,2024-07-19 10:13:44,QA-debra72,QA-georgejames
+SMPL-00214,B2025146,ProductB,Finished Product,2024-09-19 08:36:04,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-1,99.0,,98.91,%,OOS,AN-teresa11,2024-09-19 11:36:04,QA-lambertscott,QA-debra72
+SMPL-00215,B2025166,Product D ,In-Process,2024-10-29 13:06:58,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,98.9,%,Pass,AN-meyerjoseph,2024-10-29 14:06:58,QA-georgejames,QA-douglas49
+SMPL-00216,B2025133,Product D,In-Process,2024-11-28 10:53:01,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.98,%,Pass,AN-meyerjoseph,2024-11-28 13:53:01,QA-debra72,QA-douglas49
+SMPL-00217,B2025171,Product D ,Finished Product,2024-11-19 21:00:43,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.87,%,Pass,AN-bryantheather,2024-11-19 22:00:43,QA-lambertscott,QA-georgejames
+SMPL-00218,B2025074,ProductA,In-Process,2025-01-26 03:59:35,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-2,99.0,,98.81,%,OOS,AN-teresa11,2025-01-26 05:59:35,QA-debra72,QA-georgejames
+SMPL-00219,B2025193,ProductA,Finished Product,2025-04-22 22:53:09,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-1,99.0,,98.93,%,OOS,AN-lauraodom,2025-04-22 23:53:09,QA-lambertscott,QA-georgejames
+SMPL-00220,B2025010,Product D,In-Process,2025-01-30 03:11:02,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,6.93,,Pass,AN-meyerjoseph,2025-01-30 04:11:02,QA-debra72,QA-georgejames
+SMPL-00221,B2025205,Product D,Finished Product,2024-11-07 19:07:24,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.14,%,Pass,AN-meyerjoseph,2024-11-07 23:07:24,QA-debra72,
+SMPL-00222,B2025009,Product D ,In-Process,2024-10-17 03:14:43,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,99.7,%,Pass,AN-jose98,2024-10-17 04:14:43,QA-georgejames,QA-debra72
+SMPL-00223,B2025204,ProductB,Finished Product,2024-08-22 07:39:36,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.43,%,Pass,AN-wallderek,2024-08-22 10:39:36,,
+SMPL-00224,B2025099,ProductB,In-Process,2025-04-13 14:02:25,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-1,98.0,102.0,100.8,%,Pass,AN-bryantheather,2025-04-13 15:02:25,QA-lambertscott,
+SMPL-00225,B2025037,ProductC,In-Process,2024-06-20 07:15:36,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,7.2,,Pass,AN-wallderek,2024-06-20 11:15:36,,
+SMPL-00226,B2025032,ProductA,In-Process,2025-02-17 13:33:13,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,,%,Test Not Performed,AN-jose98,2025-02-17 16:33:13,,
+SMPL-00227,B2025016,ProductC,Finished Product,2024-07-05 15:08:41,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,100.6,%,Pass,AN-jose98,2024-07-05 19:08:41,QA-douglas49,
+SMPL-00228,B2025074,ProductA,In-Process,2025-01-26 04:10:35,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,7.04,,Pass,AN-wallderek,2025-01-26 07:10:35,,
+SMPL-00229,B2025160,ProductC,Finished Product,2024-08-09 02:40:16,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.49,%,Pass,AN-jose98,2024-08-09 06:40:16,QA-lambertscott,QA-georgejames
+SMPL-00230,B2025178,ProductC,Finished Product,2024-07-16 07:45:43,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,97.5,%,OOS,AN-teresa11,2024-07-16 11:45:43,QA-douglas49,QA-debra72
+SMPL-00231,B2025026,Product D,Finished Product,2024-08-31 10:02:04,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.64,%,Pass,AN-zcole,2024-08-31 14:02:04,,
+SMPL-00232,B2025154,ProductB,Finished Product,2024-08-25 02:34:57,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.66,%,Pass,AN-bryantheather,2024-08-25 04:34:57,QA-georgejames,QA-debra72
+SMPL-00233,B2025015,ProductA,Finished Product,2025-01-17 23:15:29,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.66,,Pass,AN-lauraodom,2025-01-18 03:15:29,QA-lambertscott,QA-douglas49
+SMPL-00234,B2025205,Product D,In-Process,2024-11-07 18:19:24,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,6.45,,OOS,AN-lauraodom,2024-11-07 21:19:24,QA-debra72,
+SMPL-00235,B2025143,ProductC,In-Process,2025-05-23 17:39:08,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,7.55,,OOS,AN-wallderek,2025-05-23 18:39:08,,
+SMPL-00236,B2025048,ProductC,In-Process,2025-06-15 21:51:34,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,6.62,,Pass,AN-teresa11,2025-06-16 00:51:34,QA-lambertscott,
+SMPL-00237,B2025199,ProductB,In-Process,2024-07-12 05:22:25,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-1,98.0,102.0,100.8,%,Pass,AN-meyerjoseph,2024-07-12 08:22:25,QA-debra72,QA-georgejames
+SMPL-00238,B2025016,ProductC,Finished Product,2024-07-05 15:03:41,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,98.5,%,Pass,AN-bryantheather,2024-07-05 19:03:41,QA-lambertscott,QA-douglas49
+SMPL-00239,B2025007,ProductC,In-Process,2024-11-25 03:18:30,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-2,98.0,102.0,99.5,%,Pass,AN-zcole,2024-11-25 07:18:30,QA-debra72,
+SMPL-00240,B2025035,Product D,In-Process,2024-12-17 04:59:36,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.92,%,Pass,AN-meyerjoseph,2024-12-17 05:59:36,QA-douglas49,QA-georgejames
+SMPL-00241,B2025032,ProductA,Finished Product,2025-02-17 14:17:13,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,,%,Test Not Performed,AN-meyerjoseph,2025-02-17 18:17:13,,
+SMPL-00242,B2025193,ProductA,In-Process,2025-04-23 00:05:09,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-1,99.0,,99.93,%,Pass,AN-zcole,2025-04-23 02:05:09,,
+SMPL-00243,B2025117,ProductA,Finished Product,2024-11-07 02:28:47,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,7.1,,Pass,AN-lauraodom,2024-11-07 04:28:47,QA-douglas49,
+SMPL-00244,B2025191,Product D,Finished Product,2024-07-08 04:44:33,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,7.39,,Pass,AN-lauraodom,2024-07-08 05:44:33,QA-lambertscott,QA-debra72
+SMPL-00245,B2025008,Product D,Finished Product,2025-04-13 20:28:43,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,97.9,%,OOS,AN-wallderek,2025-04-13 21:28:43,QA-georgejames,QA-debra72
+SMPL-00246,B2025035,Product D ,Finished Product,2024-12-17 05:00:36,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,7.14,,Pass,AN-jose98,2024-12-17 07:00:36,QA-debra72,QA-douglas49
+SMPL-00247,B2025138,ProductB,In-Process,2025-02-11 03:12:49,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-1,99.0,,98.97,%,OOS,AN-wallderek,2025-02-11 05:12:49,QA-debra72,
+SMPL-00248,B2025014,Product D ,Finished Product,2024-09-12 09:43:24,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,101.1,%,Pass,AN-zcole,2024-09-12 11:43:24,QA-georgejames,
+SMPL-00249,B2025032,ProductA,Finished Product,2025-02-17 13:49:13,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,6.94,,Pass,AN-bryantheather,2025-02-17 15:49:13,QA-douglas49,QA-georgejames
+SMPL-00250,B2025157,ProductA,Finished Product,2024-10-05 23:08:20,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,7.3,,Pass,AN-jose98,2024-10-06 00:08:20,,
+SMPL-00251,B2025092,ProductA,In-Process,2025-03-26 07:09:12,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.91,%,Pass,AN-zcole,2025-03-26 09:09:12,QA-lambertscott,QA-douglas49
+SMPL-00252,B2025205,Product D ,Finished Product,2024-11-07 18:29:24,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.38,%,Pass,AN-bryantheather,2024-11-07 21:29:24,QA-douglas49,QA-lambertscott
+SMPL-00253,B2025178,ProductC,Finished Product,2024-07-16 07:53:43,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,7.29,,Pass,AN-zcole,2024-07-16 08:53:43,QA-debra72,QA-lambertscott
+SMPL-00254,B2025136,Product D,In-Process,2025-03-14 01:01:54,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,98.3,%,Pass,AN-bryantheather,2025-03-14 05:01:54,QA-debra72,QA-douglas49
+SMPL-00255,B2025188,Product D,Finished Product,2025-03-16 09:22:46,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,6.87,,Pass,AN-zcole,2025-03-16 10:22:46,QA-georgejames,QA-debra72
+SMPL-00256,B2025168,ProductC,Finished Product,2024-10-31 08:53:27,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,,%,Test Not Performed,AN-zcole,2024-10-31 10:53:27,,
+SMPL-00257,B2025009,Product D ,In-Process,2024-10-17 03:29:43,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,99.3,%,Pass,AN-teresa11,2024-10-17 04:29:43,QA-georgejames,QA-lambertscott
+SMPL-00258,B2025216,ProductB,In-Process,2024-11-25 09:03:16,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-2,98.0,102.0,97.7,%,OOS,AN-lauraodom,2024-11-25 12:03:16,QA-debra72,
+SMPL-00259,B2025214,ProductA,In-Process,2025-03-01 08:06:14,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,101.9,%,Pass,AN-meyerjoseph,2025-03-01 09:06:14,QA-georgejames,QA-debra72
+SMPL-00260,B2025091,ProductA,In-Process,2025-04-22 18:53:33,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-2,99.0,,99.67,%,Pass,AN-bryantheather,2025-04-22 21:53:33,QA-lambertscott,QA-debra72
+SMPL-00261,B2025170,ProductA,In-Process,2024-07-29 20:18:30,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,98.3,%,Pass,AN-zcole,2024-07-29 23:18:30,,
+SMPL-00262,B2025019,ProductC,Finished Product,2025-02-25 19:46:45,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.48,%,Pass,AN-bryantheather,2025-02-25 20:46:45,,
+SMPL-00263,B2025047,ProductA,Finished Product,2025-04-09 02:24:44,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.5,,Pass,AN-zcole,2025-04-09 05:24:44,QA-debra72,QA-douglas49
+SMPL-00264,B2025095,Product D ,Finished Product,2024-12-31 14:33:46,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,102.1,%,OOS,AN-jose98,2024-12-31 17:33:46,,
+SMPL-00265,B2025141,ProductB,In-Process,2025-05-18 08:43:58,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,7.06,,Pass,AN-teresa11,2025-05-18 09:43:58,QA-georgejames,QA-douglas49
+SMPL-00266,B2025057,ProductA,In-Process,2024-10-06 20:21:15,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.08,%,Pass,AN-jose98,2024-10-06 23:21:15,QA-douglas49,QA-lambertscott
+SMPL-00267,B2025083,ProductC,In-Process,2025-04-11 06:00:12,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,7.08,,Pass,AN-bryantheather,2025-04-11 08:00:12,QA-georgejames,QA-lambertscott
+SMPL-00268,B2025074,ProductA,Finished Product,2025-01-26 04:40:35,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,7.31,,Pass,AN-jose98,2025-01-26 07:40:35,QA-georgejames,QA-douglas49
+SMPL-00269,B2025048,ProductC,In-Process,2025-06-15 21:53:34,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,98.86,%,OOS,AN-meyerjoseph,2025-06-16 00:53:34,QA-debra72,
+SMPL-00270,B2025175,ProductC,In-Process,2024-07-16 03:38:20,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.58,,OOS,AN-meyerjoseph,2024-07-16 06:38:20,QA-georgejames,
+SMPL-00271,B2025113,Product D,In-Process,2024-08-14 11:41:38,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,,,Test Not Performed,AN-lauraodom,2024-08-14 12:41:38,,
+SMPL-00272,B2025215,ProductB,Finished Product,2024-06-21 00:12:17,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,99.1,%,Pass,AN-lauraodom,2024-06-21 02:12:17,QA-lambertscott,QA-douglas49
+SMPL-00273,B2025086,ProductB,In-Process,2024-07-19 04:42:44,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,6.99,,Pass,AN-meyerjoseph,2024-07-19 07:42:44,QA-douglas49,
+SMPL-00274,B2025213,ProductB,Finished Product,2025-06-15 04:12:46,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,6.63,,Pass,AN-teresa11,2025-06-15 08:12:46,QA-georgejames,QA-debra72
+SMPL-00275,B2025108,Product D,Finished Product,2024-07-27 06:14:11,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,7.06,,Pass,AN-lauraodom,2024-07-27 08:14:11,QA-debra72,QA-georgejames
+SMPL-00276,B2025208,ProductA,Finished Product,2025-04-29 15:52:34,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-2,99.0,,98.93,%,OOS,AN-jose98,2025-04-29 19:52:34,QA-douglas49,QA-georgejames
+SMPL-00277,B2025092,ProductA,In-Process,2025-03-26 07:44:12,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,102.0,%,Pass,AN-lauraodom,2025-03-26 08:44:12,QA-lambertscott,
+SMPL-00278,B2025114,ProductC,Finished Product,2024-12-28 06:29:33,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.6,,OOS,AN-jose98,2024-12-28 07:29:33,QA-douglas49,QA-georgejames
+SMPL-00279,B2025091,ProductA,Finished Product,2025-04-22 19:25:33,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,7.25,,Pass,AN-jose98,2025-04-22 22:25:33,QA-lambertscott,QA-debra72
+SMPL-00280,B2025129,ProductB,Finished Product,2024-08-26 09:28:04,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,7.24,,Pass,AN-bryantheather,2024-08-26 13:28:04,QA-douglas49,QA-georgejames
+SMPL-00281,B2025056,ProductB,In-Process,2024-12-03 14:54:17,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,7.57,,OOS,AN-wallderek,2024-12-03 18:54:17,QA-douglas49,QA-lambertscott
+SMPL-00282,B2025055,Product D ,In-Process,2025-02-12 20:59:30,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.0,%,Pass,AN-bryantheather,2025-02-13 00:59:30,QA-georgejames,
+SMPL-00283,B2025048,ProductC,In-Process,2025-06-15 22:06:34,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,6.99,,Pass,AN-wallderek,2025-06-16 00:06:34,QA-lambertscott,QA-georgejames
+SMPL-00284,B2025026,Product D ,Finished Product,2024-08-31 09:39:04,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,97.7,%,OOS,AN-bryantheather,2024-08-31 10:39:04,QA-debra72,QA-douglas49
+SMPL-00285,B2025176,Product D ,Finished Product,2024-12-29 07:49:58,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.51,%,Pass,AN-teresa11,2024-12-29 09:49:58,QA-douglas49,QA-georgejames
+SMPL-00286,B2025052,ProductB,In-Process,2024-11-22 04:28:34,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,,,Test Not Performed,AN-jose98,2024-11-22 06:28:34,,
+SMPL-00287,B2025054,ProductB,In-Process,2024-10-07 10:50:51,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-1,99.0,,99.58,%,Pass,AN-jose98,2024-10-07 13:50:51,QA-debra72,QA-lambertscott
+SMPL-00288,B2025209,ProductC,In-Process,2025-03-16 05:52:11,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-3,99.0,,98.88,%,OOS,AN-jose98,2025-03-16 07:52:11,QA-debra72,
+SMPL-00289,B2025140,ProductB,In-Process,2024-06-25 16:25:03,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,7.59,,OOS,AN-lauraodom,2024-06-25 20:25:03,QA-debra72,QA-georgejames
+SMPL-00290,B2025157,ProductA,In-Process,2024-10-05 23:40:20,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.71,%,Pass,AN-jose98,2024-10-06 03:40:20,,
+SMPL-00291,B2025050,ProductA,Finished Product,2024-10-24 04:59:14,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,98.6,%,Pass,AN-zcole,2024-10-24 06:59:14,QA-douglas49,QA-georgejames
+SMPL-00292,B2025102,ProductC,In-Process,2025-03-23 14:48:39,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-2,98.0,102.0,99.6,%,Pass,AN-teresa11,2025-03-23 16:48:39,QA-debra72,
+SMPL-00293,B2025084,ProductB,Finished Product,2024-07-22 02:54:50,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,7.17,,Pass,AN-meyerjoseph,2024-07-22 06:54:50,QA-georgejames,QA-douglas49
+SMPL-00294,B2025039,ProductB,In-Process,2024-08-27 13:43:06,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,7.33,,Pass,AN-wallderek,2024-08-27 16:43:06,QA-debra72,QA-georgejames
+SMPL-00295,B2025202,Product D ,Finished Product,2025-05-16 20:46:21,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,101.9,%,Pass,AN-wallderek,2025-05-16 22:46:21,QA-douglas49,QA-debra72
+SMPL-00296,B2025132,ProductC,Finished Product,2025-01-11 21:46:30,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,6.54,,Pass,AN-bryantheather,2025-01-12 00:46:30,QA-debra72,QA-douglas49
+SMPL-00297,B2025180,ProductA,Finished Product,2024-08-14 23:29:23,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,99.2,%,Pass,AN-meyerjoseph,2024-08-15 00:29:23,QA-georgejames,
+SMPL-00298,B2025089,ProductC,In-Process,2025-03-11 08:16:13,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-2,98.0,102.0,99.6,%,Pass,AN-meyerjoseph,2025-03-11 11:16:13,QA-douglas49,QA-lambertscott
+SMPL-00299,B2025038,ProductC,Finished Product,2025-04-06 13:08:03,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,6.97,,Pass,AN-meyerjoseph,2025-04-06 16:08:03,QA-georgejames,QA-douglas49
+SMPL-00300,B2025107,ProductC,Finished Product,2024-09-27 14:20:16,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,7.47,,Pass,AN-jose98,2024-09-27 15:20:16,QA-lambertscott,
+SMPL-00301,B2025200,ProductC,In-Process,2024-07-28 03:15:55,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-2,98.0,102.0,,%,Test Not Performed,AN-wallderek,2024-07-28 06:15:55,,
+SMPL-00302,B2025028,Product D,Finished Product,2024-07-02 08:28:00,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,98.2,%,Pass,AN-meyerjoseph,2024-07-02 11:28:00,QA-douglas49,QA-georgejames
+SMPL-00303,B2025096,Product D,Finished Product,2024-11-15 22:40:38,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,6.58,,Pass,AN-bryantheather,2024-11-16 02:40:38,QA-lambertscott,QA-georgejames
+SMPL-00304,B2025015,ProductA,Finished Product,2025-01-17 23:14:29,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,6.75,,Pass,AN-lauraodom,2025-01-18 02:14:29,,
+SMPL-00305,B2025192,ProductC,In-Process,2025-06-09 22:39:37,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,6.8,,Pass,AN-teresa11,2025-06-10 01:39:37,QA-douglas49,QA-lambertscott
+SMPL-00306,B2025182,Product D,In-Process,2024-12-30 13:15:01,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.83,%,Pass,AN-wallderek,2024-12-30 16:15:01,QA-lambertscott,QA-douglas49
+SMPL-00307,B2025040,Product D ,In-Process,2024-11-23 18:47:08,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.83,%,Pass,AN-jose98,2024-11-23 21:47:08,QA-georgejames,QA-debra72
+SMPL-00308,B2025202,Product D ,Finished Product,2025-05-16 21:07:21,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,101.4,%,Pass,AN-meyerjoseph,2025-05-17 00:07:21,QA-lambertscott,
+SMPL-00309,B2025192,ProductC,In-Process,2025-06-09 22:44:37,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,99.0,%,Pass,AN-jose98,2025-06-10 02:44:37,QA-lambertscott,QA-douglas49
+SMPL-00310,B2025023,ProductB,Finished Product,2024-12-28 00:21:25,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,101.1,%,Pass,AN-meyerjoseph,2024-12-28 04:21:25,QA-georgejames,
+SMPL-00311,B2025147,ProductA,In-Process,2025-03-25 07:50:39,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,102.4,%,OOS,AN-jose98,2025-03-25 09:50:39,,
+SMPL-00312,B2025048,ProductC,Finished Product,2025-06-15 22:22:34,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.4,%,Pass,AN-zcole,2025-06-16 00:22:34,QA-lambertscott,QA-douglas49
+SMPL-00313,B2025039,ProductB,Finished Product,2024-08-27 13:15:06,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,7.5,,Pass,AN-wallderek,2024-08-27 16:15:06,QA-douglas49,QA-debra72
+SMPL-00314,B2025154,ProductB,Finished Product,2024-08-25 02:27:57,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.67,%,Pass,AN-meyerjoseph,2024-08-25 06:27:57,QA-lambertscott,QA-georgejames
+SMPL-00315,B2025172,Product D ,Finished Product,2024-08-13 09:54:54,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.73,%,Pass,AN-jose98,2024-08-13 11:54:54,,
+SMPL-00316,B2025170,ProductA,Finished Product,2024-07-29 20:06:30,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-1,99.0,,,%,Test Not Performed,AN-lauraodom,2024-07-29 21:06:30,,
+SMPL-00317,B2025089,ProductC,Finished Product,2025-03-11 06:58:13,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,100.4,%,Pass,AN-zcole,2025-03-11 08:58:13,QA-debra72,
+SMPL-00318,B2025017,ProductB,Finished Product,2024-12-10 15:47:43,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,97.9,%,OOS,AN-jose98,2024-12-10 16:47:43,,
+SMPL-00319,B2025118,ProductC,In-Process,2025-05-14 13:01:59,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,6.56,,Pass,AN-teresa11,2025-05-14 16:01:59,QA-douglas49,QA-georgejames
+SMPL-00320,B2025158,ProductC,In-Process,2025-02-28 21:08:56,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,6.66,,Pass,AN-teresa11,2025-02-28 22:08:56,QA-lambertscott,QA-douglas49
+SMPL-00321,B2025046,ProductC,Finished Product,2024-06-20 09:13:27,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.03,,Pass,AN-bryantheather,2024-06-20 12:13:27,QA-douglas49,QA-georgejames
+SMPL-00322,B2025154,ProductB,Finished Product,2024-08-25 02:36:57,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,99.0,%,Pass,AN-wallderek,2024-08-25 06:36:57,QA-georgejames,
+SMPL-00323,B2025038,ProductC,Finished Product,2025-04-06 14:18:03,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.56,%,Pass,AN-meyerjoseph,2025-04-06 16:18:03,QA-lambertscott,
+SMPL-00324,B2025176,Product D,Finished Product,2024-12-29 08:18:58,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,99.4,%,Pass,AN-lauraodom,2024-12-29 10:18:58,QA-georgejames,QA-lambertscott
+SMPL-00325,B2025121,ProductC,In-Process,2024-11-08 05:51:39,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,99.6,%,Pass,AN-wallderek,2024-11-08 06:51:39,QA-douglas49,QA-debra72
+SMPL-00326,B2025123,ProductA,Finished Product,2025-01-28 05:12:44,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,101.0,%,Pass,AN-wallderek,2025-01-28 08:12:44,QA-debra72,QA-lambertscott
+SMPL-00327,B2025131,ProductA,In-Process,2025-05-19 15:31:33,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,7.22,,Pass,AN-teresa11,2025-05-19 19:31:33,QA-georgejames,QA-lambertscott
+SMPL-00328,B2025210,Product D ,Finished Product,2024-08-10 13:26:13,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,6.63,,Pass,AN-lauraodom,2024-08-10 17:26:13,QA-lambertscott,
+SMPL-00329,B2025111,Product D ,Finished Product,2025-05-16 19:38:25,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,7.57,,OOS,AN-wallderek,2025-05-16 20:38:25,QA-debra72,QA-douglas49
+SMPL-00330,B2025002,ProductA,Finished Product,2025-05-04 09:04:06,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,7.08,,Pass,AN-jose98,2025-05-04 10:04:06,QA-georgejames,QA-lambertscott
+SMPL-00331,B2025204,ProductB,Finished Product,2024-08-22 08:51:36,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-2,98.0,102.0,,%,Test Not Performed,AN-lauraodom,2024-08-22 10:51:36,,
+SMPL-00332,B2025168,ProductC,Finished Product,2024-10-31 09:51:27,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-2,98.0,102.0,100.0,%,Pass,AN-teresa11,2024-10-31 12:51:27,QA-debra72,QA-douglas49
+SMPL-00333,B2025072,Product D,In-Process,2024-10-07 01:20:02,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.07,%,Pass,AN-wallderek,2024-10-07 03:20:02,QA-debra72,
+SMPL-00334,B2025016,ProductC,Finished Product,2024-07-05 14:50:41,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,6.46,,OOS,AN-teresa11,2024-07-05 15:50:41,QA-debra72,QA-douglas49
+SMPL-00335,B2025213,ProductB,In-Process,2025-06-15 04:02:46,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-2,6.5,7.5,6.94,,Pass,AN-zcole,2025-06-15 08:02:46,QA-georgejames,QA-lambertscott
+SMPL-00336,B2025128,ProductB,In-Process,2024-12-30 01:27:45,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-2,98.0,102.0,100.5,%,Pass,AN-wallderek,2024-12-30 04:27:45,,
+SMPL-00337,B2025063,ProductC,Finished Product,2024-06-21 02:24:20,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-2,98.0,102.0,99.3,%,Pass,AN-meyerjoseph,2024-06-21 06:24:20,QA-debra72,QA-douglas49
+SMPL-00338,B2025021,Product D,In-Process,2025-03-18 03:16:41,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.36,%,Pass,AN-meyerjoseph,2025-03-18 07:16:41,QA-georgejames,
+SMPL-00339,B2025090,ProductB,Finished Product,2024-12-11 15:51:03,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-1,99.0,,99.73,%,Pass,AN-lauraodom,2024-12-11 19:51:03,QA-douglas49,QA-debra72
+SMPL-00340,B2025093,ProductA,Finished Product,2025-01-17 02:13:59,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,7.16,,Pass,AN-jose98,2025-01-17 04:13:59,QA-debra72,QA-douglas49
+SMPL-00341,B2025146,ProductB,Finished Product,2024-09-19 07:38:04,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-1,98.0,102.0,99.5,%,Pass,AN-wallderek,2024-09-19 08:38:04,QA-debra72,QA-georgejames
+SMPL-00342,B2025208,ProductA,Finished Product,2025-04-29 16:26:34,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,102.3,%,OOS,AN-zcole,2025-04-29 19:26:34,QA-georgejames,QA-debra72
+SMPL-00343,B2025071,ProductC,Finished Product,2024-11-20 03:34:49,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,100.3,%,Pass,AN-wallderek,2024-11-20 06:34:49,QA-debra72,
+SMPL-00344,B2025098,ProductA,In-Process,2024-09-11 04:33:37,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-1,6.5,7.5,6.51,,Pass,AN-wallderek,2024-09-11 06:33:37,QA-lambertscott,
+SMPL-00345,B2025090,ProductB,In-Process,2024-12-11 17:00:03,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,98.8,%,Pass,AN-wallderek,2024-12-11 19:00:03,QA-douglas49,
+SMPL-00346,B2025091,ProductA,In-Process,2025-04-22 18:40:33,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,,,Test Not Performed,AN-jose98,2025-04-22 21:40:33,,
+SMPL-00347,B2025171,Product D ,In-Process,2024-11-19 22:23:43,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,98.7,%,Pass,AN-lauraodom,2024-11-19 23:23:43,QA-georgejames,QA-debra72
+SMPL-00348,B2025180,ProductA,Finished Product,2024-08-14 23:57:23,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,98.85,%,OOS,AN-meyerjoseph,2024-08-15 02:57:23,,
+SMPL-00349,B2025112,ProductC,In-Process,2024-11-18 22:54:15,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,97.6,%,OOS,AN-bryantheather,2024-11-19 02:54:15,QA-georgejames,QA-lambertscott
+SMPL-00350,B2025101,ProductB,In-Process,2025-06-14 22:11:04,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,7.05,,Pass,AN-zcole,2025-06-15 02:11:04,QA-douglas49,
+SMPL-00351,B2025198,ProductA,Finished Product,2024-11-04 12:27:43,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-1,99.0,,99.01,%,Pass,AN-meyerjoseph,2024-11-04 14:27:43,QA-debra72,QA-douglas49
+SMPL-00352,B2025116,ProductA,In-Process,2025-01-02 20:50:57,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.63,%,Pass,AN-zcole,2025-01-03 00:50:57,QA-douglas49,
+SMPL-00353,B2025178,ProductC,Finished Product,2024-07-16 07:58:43,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,7.26,,Pass,AN-meyerjoseph,2024-07-16 09:58:43,QA-douglas49,QA-lambertscott
+SMPL-00354,B2025031,Product D ,In-Process,2025-03-07 23:33:59,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.04,%,Pass,AN-wallderek,2025-03-08 03:33:59,QA-douglas49,QA-georgejames
+SMPL-00355,B2025188,Product D ,Finished Product,2025-03-16 09:32:46,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,7.16,,Pass,AN-teresa11,2025-03-16 13:32:46,QA-georgejames,QA-debra72
+SMPL-00356,B2025181,ProductC,Finished Product,2025-01-16 14:04:23,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,6.51,,Pass,AN-lauraodom,2025-01-16 18:04:23,QA-lambertscott,QA-douglas49
+SMPL-00357,B2025051,ProductC,Finished Product,2024-10-14 00:42:08,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,6.78,,Pass,AN-bryantheather,2024-10-14 01:42:08,QA-georgejames,
+SMPL-00358,B2025082,Product D ,Finished Product,2025-05-21 18:39:46,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.64,%,Pass,AN-teresa11,2025-05-21 22:39:46,QA-douglas49,QA-lambertscott
+SMPL-00359,B2025208,ProductA,In-Process,2025-04-29 15:52:34,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,102.2,%,OOS,AN-teresa11,2025-04-29 18:52:34,QA-lambertscott,QA-douglas49
+SMPL-00360,B2025148,Product D ,In-Process,2024-09-02 20:18:13,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,6.72,,Pass,AN-lauraodom,2024-09-03 00:18:13,QA-debra72,QA-lambertscott
+SMPL-00361,B2025174,ProductC,Finished Product,2024-09-29 01:20:09,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,,,Test Not Performed,AN-wallderek,2024-09-29 02:20:09,,
+SMPL-00362,B2025097,ProductA,In-Process,2024-11-25 18:48:26,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,99.9,%,Pass,AN-jose98,2024-11-25 21:48:26,,
+SMPL-00363,B2025205,Product D ,In-Process,2024-11-07 18:54:24,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,6.55,,Pass,AN-jose98,2024-11-07 20:54:24,QA-georgejames,
+SMPL-00364,B2025155,ProductB,Finished Product,2024-09-16 10:26:05,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,98.92,%,OOS,AN-teresa11,2024-09-16 12:26:05,,
+SMPL-00365,B2025130,ProductB,In-Process,2024-12-11 12:33:21,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-1,98.0,102.0,101.2,%,Pass,AN-bryantheather,2024-12-11 14:33:21,QA-lambertscott,QA-douglas49
+SMPL-00366,B2025019,ProductC,In-Process,2025-02-25 18:41:45,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.45,%,Pass,AN-wallderek,2025-02-25 19:41:45,QA-georgejames,QA-lambertscott
+SMPL-00367,B2025107,ProductC,Finished Product,2024-09-27 14:48:16,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,102.3,%,OOS,AN-meyerjoseph,2024-09-27 18:48:16,QA-lambertscott,QA-georgejames
+SMPL-00368,B2025054,ProductB,In-Process,2024-10-07 11:07:51,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.61,%,Pass,AN-teresa11,2024-10-07 15:07:51,QA-lambertscott,
+SMPL-00369,B2025014,Product D ,In-Process,2024-09-12 08:33:24,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,7.18,,Pass,AN-teresa11,2024-09-12 10:33:24,QA-georgejames,QA-debra72
+SMPL-00370,B2025071,ProductC,Finished Product,2024-11-20 05:05:49,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-1,6.5,7.5,6.48,,OOS,AN-teresa11,2024-11-20 09:05:49,QA-douglas49,QA-lambertscott
+SMPL-00371,B2025045,Product D,Finished Product,2024-07-17 03:53:47,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,6.62,,Pass,AN-zcole,2024-07-17 07:53:47,QA-lambertscott,QA-douglas49
+SMPL-00372,B2025091,ProductA,In-Process,2025-04-22 18:52:33,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,100.4,%,Pass,AN-wallderek,2025-04-22 19:52:33,QA-debra72,QA-lambertscott
+SMPL-00373,B2025197,Product D,In-Process,2025-01-26 00:10:00,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.02,%,Pass,AN-wallderek,2025-01-26 04:10:00,QA-georgejames,QA-douglas49
+SMPL-00374,B2025160,ProductC,Finished Product,2024-08-09 02:53:16,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.66,%,Pass,AN-zcole,2024-08-09 06:53:16,QA-debra72,
+SMPL-00375,B2025026,Product D,Finished Product,2024-08-31 09:07:04,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,98.1,%,Pass,AN-bryantheather,2024-08-31 13:07:04,,
+SMPL-00376,B2025150,Product D,Finished Product,2025-02-01 22:52:07,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,,,Test Not Performed,AN-jose98,2025-02-02 00:52:07,,
+SMPL-00377,B2025210,Product D ,Finished Product,2024-08-10 13:26:13,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-1,6.5,7.5,7.13,,Pass,AN-bryantheather,2024-08-10 14:26:13,QA-douglas49,
+SMPL-00378,B2025183,Product D ,Finished Product,2024-09-15 15:51:22,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.93,%,Pass,AN-jose98,2024-09-15 17:51:22,QA-georgejames,QA-debra72
+SMPL-00379,B2025160,ProductC,In-Process,2024-08-09 03:38:16,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,98.97,%,OOS,AN-teresa11,2024-08-09 07:38:16,,
+SMPL-00380,B2025197,Product D,Finished Product,2025-01-26 00:58:00,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,102.1,%,OOS,AN-meyerjoseph,2025-01-26 03:58:00,QA-georgejames,QA-debra72
+SMPL-00381,B2025171,Product D,In-Process,2024-11-19 22:34:43,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.96,%,Pass,AN-zcole,2024-11-20 00:34:43,QA-georgejames,
+SMPL-00382,B2025118,ProductC,In-Process,2025-05-14 14:14:59,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-3,98.0,102.0,100.5,%,Pass,AN-bryantheather,2025-05-14 18:14:59,QA-douglas49,QA-georgejames
+SMPL-00383,B2025210,Product D,Finished Product,2024-08-10 13:41:13,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.09,%,Pass,AN-jose98,2024-08-10 15:41:13,QA-lambertscott,QA-georgejames
+SMPL-00384,B2025090,ProductB,In-Process,2024-12-11 17:02:03,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,101.8,%,Pass,AN-meyerjoseph,2024-12-11 21:02:03,QA-douglas49,
+SMPL-00385,B2025086,ProductB,In-Process,2024-07-19 05:39:44,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,6.92,,Pass,AN-bryantheather,2024-07-19 07:39:44,QA-lambertscott,QA-douglas49
+SMPL-00386,B2025100,ProductC,In-Process,2024-09-24 11:09:02,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.16,,Pass,AN-bryantheather,2024-09-24 13:09:02,QA-lambertscott,QA-debra72
+SMPL-00387,B2025195,ProductB,In-Process,2024-11-21 18:59:03,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-2,98.0,102.0,97.7,%,OOS,AN-zcole,2024-11-21 20:59:03,QA-douglas49,QA-georgejames
+SMPL-00388,B2025154,ProductB,Finished Product,2024-08-25 01:26:57,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,98.89,%,OOS,AN-lauraodom,2024-08-25 02:26:57,QA-georgejames,QA-lambertscott
+SMPL-00389,B2025004,ProductC,Finished Product,2024-07-11 04:51:35,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,6.92,,Pass,AN-wallderek,2024-07-11 05:51:35,QA-lambertscott,QA-douglas49
+SMPL-00390,B2025101,ProductB,In-Process,2025-06-14 23:42:04,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,98.85,%,OOS,AN-teresa11,2025-06-15 03:42:04,QA-lambertscott,QA-georgejames
+SMPL-00391,B2025022,ProductB,In-Process,2025-06-16 03:37:31,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,,,Test Not Performed,AN-jose98,2025-06-16 07:37:31,,
+SMPL-00392,B2025047,ProductA,In-Process,2025-04-09 02:00:44,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-1,99.0,,99.72,%,Pass,AN-bryantheather,2025-04-09 04:00:44,QA-debra72,QA-douglas49
+SMPL-00393,B2025058,ProductA,Finished Product,2024-10-07 10:36:23,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-2,99.0,,99.89,%,Pass,AN-teresa11,2024-10-07 12:36:23,QA-douglas49,QA-georgejames
+SMPL-00394,B2025210,Product D,In-Process,2024-08-10 14:51:13,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-2,98.0,102.0,99.1,%,Pass,AN-jose98,2024-08-10 15:51:13,,
+SMPL-00395,B2025211,ProductB,Finished Product,2025-04-13 05:50:56,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,98.81,%,OOS,AN-jose98,2025-04-13 09:50:56,QA-douglas49,QA-lambertscott
+SMPL-00396,B2025047,ProductA,In-Process,2025-04-09 02:53:44,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,7.1,,Pass,AN-meyerjoseph,2025-04-09 05:53:44,QA-lambertscott,QA-douglas49
+SMPL-00397,B2025157,ProductA,In-Process,2024-10-05 23:02:20,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.06,%,Pass,AN-meyerjoseph,2024-10-06 03:02:20,QA-debra72,QA-douglas49
+SMPL-00398,B2025154,ProductB,In-Process,2024-08-25 02:23:57,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-1,98.0,102.0,98.7,%,Pass,AN-meyerjoseph,2024-08-25 05:23:57,QA-georgejames,QA-debra72
+SMPL-00399,B2025142,ProductC,In-Process,2024-12-25 21:29:13,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.57,,OOS,AN-teresa11,2024-12-25 22:29:13,QA-lambertscott,QA-debra72
+SMPL-00400,B2025032,ProductA,Finished Product,2025-02-17 13:40:13,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,102.3,%,OOS,AN-lauraodom,2025-02-17 16:40:13,QA-lambertscott,QA-debra72
+SMPL-00401,B2025049,ProductB,Finished Product,2025-02-02 22:07:55,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,7.48,,Pass,AN-wallderek,2025-02-03 01:07:55,QA-douglas49,QA-georgejames
+SMPL-00402,B2025024,ProductB,Finished Product,2024-07-05 21:03:11,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-1,98.0,102.0,100.9,%,Pass,AN-meyerjoseph,2024-07-06 00:03:11,QA-lambertscott,
+SMPL-00403,B2025159,ProductA,Finished Product,2025-02-20 10:29:41,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,99.6,%,Pass,AN-lauraodom,2025-02-20 13:29:41,QA-georgejames,QA-douglas49
+SMPL-00404,B2025041,Product D ,Finished Product,2024-08-10 00:25:00,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-2,99.0,,99.22,%,Pass,AN-teresa11,2024-08-10 02:25:00,QA-debra72,QA-douglas49
+SMPL-00405,B2025058,ProductA,In-Process,2024-10-07 10:19:23,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.0,%,Pass,AN-bryantheather,2024-10-07 11:19:23,,
+SMPL-00406,B2025095,Product D ,Finished Product,2024-12-31 14:33:46,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,,%,Test Not Performed,AN-lauraodom,2024-12-31 15:33:46,,
+SMPL-00407,B2025118,ProductC,In-Process,2025-05-14 12:54:59,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,101.5,%,Pass,AN-lauraodom,2025-05-14 13:54:59,QA-georgejames,QA-douglas49
+SMPL-00408,B2025063,ProductC,Finished Product,2024-06-21 02:23:20,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,7.31,,Pass,AN-meyerjoseph,2024-06-21 05:23:20,QA-douglas49,
+SMPL-00409,B2025090,ProductB,Finished Product,2024-12-11 16:26:03,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,97.8,%,OOS,AN-lauraodom,2024-12-11 20:26:03,,
+SMPL-00410,B2025039,ProductB,Finished Product,2024-08-27 13:43:06,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,98.92,%,OOS,AN-zcole,2024-08-27 15:43:06,QA-lambertscott,QA-debra72
+SMPL-00411,B2025119,ProductC,In-Process,2024-12-08 16:21:50,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.38,,Pass,AN-zcole,2024-12-08 18:21:50,QA-debra72,
+SMPL-00412,B2025076,ProductC,In-Process,2025-04-26 22:57:16,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.21,,Pass,AN-lauraodom,2025-04-27 01:57:16,QA-debra72,QA-douglas49
+SMPL-00413,B2025047,ProductA,In-Process,2025-04-09 01:41:44,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,99.6,%,Pass,AN-lauraodom,2025-04-09 02:41:44,QA-georgejames,QA-lambertscott
+SMPL-00414,B2025062,Product D ,In-Process,2025-03-06 02:37:04,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-1,99.0,,99.57,%,Pass,AN-meyerjoseph,2025-03-06 05:37:04,QA-debra72,QA-lambertscott
+SMPL-00415,B2025012,ProductB,Finished Product,2024-09-10 15:26:49,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-2,99.0,,99.28,%,Pass,AN-jose98,2024-09-10 19:26:49,QA-georgejames,QA-douglas49
+SMPL-00416,B2025203,ProductB,In-Process,2024-12-28 02:51:25,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-3,99.0,,99.69,%,Pass,AN-jose98,2024-12-28 05:51:25,QA-georgejames,QA-debra72
+SMPL-00417,B2025112,ProductC,Finished Product,2024-11-18 23:20:15,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.1,,Pass,AN-jose98,2024-11-19 03:20:15,QA-lambertscott,QA-georgejames
+SMPL-00418,B2025216,ProductB,Finished Product,2024-11-25 09:56:16,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,6.64,,Pass,AN-lauraodom,2024-11-25 13:56:16,QA-debra72,QA-georgejames
+SMPL-00419,B2025080,Product D ,In-Process,2024-07-08 01:50:39,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,7.54,,OOS,AN-lauraodom,2024-07-08 03:50:39,QA-douglas49,QA-lambertscott
+SMPL-00420,B2025081,Product D ,In-Process,2024-11-12 19:12:45,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,7.06,,Pass,AN-zcole,2024-11-12 23:12:45,QA-lambertscott,QA-debra72
+SMPL-00421,B2025211,ProductB,In-Process,2025-04-13 07:06:56,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,,,Test Not Performed,AN-lauraodom,2025-04-13 09:06:56,,
+SMPL-00422,B2025114,ProductC,In-Process,2024-12-28 06:07:33,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,98.3,%,Pass,AN-bryantheather,2024-12-28 09:07:33,,
+SMPL-00423,B2025072,Product D,Finished Product,2024-10-07 02:38:02,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-2,6.5,7.5,6.62,,Pass,AN-teresa11,2024-10-07 06:38:02,,
+SMPL-00424,B2025001,ProductB,In-Process,2025-02-25 04:41:23,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-3,6.5,7.5,7.09,,Pass,AN-jose98,2025-02-25 07:41:23,QA-georgejames,QA-debra72
+SMPL-00425,B2025049,ProductB,Finished Product,2025-02-02 22:28:55,Awaiting Test,Purity,TM-Purity-PROD-002,INST-Purity-1,99.0,,99.08,%,Pass,AN-lauraodom,2025-02-03 00:28:55,QA-douglas49,QA-debra72
+SMPL-00426,B2025046,ProductC,In-Process,2024-06-20 08:57:27,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-3,6.5,7.5,7.53,,OOS,AN-meyerjoseph,2024-06-20 11:57:27,QA-debra72,QA-georgejames
+SMPL-00427,B2025116,ProductA,Finished Product,2025-01-02 21:14:57,Awaiting Test,Purity,TM-Purity-PROD-001,INST-Purity-3,99.0,,99.03,%,Pass,AN-meyerjoseph,2025-01-02 23:14:57,QA-debra72,QA-lambertscott
+SMPL-00428,B2025179,ProductA,In-Process,2024-08-08 04:52:01,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-2,98.0,102.0,101.5,%,Pass,AN-bryantheather,2024-08-08 06:52:01,QA-douglas49,QA-lambertscott
+SMPL-00429,B2025098,ProductA,In-Process,2024-09-11 04:22:37,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,98.7,%,Pass,AN-teresa11,2024-09-11 06:22:37,QA-debra72,
+SMPL-00430,B2025191,Product D,Finished Product,2024-07-08 04:57:33,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,6.76,,Pass,AN-jose98,2024-07-08 06:57:33,QA-debra72,QA-lambertscott
+SMPL-00431,B2025189,ProductA,Finished Product,2024-06-25 08:24:48,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,6.96,,Pass,AN-wallderek,2024-06-25 10:24:48,QA-georgejames,QA-douglas49
+SMPL-00432,B2025172,Product D ,In-Process,2024-08-13 10:02:54,Awaiting Test,Purity,TM-Purity-PROD-004,INST-Purity-3,99.0,,99.07,%,Pass,AN-bryantheather,2024-08-13 14:02:54,QA-lambertscott,QA-debra72
+SMPL-00433,B2025078,ProductA,In-Process,2025-01-19 07:57:53,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-1,98.0,102.0,97.7,%,OOS,AN-jose98,2025-01-19 11:57:53,QA-georgejames,QA-lambertscott
+SMPL-00434,B2025096,Product D ,Finished Product,2024-11-15 23:56:38,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-1,98.0,102.0,99.3,%,Pass,AN-bryantheather,2024-11-16 02:56:38,QA-debra72,
+SMPL-00435,B2025068,Product D ,Finished Product,2024-08-28 02:44:11,Awaiting Test,Assay,TM-Assay-PROD-004,INST-Assay-3,98.0,102.0,100.9,%,Pass,AN-bryantheather,2024-08-28 05:44:11,,
+SMPL-00436,B2025144,Product D ,In-Process,2025-04-10 11:09:00,Awaiting Test,pH,TM-pH-PROD-004,INST-pH-3,6.5,7.5,,,Test Not Performed,AN-meyerjoseph,2025-04-10 15:09:00,,
+SMPL-00437,B2025017,ProductB,In-Process,2024-12-10 16:32:43,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,6.6,,Pass,AN-zcole,2024-12-10 18:32:43,QA-debra72,QA-lambertscott
+SMPL-00438,B2025091,ProductA,Finished Product,2025-04-22 18:47:33,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,7.59,,OOS,AN-teresa11,2025-04-22 22:47:33,QA-georgejames,QA-debra72
+SMPL-00439,B2025119,ProductC,In-Process,2024-12-08 15:02:50,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,6.96,,Pass,AN-jose98,2024-12-08 16:02:50,QA-lambertscott,QA-debra72
+SMPL-00440,B2025198,ProductA,In-Process,2024-11-04 12:29:43,Awaiting Test,Assay,TM-Assay-PROD-001,INST-Assay-3,98.0,102.0,98.0,%,Pass,AN-teresa11,2024-11-04 15:29:43,QA-douglas49,QA-georgejames
+SMPL-00441,B2025092,ProductA,In-Process,2025-03-26 07:06:12,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,6.46,,OOS,AN-meyerjoseph,2025-03-26 10:06:12,QA-georgejames,
+SMPL-00442,B2025037,ProductC,In-Process,2024-06-20 07:51:36,Awaiting Test,pH,TM-pH-PROD-003,INST-pH-2,6.5,7.5,6.51,,Pass,AN-bryantheather,2024-06-20 08:51:36,QA-debra72,QA-douglas49
+SMPL-00443,B2025157,ProductA,In-Process,2024-10-05 22:55:20,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-3,6.5,7.5,7.07,,Pass,AN-jose98,2024-10-06 02:55:20,QA-debra72,QA-douglas49
+SMPL-00444,B2025138,ProductB,Finished Product,2025-02-11 03:58:49,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,98.0,%,Pass,AN-jose98,2025-02-11 07:58:49,,
+SMPL-00445,B2025160,ProductC,Finished Product,2024-08-09 04:02:16,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-1,99.0,,99.44,%,Pass,AN-bryantheather,2024-08-09 07:02:16,QA-debra72,
+SMPL-00446,B2025190,ProductA,In-Process,2025-03-06 18:08:59,Awaiting Test,pH,TM-pH-PROD-001,INST-pH-2,6.5,7.5,7.56,,OOS,AN-jose98,2025-03-06 21:08:59,,
+SMPL-00447,B2025181,ProductC,In-Process,2025-01-16 14:19:23,Awaiting Test,Purity,TM-Purity-PROD-003,INST-Purity-2,99.0,,99.29,%,Pass,AN-teresa11,2025-01-16 17:19:23,,
+SMPL-00448,B2025061,ProductC,Finished Product,2025-05-12 08:10:46,Awaiting Test,Assay,TM-Assay-PROD-003,INST-Assay-1,98.0,102.0,99.5,%,Pass,AN-wallderek,2025-05-12 09:10:46,QA-lambertscott,QA-debra72
+SMPL-00449,B2025211,ProductB,In-Process,2025-04-13 06:39:56,Awaiting Test,pH,TM-pH-PROD-002,INST-pH-1,6.5,7.5,7.38,,Pass,AN-meyerjoseph,2025-04-13 07:39:56,QA-douglas49,QA-debra72
+SMPL-00450,B2025216,ProductB,In-Process,2024-11-25 09:14:16,Awaiting Test,Assay,TM-Assay-PROD-002,INST-Assay-3,98.0,102.0,100.6,%,Pass,AN-jose98,2024-11-25 12:14:16,QA-georgejames,

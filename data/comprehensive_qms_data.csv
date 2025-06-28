@@ -1,0 +1,101 @@
+Record_ID,Record_Type,Title,Description,Batch_ID,Product_Code,Status_Workflow,Owner_Name,Open_Date,Due_Date,Closure_Date,Source_Event_ID
+QE-00001,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Audit Finding.,B2025067,PROD-002,Pending Approval,QA-osbornemelissa,2024-12-03,2025-01-20,,
+QE-00002,Change Control,Change Control for SOP Update,Proposed change to improve efficiency.,B2025004,PROD-003,Closed,QA-vasquezjennifer,2025-05-05,2025-06-08,2025-06-05,QE-00001
+QE-00003,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Deviation.,B2025068,PROD-002,Closed,QA-osbornemelissa,2025-04-26,2025-05-13,2025-04-28,QE-00001
+QE-00004,CAPA,CAPA Plan for ProductA,Corrective and preventive actions to address root cause of Audit Finding.,B2025068,PROD-001,In Progress,QA-osbornemelissa,2024-01-31,2024-03-19,,QE-00002
+QE-00005,Change Control,Change Control for Equipment Update,Proposed change to improve efficiency.,B2025078,PROD-004,Pending Implementation,QA-osbornemelissa,2023-08-25,2023-09-12,,QE-00004
+QE-00006,Deviation,Deviation Investigation for Batch B2025086,Unexpected parameter drift during manufacturing of ProductA.,B2025086,PROD-001,Closed,QA-susanwilliams,2024-01-20,2024-04-05,2024-02-18,
+QE-00007,Change Control,Change Control for SOP Update,Proposed change to improve efficiency.,B2025084,PROD-004,Pending Approval,QA-ubrown,2024-01-05,2024-03-31,,QE-00006
+QE-00008,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Audit Finding.,B2025100,PROD-003,Pending Implementation,QA-ubrown,2024-10-04,2024-11-28,,QE-00007
+QE-00009,Change Control,Change Control for Equipment Update,Proposed change to improve efficiency.,B2025047,PROD-004,Closed,QA-susanwilliams,2023-08-10,2023-08-25,2023-08-10,
+QE-00010,Change Control,Change Control for Process Update,Proposed change to update to new regulatory guideline.,B2025025,PROD-004,Pending Approval,QA-ubrown,2023-09-06,2023-09-30,,
+QE-00011,Deviation,Deviation Investigation for Batch B2025025,,B2025025,PROD-003,Pending Approval,QA-susanwilliams,2024-01-16,2024-03-15,,
+QE-00012,Change Control,Change Control for SOP Update,Proposed change to improve efficiency.,B2025002,PROD-001,Closed,QA-susanwilliams,2023-08-19,2023-10-18,2023-09-25,QE-00009
+QE-00013,Change Control,Change Control for Equipment Update,Proposed change to address a CAPA.,B2025084,PROD-004,Pending Approval,QA-vasquezjennifer,2025-06-01,2025-06-25,,
+QE-00014,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Deviation.,B2025029,PROD-003,Closed,QA-ubrown,2025-02-01,2025-02-26,2025-02-11,QE-00004
+QE-00015,Change Control,Change Control for Process Update,Proposed change to address a CAPA.,B2025098,PROD-004,Pending Implementation,QA-susanwilliams,2023-11-12,2024-01-05,,
+QE-00016,Change Control,Change Control for Equipment Update,Proposed change to improve efficiency.,B2025104,PROD-003,Closed,QA-ubrown,2023-12-31,2024-02-15,2024-01-12,
+QE-00017,Change Control,Change Control for Process Update,Proposed change to update to new regulatory guideline.,B2025044,PROD-004,In Progress,QA-susanwilliams,2025-06-05,2025-08-10,,QE-00011
+QE-00018,Change Control,Change Control for Process Update,Proposed change to improve efficiency.,B2025019,PROD-004,In Progress,QA-osbornemelissa,2024-03-02,2024-05-22,,QE-00004
+QE-00019,Change Control,Change Control for SOP Update,Proposed change to improve efficiency.,B2025068,PROD-002,In Progress,QA-ubrown,2025-03-20,2025-06-05,,
+QE-00020,Change Control,Change Control for Equipment Update,Proposed change to update to new regulatory guideline.,B2025056,PROD-004,Closed,QA-susanwilliams,2024-08-01,2024-08-20,2024-08-01,QE-00013
+QE-00021,Deviation,Deviation Investigation for Batch B2025004,,B2025004,PROD-001,Pending Implementation,QA-susanwilliams,2024-11-14,2025-02-05,,
+QE-00022,Deviation,Deviation Investigation for Batch B2025004,Unexpected OOS result during manufacturing of ProductC.,B2025004,PROD-003,In Progress,QA-osbornemelissa,2024-01-05,2024-02-25,,
+QE-00023,CAPA,CAPA Plan for ProductA,Corrective and preventive actions to address root cause of Complaint.,B2025007,PROD-001,Closed,QA-susanwilliams,2024-10-24,2024-11-16,2024-11-13,QE-00010
+QE-00024,Deviation,Deviation Investigation for Batch B2025044,Unexpected parameter drift during manufacturing of ProductB.,B2025044,PROD-002,In Progress,QA-osbornemelissa,2025-05-21,2025-07-07,2025-06-19,
+QE-00025,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Audit Finding.,B2025025,PROD-003,In Progress,QA-ubrown,2024-07-28,2024-08-30,,QE-00015
+QE-00026,CAPA,CAPA Plan for Product D,Corrective and preventive actions to address root cause of Audit Finding.,B2025062,PROD-004,Closed,QA-osbornemelissa,2025-03-06,2025-05-07,2025-04-15,QE-00008
+QE-00027,Change Control,Change Control for Process Update,Proposed change to update to new regulatory guideline.,B2025002,PROD-003,Pending Approval,QA-susanwilliams,2024-08-08,2024-10-26,,QE-00011
+QE-00028,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Audit Finding.,B2025053,PROD-002,Pending Implementation,QA-susanwilliams,2023-11-11,2023-12-17,,QE-00007
+QE-00029,Change Control,Change Control for Process Update,Proposed change to improve efficiency.,B2025078,PROD-001,Pending Approval,QA-susanwilliams,2023-07-08,2023-08-06,2023-07-31,
+QE-00030,Change Control,Change Control for Process Update,Proposed change to address a CAPA.,B2025068,PROD-003,Pending Implementation,QA-susanwilliams,2024-12-28,2025-03-02,,
+QE-00031,CAPA,CAPA Plan for ProductA,Corrective and preventive actions to address root cause of Audit Finding.,B2025056,PROD-001,Pending Implementation,QA-osbornemelissa,2024-06-24,2024-09-04,,QE-00029
+QE-00032,Change Control,Change Control for SOP Update,Proposed change to improve efficiency.,B2025068,PROD-004,In Progress,QA-vasquezjennifer,2025-05-14,2025-08-03,,
+QE-00033,CAPA,CAPA Plan for Product D,Corrective and preventive actions to address root cause of Complaint.,B2025011,PROD-004,Closed,QA-ubrown,2023-07-31,2023-10-10,2023-08-23,QE-00012
+QE-00034,Change Control,Change Control for Equipment Update,Proposed change to address a CAPA.,B2025084,PROD-002,Pending Approval,QA-vasquezjennifer,2023-11-18,2024-02-07,,
+QE-00035,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Complaint.,B2025053,PROD-003,Pending Implementation,QA-osbornemelissa,2024-02-18,2024-03-17,,QE-00032
+QE-00036,Deviation,Deviation Investigation for Batch B2025093,Unexpected pressure drop during manufacturing of ProductC.,B2025093,PROD-003,Pending Implementation,QA-ubrown,2023-07-28,2023-10-12,,
+QE-00037,Change Control,Change Control for Equipment Update,Proposed change to improve efficiency.,B2025018,PROD-002,Pending Implementation,QA-vasquezjennifer,2024-10-11,2024-12-07,,
+QE-00038,Change Control,Change Control for SOP Update,Proposed change to improve efficiency.,B2025010,PROD-002,Pending Approval,QA-ubrown,2025-03-09,2025-04-04,,QE-00002
+QE-00039,Deviation,Deviation Investigation for Batch B2025101,Unexpected parameter drift during manufacturing of Product D.,B2025101,PROD-004,Pending Approval,QA-susanwilliams,2024-01-19,2024-03-07,,
+QE-00040,Change Control,Change Control for SOP Update,Proposed change to address a CAPA.,B2025029,PROD-003,Pending Implementation,QA-ubrown,2024-03-02,2024-05-10,,
+QE-00041,Deviation,Deviation Investigation for Batch B2025002,,B2025002,PROD-004,Closed,QA-vasquezjennifer,2024-04-23,2024-07-19,2024-06-17,
+QE-00042,Deviation,Deviation Investigation for Batch B2025042,Unexpected parameter drift during manufacturing of ProductA.,B2025042,PROD-001,In Progress,QA-ubrown,2024-04-13,2024-06-17,,
+QE-00043,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Audit Finding.,B2025051,PROD-002,Closed,QA-ubrown,2024-02-24,2024-03-27,2024-03-04,
+QE-00044,CAPA,CAPA Plan for Product D,Corrective and preventive actions to address root cause of Complaint.,B2025096,PROD-004,Pending Approval,QA-susanwilliams,2023-08-03,2023-09-02,,QE-00041
+QE-00045,Deviation,Deviation Investigation for Batch B2025089,Unexpected pressure drop during manufacturing of Product D.,B2025089,PROD-004,Pending Approval,QA-osbornemelissa,2023-11-11,2024-01-08,,
+QE-00046,Change Control,Change Control for SOP Update,Proposed change to improve efficiency.,B2025002,PROD-002,Closed,QA-osbornemelissa,2023-12-11,2024-02-29,2024-02-15,
+QE-00047,Change Control,Change Control for SOP Update,Proposed change to address a CAPA.,B2025032,PROD-001,Closed,QA-susanwilliams,2024-06-18,2024-09-10,2024-07-31,
+QE-00048,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Complaint.,B2025085,PROD-003,Closed,QA-susanwilliams,2023-07-23,2023-10-13,2023-07-27,QE-00006
+QE-00049,Deviation,Deviation Investigation for Batch B2025007,Unexpected pressure drop during manufacturing of Product D.,B2025007,PROD-004,Closed,QA-vasquezjennifer,2023-09-20,2023-10-25,2023-10-14,
+QE-00050,CAPA,CAPA Plan for Product D,Corrective and preventive actions to address root cause of Deviation.,B2025100,PROD-004,Pending Approval,QA-osbornemelissa,2024-01-09,2024-02-27,,
+QE-00051,Deviation,Deviation Investigation for Batch B2025101,,B2025101,PROD-003,Pending Approval,QA-vasquezjennifer,2023-12-12,2024-01-10,,
+QE-00052,Deviation,Deviation Investigation for Batch B2025100,Unexpected temperature fluctuation during manufacturing of Product D.,B2025100,PROD-004,Pending Approval,QA-susanwilliams,2024-09-20,2024-11-30,,
+QE-00053,Deviation,Deviation Investigation for Batch B2025080,Unexpected OOS result during manufacturing of ProductC.,B2025080,PROD-003,Closed,QA-vasquezjennifer,2025-05-03,2025-06-09,2025-05-06,
+QE-00054,Change Control,Change Control for Process Update,Proposed change to update to new regulatory guideline.,B2025098,PROD-002,Pending Approval,QA-susanwilliams,2023-08-04,2023-09-27,,QE-00053
+QE-00055,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Complaint.,B2025073,PROD-002,Closed,QA-vasquezjennifer,2025-04-29,2025-07-20,2025-05-16,
+QE-00056,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Audit Finding.,B2025084,PROD-003,In Progress,QA-ubrown,2024-09-12,2024-10-04,,QE-00037
+QE-00057,Deviation,Deviation Investigation for Batch B2025002,Unexpected pressure drop during manufacturing of ProductC.,B2025002,PROD-003,Pending Implementation,QA-osbornemelissa,2023-09-27,2023-10-17,,
+QE-00058,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Complaint.,B2025019,PROD-002,Pending Implementation,QA-vasquezjennifer,2025-04-16,2025-05-23,,
+QE-00059,CAPA,CAPA Plan for ProductA,Corrective and preventive actions to address root cause of Deviation.,B2025076,PROD-001,Pending Approval,QA-osbornemelissa,2024-12-28,2025-01-30,,QE-00050
+QE-00060,Deviation,Deviation Investigation for Batch B2025025,Unexpected pressure drop during manufacturing of ProductB.,B2025025,PROD-002,Pending Approval,QA-ubrown,2025-05-11,2025-06-28,,
+QE-00061,Change Control,Change Control for Process Update,Proposed change to improve efficiency.,B2025019,PROD-003,In Progress,QA-ubrown,2023-08-13,2023-09-30,,
+QE-00062,Deviation,Deviation Investigation for Batch B2025044,Unexpected OOS result during manufacturing of ProductC.,B2025044,PROD-003,Pending Implementation,QA-osbornemelissa,2024-06-30,2024-08-21,,
+QE-00063,Deviation,Deviation Investigation for Batch B2025085,Unexpected OOS result during manufacturing of ProductC.,B2025085,PROD-003,Pending Approval,QA-ubrown,2023-08-30,2023-09-29,,
+QE-00064,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Complaint.,B2025031,PROD-003,Closed,QA-susanwilliams,2024-06-22,2024-08-08,2024-07-28,QE-00009
+QE-00065,Change Control,Change Control for Equipment Update,Proposed change to update to new regulatory guideline.,B2025084,PROD-003,Closed,QA-osbornemelissa,2024-12-28,2025-03-13,2025-01-08,QE-00022
+QE-00066,Change Control,Change Control for Equipment Update,Proposed change to improve efficiency.,B2025078,PROD-004,Pending Implementation,QA-susanwilliams,2023-08-17,2023-10-17,,
+QE-00067,Change Control,Change Control for Process Update,Proposed change to address a CAPA.,B2025028,PROD-003,Pending Approval,QA-ubrown,2023-12-09,2024-01-28,,
+QE-00068,Deviation,Deviation Investigation for Batch B2025068,Unexpected temperature fluctuation during manufacturing of Product D.,B2025068,PROD-004,In Progress,QA-osbornemelissa,2024-11-02,2024-12-18,2024-12-16,
+QE-00069,Deviation,Deviation Investigation for Batch B2025076,Unexpected temperature fluctuation during manufacturing of Product D.,B2025076,PROD-004,Pending Approval,QA-osbornemelissa,2024-05-27,2024-06-22,,
+QE-00070,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Audit Finding.,B2025002,PROD-002,Closed,QA-ubrown,2025-06-06,2025-07-07,2025-06-14,QE-00016
+QE-00071,CAPA,CAPA Plan for Product D,Corrective and preventive actions to address root cause of Complaint.,B2025111,PROD-004,Closed,QA-susanwilliams,2023-12-23,2024-03-13,2024-02-27,QE-00068
+QE-00072,Change Control,Change Control for Process Update,Proposed change to update to new regulatory guideline.,B2025035,PROD-004,Closed,QA-susanwilliams,2024-02-17,2024-04-17,2024-02-27,QE-00059
+QE-00073,CAPA,CAPA Plan for ProductA,Corrective and preventive actions to address root cause of Complaint.,B2025084,PROD-001,Pending Implementation,QA-vasquezjennifer,2024-06-27,2024-09-22,,
+QE-00074,Change Control,Change Control for SOP Update,Proposed change to improve efficiency.,B2025120,PROD-003,Closed,QA-ubrown,2024-11-30,2025-02-06,2024-12-11,
+QE-00075,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Deviation.,B2025062,PROD-003,In Progress,QA-ubrown,2023-07-09,2023-10-02,,QE-00065
+QE-00076,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Deviation.,B2025038,PROD-002,Pending Implementation,QA-osbornemelissa,2023-10-15,2023-11-21,2023-11-15,QE-00048
+QE-00077,Deviation,Deviation Investigation for Batch B2025061,Unexpected OOS result during manufacturing of ProductB.,B2025061,PROD-002,Pending Approval,QA-vasquezjennifer,2024-08-27,2024-09-28,,
+QE-00078,Deviation,Deviation Investigation for Batch B2025042,Unexpected parameter drift during manufacturing of Product D.,B2025042,PROD-004,Pending Implementation,QA-osbornemelissa,2024-05-15,2024-07-08,,
+QE-00079,Change Control,Change Control for Equipment Update,Proposed change to improve efficiency.,B2025091,PROD-002,Closed,QA-susanwilliams,2024-12-04,2024-12-28,2024-12-23,
+QE-00080,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Deviation.,B2025098,PROD-003,Pending Implementation,QA-vasquezjennifer,2023-08-08,2023-08-24,,
+QE-00081,Change Control,Change Control for Process Update,Proposed change to improve efficiency.,B2025111,PROD-002,Pending Approval,QA-susanwilliams,2024-03-02,2024-05-12,,
+QE-00082,Change Control,Change Control for Process Update,Proposed change to address a CAPA.,B2025061,PROD-004,In Progress,QA-susanwilliams,2025-02-12,2025-03-30,,
+QE-00083,Deviation,Deviation Investigation for Batch B2025102,Unexpected parameter drift during manufacturing of ProductB.,B2025102,PROD-002,Closed,QA-vasquezjennifer,2025-05-16,2025-06-18,2025-06-15,
+QE-00084,Change Control,Change Control for SOP Update,Proposed change to update to new regulatory guideline.,B2025102,PROD-003,In Progress,QA-susanwilliams,2025-06-09,2025-08-26,,QE-00036
+QE-00085,Deviation,Deviation Investigation for Batch B2025106,Unexpected temperature fluctuation during manufacturing of ProductC.,B2025106,PROD-003,Pending Approval,QA-vasquezjennifer,2024-04-13,2024-06-12,,
+QE-00086,Change Control,Change Control for SOP Update,Proposed change to update to new regulatory guideline.,B2025041,PROD-002,Pending Implementation,QA-ubrown,2024-09-12,2024-10-30,,
+QE-00087,Change Control,Change Control for Equipment Update,Proposed change to address a CAPA.,B2025039,PROD-001,In Progress,QA-ubrown,2023-07-25,2023-09-04,,QE-00051
+QE-00088,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Audit Finding.,B2025002,PROD-003,Closed,QA-vasquezjennifer,2023-07-06,2023-08-13,2023-07-14,QE-00085
+QE-00089,Change Control,Change Control for SOP Update,Proposed change to improve efficiency.,B2025120,PROD-001,Closed,QA-osbornemelissa,2025-01-28,2025-03-19,2025-02-06,
+QE-00090,Change Control,Change Control for Process Update,Proposed change to update to new regulatory guideline.,B2025031,PROD-001,In Progress,QA-ubrown,2024-06-20,2024-08-10,,QE-00020
+QE-00091,Deviation,Deviation Investigation for Batch B2025042,,B2025042,PROD-002,Pending Approval,QA-osbornemelissa,2025-04-28,2025-05-19,,
+QE-00092,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Deviation.,B2025071,PROD-002,Closed,QA-ubrown,2025-01-04,2025-03-02,2025-01-08,QE-00090
+QE-00093,Change Control,Change Control for SOP Update,Proposed change to address a CAPA.,B2025033,PROD-003,Closed,QA-ubrown,2023-07-07,2023-08-25,2023-08-17,
+QE-00094,Deviation,Deviation Investigation for Batch B2025053,Unexpected pressure drop during manufacturing of ProductB.,B2025053,PROD-002,In Progress,QA-vasquezjennifer,2024-08-24,2024-10-13,,
+QE-00095,CAPA,CAPA Plan for ProductB,Corrective and preventive actions to address root cause of Deviation.,B2025093,PROD-002,In Progress,QA-susanwilliams,2024-06-25,2024-08-11,,QE-00043
+QE-00096,Change Control,Change Control for SOP Update,Proposed change to address a CAPA.,B2025111,PROD-001,Closed,QA-susanwilliams,2023-08-27,2023-09-15,2023-09-08,
+QE-00097,Change Control,Change Control for Process Update,Proposed change to address a CAPA.,B2025095,PROD-002,Pending Implementation,QA-susanwilliams,2024-09-24,2024-12-05,,QE-00044
+QE-00098,Deviation,Deviation Investigation for Batch B2025002,Unexpected OOS result during manufacturing of ProductC.,B2025002,PROD-003,In Progress,QA-ubrown,2025-02-12,2025-03-03,,
+QE-00099,Change Control,Change Control for Equipment Update,Proposed change to improve efficiency.,B2025029,PROD-004,Pending Implementation,QA-vasquezjennifer,2025-04-01,2025-04-27,,
+QE-00100,CAPA,CAPA Plan for ProductC,Corrective and preventive actions to address root cause of Deviation.,B2025095,PROD-003,In Progress,QA-osbornemelissa,2025-06-12,2025-09-06,,QE-00019
